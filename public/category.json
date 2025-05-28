@@ -1,0 +1,74 @@
+[
+  {
+    "id": 1,
+    "category": "cloth",
+    "image": "/elegant-dress.avif",
+    "Tag": "Everyday Wear",
+    "Heading": "Unleash Your Confidence Through Style",
+    "Paragraph": "Whether it's a brunch date or a night out, find outfits that flatter your form and reflect your vibe. Our collections help you express your identity in every stitch.",
+    "Button": "Learn More",
+    "ProfileName": "Lola M.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "I found my signature style thanks to this collection!"
+  },
+  {
+    "id": 2,
+    "category": "shoe",
+    "image": "/elegant-heels.webp",
+    "Tag": "Step Boldly",
+    "Heading": "Walk in Style, Walk in Comfort",
+    "Paragraph": "From stilettos to sneakers, discover footwear that supports every step of your journey while keeping your style game strong.",
+    "Button": "Learn More",
+    "ProfileName": "Chioma E.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "These shoes made me fall in love with walking again!"
+  },
+  {
+    "id": 3,
+    "category": "bags",
+    "image": "/elegant-bag.webp",
+    "Tag": "Carry Chic",
+    "Heading": "Bags That Speak Elegance",
+    "Paragraph": "Elevate your outfit with bags that blend fashion and function — from everyday totes to statement clutches, your essentials deserve style.",
+    "Button": "Learn More",
+    "ProfileName": "Anita G.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "I get compliments every time I step out with my new bag!"
+  },
+  {
+    "id": 4,
+    "category": "wigs",
+    "image": "/elegant-wig.webp",
+    "Tag": "Crown You",
+    "Heading": "Redefine Beauty with Every Strand",
+    "Paragraph": "Switch up your look and boost your confidence with premium wigs that feel natural and look stunning — every day is a new mood.",
+    "Button": "Learn More",
+    "ProfileName": "Esther B.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "This wig gave me a whole new kind of confidence!"
+  },
+  {
+    "id": 5,
+    "category": "hand fan",
+    "image": "/elegant-handfan.webp",
+    "Tag": "Stay Cool",
+    "Heading": "Grace in Every Breeze",
+    "Paragraph": "Add a touch of class and comfort to your outfit with handcrafted fans that do more than cool — they complete your look.",
+    "Button": "Learn More",
+    "ProfileName": "Ifeoma N.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "My hand fan is both a fashion piece and a lifesaver!"
+  },
+  {
+    "id": 6,
+    "category": "jewellries",
+    "image": "/elegant-jewellry.avif",
+    "Tag": "Glow Up",
+    "Heading": "Let Your Accessories Speak",
+    "Paragraph": "Whether subtle or bold, our jewelry line adds that final sparkle to your outfit. Shine from the inside out with every detail that matters.",
+    "Button": "Learn More",
+    "ProfileName": "Zainab K.",
+    "SpotlightTitle": "Member Spotlight",
+    "Quote": "These pieces made my simple dress look like royalty."
+  }
+]
