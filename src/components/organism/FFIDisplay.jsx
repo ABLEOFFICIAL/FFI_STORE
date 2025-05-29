@@ -86,7 +86,13 @@ const FFIDisplay = () => {
           Why FFI
         </MyBtn>
       </div>
-      <div ref={scrollRef} className="w-80 mx-auto overflow-auto pt-16 pb-5">
+      <div
+        ref={scrollRef}
+        style={{
+          scrollbarWidth: "none",
+        }}
+        className="w-96 mx-auto overflow-auto pt-16 pb-5"
+      >
         {ffiCategory && (
           <div className="flex w-max gap-8">
             {ffiCategory.map((box, index) => {
@@ -100,7 +106,7 @@ const FFIDisplay = () => {
                           backgroundSize: "cover",
                           backgroundPosition: "center",
                         }}
-                        className=""
+                        className="h-1/2"
                       >
                         <div className="bg-linear-to-b from-black/0 to-black w-full h-96 p-7 flex flex-col justify-between">
                           <div className="flex justify-between items-center">
@@ -135,7 +141,7 @@ const FFIDisplay = () => {
                             to={"/learn-more"}
                             classname={
                               box.showText
-                                ? "block bg-[rgb(247,241,232)] text-[rgb(74,71,65)] p-3 rounded-3xl"
+                                ? "block bg-[#f7f1e8] text-[rgb(74,71,65)] p-3 rounded-3xl"
                                 : "hidden"
                             }
                           >

@@ -28,7 +28,7 @@ const Explore = () => {
             <div className="flex w-full justify-between items-center py-3">
               <div>
                 <h2 className="text-2xl text-[rgb(74,71,65)]">{item.header}</h2>
-                <p className="text-base font-semibold text-[rgb(74,71,65)]">
+                <p className="text-base font-semibold text-[#4a4741]">
                   {item.text}
                 </p>
               </div>

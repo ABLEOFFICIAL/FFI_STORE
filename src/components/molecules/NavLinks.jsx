@@ -6,7 +6,7 @@ import { WidthContext } from "../../context/WidthContext";
 const NavLinks = ({ to }) => {
   const { screenWidth } = useContext(WidthContext);
   return (
-    <div>
+    <div className="flex gap-16 items-center  justify-between">
       <MyBtn
         classname={`${screenWidth < 768 ? "hidden" : "block"} cursor-pointer`}
         to="/why-ffi"

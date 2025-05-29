@@ -1,0 +1,51 @@
+[
+  {
+    "id": 1,
+    "image": "/dress1.jpg",
+    "name": "Velvet Midnight Gown",
+    "shortDescription": "An elegant evening gown with timeless flair.",
+    "description": "Crafted from rich velvet, this midnight-black gown exudes sophistication and grace. Perfect for upscale events, it drapes effortlessly with a flattering silhouette that turns heads."
+  },
+  {
+    "id": 2,
+    "image": "/heel1.jpg",
+    "name": "Pearl Twist Heels",
+    "shortDescription": "Graceful heels with a pearl-adorned strap.",
+    "description": "These heels are designed for comfort and class. With a subtle twist strap lined with pearls, they add luxury to every step, whether it's a formal dinner or a casual evening out."
+  },
+  {
+    "id": 3,
+    "image": "/bag1.jpg",
+    "name": "Golden Crescent Bag",
+    "shortDescription": "Chic leather handbag with a golden crescent handle.",
+    "description": "The Golden Crescent Bag balances practicality and luxury. The curved handle and structured shape make it a standout piece that complements both day and night looks effortlessly."
+  },
+  {
+    "id": 4,
+    "image": "/wig1.jpg",
+    "name": "Silky Auburn Wig",
+    "shortDescription": "Natural-looking wig with silky auburn waves.",
+    "description": "This premium wig brings vibrance and volume in all the right places. Made with high-quality fibers, it offers a realistic texture and effortless glamour for all face types."
+  },
+  {
+    "id": 5,
+    "image": "/jewel1.jpg",
+    "name": "Empress Drop Earrings",
+    "shortDescription": "Delicate long-drop earrings with crystal accents.",
+    "description": "Refined and feminine, the Empress Earrings sparkle with every move. Lightweight yet statement-worthy, they're perfect for elevating casual wear or pairing with elegant attire."
+  },
+  {
+    "id": 6,
+    "image": "/fan1.jpg",
+    "name": "Hand-Painted Feather Fan",
+    "shortDescription": "Elegant hand fan with custom floral design.",
+    "description": "Combining tradition and modern flair, this accessory adds poise and personality. Each fan is hand-painted with floral accents, making every piece a one-of-a-kind companion to evening dresses or cultural wear."
+  },
+  {
+    "id": 7,
+    "image": "/dress2.jpg",
+    "name": "Ivory Luxe Two-Piece",
+    "shortDescription": "A minimal yet striking ivory crop and skirt set.",
+    "description": "The Luxe Two-Piece set captures elegance through simplicity. The structured crop top and flowing skirt move with grace, perfect for cocktail parties or weekend getaways."
+  }
+]
