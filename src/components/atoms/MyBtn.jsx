@@ -3,7 +3,7 @@ import { NavLink } from "react-router-dom";
 
 const MyBtn = ({ children, classname, to }) => {
   return (
-    <NavLink to={to} className={`${classname}`}>
+    <NavLink to={to} className={`${classname} cursor-pointer`}>
       {children}
     </NavLink>
   );

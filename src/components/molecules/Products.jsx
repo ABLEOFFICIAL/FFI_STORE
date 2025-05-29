@@ -1,13 +1,13 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Products = ({ name, description, image }) => {
+const Products = ({ name, description, image, classname, onclick }) => {
   return (
     <div
-      className="h-[60vh] rounded-2xl w-[90vw] bg-cover bg-center"
+      className={`${classname} rounded-2xl  bg-cover bg-center`}
       style={{
         background: `url('${image}')`,
-        backgroundSize: "cover",
+        backgroundSize: "contain",
         backgroundPosition: "center",
         backgroundRepeat: "no-repeat",
       }}
@@ -17,6 +17,7 @@ const Products = ({ name, description, image }) => {
           <h1 className="text-3xl w-52">{name}</h1>
           <p>{description}</p>
           <NavLink
+            onClick={onclick}
             className={"backdrop-blur-3xl bg-white/20 px-5 py-3 rounded-3xl"}
           >
             Details
