@@ -1,7 +1,7 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Products = ({ name, description, image, classname, onclick }) => {
+const Products = ({ name, description, image, classname, to }) => {
   return (
     <div
       className={`${classname} rounded-2xl  bg-cover bg-center`}
@@ -17,7 +17,7 @@ const Products = ({ name, description, image, classname, onclick }) => {
           <h1 className="text-3xl w-52">{name}</h1>
           <p>{description}</p>
           <NavLink
-            onClick={onclick}
+            to={to}
             className={"backdrop-blur-3xl bg-white/20 px-5 py-3 rounded-3xl"}
           >
             Details

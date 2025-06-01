@@ -1,0 +1,18 @@
+<motion.div
+              initial={{ x: 0 }}
+              animate={{ x: "-50%" }}
+              transition={{ duration: 40, repeat: Infinity, ease: "linear" }}
+              className="relative flex gap-5 w-max"
+            >
+              {[...featured, ...featured].map((item, index) => {
+                return (
+                  <Products
+                    classname={item.display ? "" : "h-[60vh] w-[90vw]"}
+                    onclick={() => handleDisplay(item)}
+                    key={index}
+                    image={item.image}
+                    name={item.name}
+                  />
+                );
+              })}
+            </motion.div>

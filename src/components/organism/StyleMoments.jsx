@@ -66,7 +66,7 @@ const StyleMoments = () => {
               <h1 className=" px-5 text-3xl font-extralight py-5">
                 {item.title}
               </h1>
-              <div className="relative h-[100vh]">
+              <div className="relative h-[90vh]">
                 <img src={item.img} className="h-[60vh] object-cover w-full" />
                 <img
                   src={item.overlay}

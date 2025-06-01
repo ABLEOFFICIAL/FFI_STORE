@@ -4,6 +4,7 @@ export const WidthContext = createContext();
 
 const WidthProvider = ({ children }) => {
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const [showSide, setShowSide] = useState(false);
   useEffect(() => {
     const handleResize = () => {
       setScreenWidth(window.innerWidth);
@@ -17,7 +18,9 @@ const WidthProvider = ({ children }) => {
     };
   });
   return (
-    <WidthContext.Provider value={{ screenWidth, setScreenWidth }}>
+    <WidthContext.Provider
+      value={{ screenWidth, setScreenWidth, showSide, setShowSide }}
+    >
       {children}
     </WidthContext.Provider>
   );

@@ -1,17 +1,25 @@
-import React, { useContext } from "react";
+import React, { useContext, useState } from "react";
 import Logo from "../atoms/Logo";
-import MyBtn from "../atoms/MyBtn";
+// import MyBtn from "../atoms/MyBtn";
 import Bar from "../atoms/Bar";
 import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
-import { WidthContext } from "../../context/WidthContext";
+// import { WidthContext } from "../../context/WidthContext";
 
-const NavBar = ({ ref }) => {
-  const { screenWidth } = useContext(WidthContext);
+const NavBar = () => {
+  const [position, setPosition] = useState("top-10");
+  window.addEventListener("scroll", () => {
+    if (window.scrollY > 80) {
+      setPosition("top-0");
+    } else if (window.scrollY === 0) {
+      setPosition("top-10");
+    }
+  });
+
+  // const { screenWidth } = useContext(WidthContext);
   return (
     <div
-      ref={ref}
-      className={` flex items-center justify-between m-4 w-[93%] bg-white/20 backdrop-blur-md px-5 py-3 rounded-lg text-white fixed top-10 z-20`}
+      className={`flex items-center justify-between m-4 w-[93%] bg-white/20 backdrop-blur-md px-5 py-3 rounded-lg text-white fixed ${position} z-20`}
     >
       <NavLink to="/">
         <Logo />

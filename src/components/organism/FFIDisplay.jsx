@@ -141,7 +141,7 @@ const FFIDisplay = () => {
                             to={"/learn-more"}
                             classname={
                               box.showText
-                                ? "block bg-[#f7f1e8] text-[rgb(74,71,65)] p-3 rounded-3xl"
+                                ? "block bg-[#f7f1e8] text-[#4a4741] p-3 rounded-3xl"
                                 : "hidden"
                             }
                           >
