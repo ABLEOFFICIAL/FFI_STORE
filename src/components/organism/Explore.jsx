@@ -11,7 +11,7 @@ const Explore = () => {
       text: "From 349",
     },
     {
-      bg: "public/shoe-bg.avif",
+      bg: "/shoe-bg.avif",
       header: "FFI Foot-wears",
       text: "From 349",
     },
