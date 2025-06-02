@@ -1,15 +1,23 @@
 import { div, h1 } from "framer-motion/client";
 import React, { useEffect, useState } from "react";
+import { FaStar } from "react-icons/fa";
 
 export const Card = ({ name, testimony, img }) => {
   return (
-    <div className="flex flex-col justify-between items-center text-center bg-white w-80 px-5 py-8 rounded-xl h-64 m-auto">
+    <div className="flex flex-col justify-between items-center text-center bg-white w-80 px-5 py-8 rounded-xl h-72 m-auto">
       <img
         className="w-14 h-14 object-cover object-center rounded-full"
         src={img}
       />
       <h5 className="font-bold pt-1 pb-3">{name}</h5>
       <p>{testimony}</p>
+      <div className="flex justify-center items-center gap-1 py-4">
+        <FaStar className="text-[#4a4741] text-xs" />
+        <FaStar className="text-[#4a4741] text-xs" />
+        <FaStar className="text-[#4a4741] text-xs" />
+        <FaStar className="text-[#4a4741] text-xs" />
+        <FaStar className="text-[#4a4741] text-xs" />
+      </div>
     </div>
   );
 };

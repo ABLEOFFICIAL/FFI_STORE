@@ -9,6 +9,7 @@ import Featured from "../components/organism/Featured";
 import Sidebar from "../components/molecules/Sidebar";
 import StyleGuide from "../components/organism/StyleGuide";
 import Testimonial from "../components/organism/Testimonial";
+import Newsletter from "../components/organism/Newsletter";
 
 const HomePage = () => {
   return (
@@ -23,6 +24,7 @@ const HomePage = () => {
       <Featured />
       <StyleGuide />
       <Testimonial />
+      <Newsletter />
     </div>
   );
 };
