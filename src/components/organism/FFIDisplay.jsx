@@ -80,7 +80,8 @@ const FFIDisplay = () => {
     <div className="px-5 py-16">
       <div className="flex flex-col item-center gap-8">
         <h1 className="text-[rgb(74,71,65)] text-4xl font-extralight text-center">
-          FFI Membership gives your body a voice
+          FFI Membership gives your body a{" "}
+          <em className="slant font-serif italic">voice</em>
         </h1>
         <MyBtn classname="bg-[rgb(74,71,65)] w-32 text-center mx-auto px-5 py-3 rounded-4xl">
           Why FFI

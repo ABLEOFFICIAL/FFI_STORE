@@ -8,6 +8,7 @@ import StyleMoments from "../components/organism/StyleMoments";
 import Featured from "../components/organism/Featured";
 import Sidebar from "../components/molecules/Sidebar";
 import StyleGuide from "../components/organism/StyleGuide";
+import Testimonial from "../components/organism/Testimonial";
 
 const HomePage = () => {
   return (
@@ -21,6 +22,7 @@ const HomePage = () => {
       <StyleMoments />
       <Featured />
       <StyleGuide />
+      <Testimonial />
     </div>
   );
 };
