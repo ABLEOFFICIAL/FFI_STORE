@@ -1,17 +1,28 @@
-import React, { useContext } from "react";
+import React, { useContext, useMemo, useState } from "react";
 import Logo from "../atoms/Logo";
 import XBar from "../atoms/XBar";
 import { NavLink } from "react-router-dom";
 import { WidthContext } from "../../context/WidthContext";
 import { MdDarkMode } from "react-icons/md";
+import useToggle from "../../hooks/useToggle";
 
 const Sidebar = () => {
   const { showSide, setShowSide } = useContext(WidthContext);
+  // const [dark, setDark] = useState(false);
+  const { toggle, handleToggle } = useToggle();
   if (showSide) {
     window.addEventListener("scrollx", () => {
       console.log("hello");
     });
   }
+  // // console.log(dark);
+  // const handleMode = useMemo(() => {
+  //   return () => {
+  //     setDark((prev) => !prev);
+  //     console.log("hello");
+  //     console.log(dark);
+  //   };
+  // }, [dark]);
   return (
     <div
       className={`${
@@ -28,7 +39,7 @@ const Sidebar = () => {
         <NavLink to={"/"}>Contact Us</NavLink>
         <NavLink to={"/"}>Style with us</NavLink>
       </div>
-      <div className="inline-flex items-center gap-2">
+      <div onClick={handleToggle} className="inline-flex items-center gap-2">
         <MdDarkMode />
         <span>Dark Mode</span>
       </div>

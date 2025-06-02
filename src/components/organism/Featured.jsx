@@ -1,6 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Products from "../molecules/Products";
-import { motion } from "framer-motion";
+// import { motion } from "framer-motion";
 
 const Featured = () => {
   const [featured, setFeatured] = useState();

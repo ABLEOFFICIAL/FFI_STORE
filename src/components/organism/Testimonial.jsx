@@ -1,5 +1,4 @@
-import { div, h1 } from "framer-motion/client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import { FaStar } from "react-icons/fa";
 
 export const Card = ({ name, testimony, img }) => {
@@ -76,7 +75,7 @@ const Testimonial = () => {
 
       {/* try looping balls */}
       <div className="w-24 m-auto my-8 flex justify-between items-center">
-        {details.map((d, idx) => (
+        {details.map((_, idx) => (
           <div
             key={idx}
             className="flex justify-center items-center w-3 h-3 bg-[#4a4741] rounded-full"

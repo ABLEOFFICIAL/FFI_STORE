@@ -1,13 +1,14 @@
-import { div } from "framer-motion/client";
 import React from "react";
 
 const Newsletter = () => {
   return (
-    <div>
+    <section className="bg-white relative pb-10">
+      <div className="absolute -left-1/4  top-20 rotate-45 h-48 w-48 backdrop-blur-md bg-[#4a4741]/20 rounded-2xl"></div>
+      <div className="absolute -right-1/4  top-56 rotate-45 h-48 w-48 backdrop-blur-md bg-[#4a4741]/20 rounded-2xl"></div>
       <h1 className="font-extralight text-3xl text-center py-10 text-[#4a4741]">
         Join our Newsletter
       </h1>
-      <div className="text-white px-5 backdrop-blur-md bg-black/20 py-12 mb-10 w-[90%] m-auto rounded-2xl">
+      <div className="text-white px-5 backdrop-blur-md bg-[black]/30 py-12 mb-10 w-[90%] m-auto rounded-2xl">
         <h2 className="py-1 border-b-[1px] w-max mx-auto">
           Be the First to Know
         </h2>
@@ -29,7 +30,7 @@ const Newsletter = () => {
           </button>
         </form>
       </div>
-    </div>
+    </section>
   );
 };
 

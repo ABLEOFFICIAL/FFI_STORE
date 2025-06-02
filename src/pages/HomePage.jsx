@@ -10,6 +10,8 @@ import Sidebar from "../components/molecules/Sidebar";
 import StyleGuide from "../components/organism/StyleGuide";
 import Testimonial from "../components/organism/Testimonial";
 import Newsletter from "../components/organism/Newsletter";
+import Social from "../components/organism/Social";
+import Footer from "../components/organism/Footer";
 
 const HomePage = () => {
   return (
@@ -25,6 +27,8 @@ const HomePage = () => {
       <StyleGuide />
       <Testimonial />
       <Newsletter />
+      <Social />
+      <Footer />
     </div>
   );
 };
