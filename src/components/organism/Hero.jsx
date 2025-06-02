@@ -4,7 +4,7 @@ import MyBtn from "../atoms/MyBtn";
 
 const Hero = () => {
   return (
-    <div className="bg-[url('/hero1.jpg')] pb-10 h-screen bg-no-repeat bg-center bg-cover flex flex-col items-center justify-end gap-10">
+    <div className="bg-[url('/herotry1.jpg')] pb-10 h-screen bg-no-repeat bg-center bg-cover flex flex-col items-center justify-end gap-10">
       <h1 className="text-4xl w-72 text-center mx-auto">
         Where Elegance <span className="slant">Becomes you</span>.
       </h1>

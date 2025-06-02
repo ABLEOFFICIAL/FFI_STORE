@@ -29,8 +29,7 @@ const Sidebar = () => {
         showSide ? "block" : "hidden"
       } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 flex flex-col justify-between`}
     >
-      <div className="flex justify-between items-center pb-10">
-        <Logo />
+      <div className="flex justify-end items-center pb-10">
         <XBar onclick={() => setShowSide(false)} classname={"size-7"} />
       </div>
       <div className="side-bottom flex flex-col h-4/5">
