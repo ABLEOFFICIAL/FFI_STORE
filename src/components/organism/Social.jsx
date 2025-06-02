@@ -30,17 +30,12 @@ const Social = () => {
         <img
           src="/PHOTO-2025-06-02-22-18-31-removebg-preview.png"
           alt=""
-          className="absolute w-52 top-32 -right-4"
+          className="absolute w-44 top-32 -right-4"
         />
         <img
           src="/insta-comment-removebg-preview.png"
           alt=""
-          className="absolute w-28 top-10 -left-0"
-        />
-        <img
-          src="/follow.png"
-          alt=""
-          className="absolute w-36 bottom-0 -left-0"
+          className="absolute w-20 top-10 left-7"
         />
       </div>
     </section>
