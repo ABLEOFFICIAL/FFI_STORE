@@ -18,7 +18,7 @@ const Hero = () => {
             to="/shop-now"
             classname="bg-blue-500 px-5 py-3 rounded-3xl cursor-pointer hover:bg-blue-700 md:w-[25%] text-center mx-auto md:m-0 md:text-lg md:font-semibold "
           >
-            Shop Now
+            Explore Styles
           </MyBtn>
         </div>
       </div>
