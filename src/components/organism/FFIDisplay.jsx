@@ -16,7 +16,11 @@ const FFIDisplay = () => {
     fetch("/category.json")
       .then((res) => res.json())
       .then((data) => {
-        const updated = data.map((item) => ({ ...item, showText: false }));
+        const updated = data.map((item) => ({
+          ...item,
+          showText: false,
+          LgShow: false,
+        }));
         setFfiCategory(updated);
       });
   }, []);
@@ -44,10 +48,17 @@ const FFIDisplay = () => {
   }, []);
 
   const handlePlus = (box) => {
-    const updateCat = ffiCategory.map((i) =>
-      i.id === box.id ? { ...i, showText: !i.showText } : i
-    );
-    setFfiCategory(updateCat);
+    if (screenWidth < 768) {
+      const updateCat = ffiCategory.map((i) =>
+        i.id === box.id ? { ...i, showText: !i.showText } : i
+      );
+      setFfiCategory(updateCat);
+    } else {
+      const updateCat = ffiCategory.map((i) =>
+        i.id === box.id ? { ...i, LgShow: !i.LgShow } : i
+      );
+      setFfiCategory(updateCat);
+    }
   };
 
   const handleArrowRight = () => {
@@ -78,12 +89,15 @@ const FFIDisplay = () => {
 
   return (
     <div className="px-5 py-16">
-      <div className="flex flex-col item-center gap-8">
-        <h1 className="text-[rgb(74,71,65)] text-4xl font-extralight text-center">
+      <div className="flex flex-col item-center  gap-8 md:justify-center  md:py-20 ">
+        <h1 className="text-[rgb(74,71,65)] text-4xl font-extralight text-center md:text-7xl md:w-[50%] md:font-light md:leading-24 md:mx-auto">
           FFI Membership gives your body a{" "}
           <em className="slant font-serif italic">voice</em>
         </h1>
-        <MyBtn classname="bg-[rgb(74,71,65)] w-32 text-center mx-auto px-5 py-3 rounded-4xl">
+        <MyBtn
+          to={"/why-ffi"}
+          classname="bg-[rgb(74,71,65)] w-32 text-center mx-auto px-5 py-3 rounded-4xl"
+        >
           Why FFI
         </MyBtn>
       </div>
@@ -92,10 +106,10 @@ const FFIDisplay = () => {
         style={{
           scrollbarWidth: "none",
         }}
-        className="w-96 mx-auto overflow-auto pt-16 pb-5"
+        className="w-96 mx-auto overflow-auto pt-16 pb-5 md:w-[85%] md:m-auto md:h-[90vh] md:py-28"
       >
         {ffiCategory && (
-          <div className="flex w-max gap-8">
+          <div className="flex w-max gap-8 md:h-full">
             {ffiCategory.map((box, index) => {
               return (
                 <div key={index}>
@@ -166,36 +180,113 @@ const FFIDisplay = () => {
                       </div>
                     </div>
                   ) : (
-                    <div>
-                      <div
-                        style={{
-                          background: `url('${box.image}')`,
-                          backgroundSize: "cover",
-                          backgroundPosition: "center",
-                        }}
-                        className="rounded-lg"
-                      >
-                        <div className="bg-linear-to-b from-black/0 to-black/70 w-80 h-96 rounded-lg p-7 flex flex-col justify-between">
-                          <div className="flex justify-between items-center">
-                            <span className="bg-white/40 backdrop-blur-3xl px-5 py-2 rounded-3xl">
-                              {box.Tag}
-                            </span>
-                            <Plus
-                              onclick={() => handlePlus(box)}
-                              classname="p-2 size-10 bg-white  text-[#4a4741] rounded-full cursor-pointer"
-                            />
-                          </div>
-                          <div>
-                            <div>
-                              <h1 className="text-3xl">{box.Heading}</h1>
-                              <p className={box.showText ? "block" : "hidden"}>
-                                {box.Paragraph}
-                              </p>
+                    <>
+                      {box.LgShow ? (
+                        <>
+                          <div className="md:h-full">
+                            <div
+                              style={{
+                                background: `url('${box.image}')`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "top",
+                              }}
+                              className="rounded-lg h-[384px] md:h-full w-[320px] md:w-[1200px]"
+                            >
+                              <div className="bg-linear-to-b from-black/0 to-black/70 w-80 h-96 rounded-lg p-7 flex flex-col justify-between md:h-full md:w-full">
+                                <div className="flex justify-between items-center">
+                                  <span className="bg-white/40 backdrop-blur-3xl px-5 py-2 rounded-3xl">
+                                    {box.Tag}
+                                  </span>
+                                  {box.LgShow ? (
+                                    <>
+                                      <XBar
+                                        onclick={() => handlePlus(box)}
+                                        classname="p-2 stroke-2 size-10 bg-white  text-[#4a4741] rounded-full cursor-pointer"
+                                      />
+                                    </>
+                                  ) : (
+                                    <Plus
+                                      onclick={() => handlePlus(box)}
+                                      classname="p-2 size-10 bg-white  text-[#4a4741] rounded-full cursor-pointer"
+                                    />
+                                  )}
+                                </div>
+                                <div className="flex justify-between">
+                                  <div className="flex flex-col gap-8">
+                                    <h1 className="text-3xl md:text-3xl md:font-extralight md:w-[40%]">
+                                      {box.Heading}
+                                    </h1>
+                                    <p
+                                      className={
+                                        box.LgShow ? "block w-[40%]" : "hidden"
+                                      }
+                                    >
+                                      {box.Paragraph}
+                                    </p>
+                                    <MyBtn
+                                      to={"/learn-more"}
+                                      classname={
+                                        "bg-[#f7f1e8] text-[#4a4741] px-7 py-3 rounded-3xl w-48 text-center"
+                                      }
+                                    >
+                                      Learn More
+                                    </MyBtn>
+                                  </div>
+                                  <div className="backdrop-blur-md h-min bg-neutral-100/30 rounded-xl px-6 py-5 flex flex-col gap-3">
+                                    <h3 className="font-semibold">
+                                      {box.ProfileName}
+                                    </h3>
+                                    <p className="font-light text-lg">
+                                      {box.SpotlightTitle}
+                                    </p>
+                                    <p>"{box.Quote}"</p>
+                                  </div>
+                                </div>
+                              </div>
                             </div>
                           </div>
-                        </div>
-                      </div>
-                    </div>
+                        </>
+                      ) : (
+                        <>
+                          <div className="md:h-full">
+                            <div
+                              style={{
+                                background: `url('${box.image}')`,
+                                backgroundSize: "cover",
+                                backgroundPosition: "center",
+                              }}
+                              className="rounded-lg h-[384px] md:h-full w-[320px] md:w-[700px]"
+                            >
+                              <div className="bg-linear-to-b from-black/0 to-black/70 w-80 h-96 rounded-lg p-7 flex flex-col justify-between md:h-full md:w-full">
+                                <div className="flex justify-between items-center">
+                                  <span className="bg-white/40 backdrop-blur-3xl px-5 py-2 rounded-3xl">
+                                    {box.Tag}
+                                  </span>
+                                  <Plus
+                                    onclick={() => handlePlus(box)}
+                                    classname="p-2 size-10 bg-white  text-[#4a4741] rounded-full cursor-pointer"
+                                  />
+                                </div>
+                                <div>
+                                  <div>
+                                    <h1 className="text-3xl md:text-4xl md:font-extralight md:w-[70%]">
+                                      {box.Heading}
+                                    </h1>
+                                    <p
+                                      className={
+                                        box.showText ? "block" : "hidden"
+                                      }
+                                    >
+                                      {box.Paragraph}
+                                    </p>
+                                  </div>
+                                </div>
+                              </div>
+                            </div>
+                          </div>
+                        </>
+                      )}
+                    </>
                   )}
                 </div>
               );

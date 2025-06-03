@@ -8,19 +8,19 @@ const NavLinks = ({ to }) => {
   return (
     <div className="flex gap-16 items-center  justify-between">
       <MyBtn
-        classname={`${screenWidth < 768 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
         to="/why-ffi"
       >
         Why FFI
       </MyBtn>
       <MyBtn
-        classname={`${screenWidth < 768 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
         to="/how-it-works"
       >
         How It Works
       </MyBtn>
       <MyBtn
-        classname={`${screenWidth < 768 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
         to="/for-business"
       >
         For Business

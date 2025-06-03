@@ -14,3 +14,9 @@ body {
   font-weight: 300;
   font-style: italic;
 }
+
+@media (min-width: 768px) {
+  .slant {
+    font-size: 5rem;
+  }
+}

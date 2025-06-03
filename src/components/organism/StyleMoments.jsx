@@ -1,5 +1,6 @@
-import React, { useState } from "react";
+import React, { useContext, useState } from "react";
 import MyBtn from "../atoms/MyBtn";
+import { WidthContext } from "../../context/WidthContext";
 
 const StyleMoments = () => {
   const [moments, setMoments] = useState([
@@ -43,25 +44,39 @@ const StyleMoments = () => {
       overlay: "/stat6.avif",
     },
   ]);
+  const { screenWidth } = useContext(WidthContext);
   return (
-    <div className="text-[#4a4741]">
+    <div className="text-[#4a4741] md:px-28">
       <div className="flex flex-col gap-5 items-start  px-5">
-        <p className="font-semibold text-2xl">Form meets Fashion</p>
-        <h1 className="text-4xl font-light">
-          Effortless elegance, designed to move with you.
-        </h1>
-        <p className="text-sm font-medium">
-          By your side—day or night—our pieces are tailored to fit your story.
-          Feel empowered in outfits that blend timeless design with everyday
-          comfort. Your wardrobe should work for you, not the other way around.
+        <p className="font-semibold text-2xl md:text-3xl md:font-normal">
+          Form meets Fashion
         </p>
-        <MyBtn classname={"bg-[#4a4741] text-[#f7f1e8] px-5 py-3 rounded-3xl"}>
-          How to style
-        </MyBtn>
+        <div className="flex flex-col gap-5 md:flex md:flex-row md:justify-between md:pb-20">
+          <h1 className="text-4xl font-light md:w-[60%] md:text-7xl md:leading-20">
+            Effortless elegance, designed to move
+            <span className="slant md:ml-5">with you.</span>
+          </h1>
+          <div className="flex flex-col gap-5 md:w-[40%] md:flex md:flex-col md:items-start md:gap-5">
+            <p className="text-sm font-medium md:text-lg md:font-normal md:py-10">
+              By your side—day or night—our pieces are tailored to fit your
+              story. Feel empowered in outfits that blend timeless design with
+              everyday comfort. Your wardrobe should work for you, not the other
+              way around.
+            </p>
+            <MyBtn
+              to={"how-to-style"}
+              classname={
+                "bg-[#4a4741] text-[#f7f1e8] px-5 py-3 rounded-3xl md:text-lg w-40 text-center "
+              }
+            >
+              How to style
+            </MyBtn>
+          </div>
+        </div>
       </div>
       <div>
         {moments.map((item) => {
-          return (
+          return screenWidth < 768 ? (
             <div key={item.id}>
               <h1 className=" px-5 text-3xl font-extralight py-5">
                 {item.title}
@@ -74,6 +89,8 @@ const StyleMoments = () => {
                 />
               </div>
             </div>
+          ) : (
+            <div key={item.id} className="flex flex-col gap-5 px-5"></div>
           );
         })}
       </div>
