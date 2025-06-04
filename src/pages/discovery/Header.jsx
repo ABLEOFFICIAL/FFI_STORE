@@ -4,13 +4,15 @@ import Bar from "../../components/atoms/Bar";
 import Cart from "../../components/atoms/Cart";
 import MyInput from "../../components/atoms/MyInput";
 import { CiSearch } from "react-icons/ci";
+import { useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const navigate = useNavigate();
   return (
     <div className="px-5">
       <header className={"flex flex-col gap-3 py-4"}>
         <div className="flex justify-between items-center">
-          <ArrowLeft classname={"size-8"} />
+          <ArrowLeft onclick={() => navigate(-1)} classname={"size-8"} />
           <h2 className="text-xl">Discover</h2>
           <div className="flex gap-4 items-center">
             <Cart classname={"cursor-pointer size-5"} />
