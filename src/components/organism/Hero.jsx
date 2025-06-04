@@ -15,7 +15,7 @@ const Hero = () => {
             and style tips to elevate your everyday look.
           </p>
           <MyBtn
-            to="/shop-now"
+            to="/discover"
             classname="bg-blue-500 px-5 py-3 rounded-3xl cursor-pointer hover:bg-blue-700 md:w-[30%] text-center mx-auto md:m-0 md:text-lg md:font-semibold "
           >
             Explore Styles

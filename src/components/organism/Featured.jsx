@@ -1,5 +1,6 @@
 import React, { useEffect, useRef, useState } from "react";
 import Products from "../molecules/Products";
+import MyBtn from "../atoms/MyBtn";
 // import { motion } from "framer-motion";
 
 const Featured = () => {
@@ -53,7 +54,17 @@ const Featured = () => {
     <div className="pb-20">
       <div className="text-[#4a4741] px-5">
         <h1 className="font-semibold py-2">Curated Elegance</h1>
-        <p className="text-4xl font-extralight py-6">Inspire your next look.</p>
+        <div className="flex justify-between items-center">
+          <p className="text-4xl font-extralight py-6">
+            Inspire your next look.
+          </p>
+          <MyBtn
+            to={"/discover"}
+            classname={"px-5 py-3 rounded-3xl bg-[#4a4741] text-[#f7f1e8]"}
+          >
+            Discover
+          </MyBtn>
+        </div>
       </div>
 
       <div

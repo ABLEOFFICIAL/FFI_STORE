@@ -31,9 +31,13 @@ const NavBar = () => {
         <NavLink to="/">
           <Logo />
         </NavLink>
-        <div className="flex items-center gap-6 md:w-[70%] md:justify-between">
+        <div className="flex items-center gap-6 lg:w-[70%] lg:justify-between">
           <NavLinks />
-          <Bar />
+          <Bar
+            classname={
+              "border-white rounded-full border-[1px] size-10 p-2 cursor-pointer"
+            }
+          />
         </div>
       </div>
     </div>
