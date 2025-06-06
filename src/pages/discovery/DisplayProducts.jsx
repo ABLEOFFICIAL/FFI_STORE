@@ -1,27 +1,36 @@
 import { div } from "framer-motion/client";
-import React, { useEffect } from "react";
+import React, { useEffect, useState } from "react";
 import MyBtn from "../../components/atoms/MyBtn";
+import { NavLink } from "react-router-dom";
+import useFetch from "../../hooks/useFetch";
 
 const DisplayProducts = () => {
-  const ProductsAPI = "https://fakestoreapi.com/products";
-  const [products, setProducts] = React.useState([]);
+  const { data, loading, error } = useFetch(
+    "https://fakestoreapi.com/products"
+  );
+  // const ProductsAPI = "";
+  // const [products, setProducts] = useState([]);
 
-  useEffect(() => {
-    fetch(ProductsAPI)
-      .then((response) => response.json())
-      .then((data) => {
-        setProducts(data);
-      })
-      .catch((error) => {
-        console.error("Error fetching products:", error);
-      });
-  }, []);
+  // useEffect(() => {
+  //   fetch(ProductsAPI)
+  //     .then((response) => response.json())
+  //     .then((data) => {
+  //       setProducts(data);
+  //     })
+  //     .catch((error) => {
+  //       console.error("Error fetching products:", error);
+  //     });
+  // }, []);
   return (
     <>
-      {products && (
+      {data && (
         <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10">
-          {products.map((product) => (
-            <div key={product.id} className="">
+          {data.map((product) => (
+            <NavLink
+              to={`/product/${product.id}`}
+              key={product.id}
+              className=""
+            >
               <div>
                 <img
                   src={product.image}
@@ -47,7 +56,7 @@ const DisplayProducts = () => {
                   </MyBtn>
                 </div>
               </div>
-            </div>
+            </NavLink>
           ))}
         </div>
       )}
