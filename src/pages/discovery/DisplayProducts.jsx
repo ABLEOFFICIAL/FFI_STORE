@@ -46,14 +46,14 @@ const DisplayProducts = () => {
                   <p className="text-gray-700 font-semibold mb-2">
                     ${product.price}
                   </p>
-                  <MyBtn
+                  {/* <MyBtn
                     to={`/product/${product.id}`}
                     classname={
                       "px-4 py-2 text-xs bg-[#4a4741] rounded-3xl text-[#f7f1e8]"
                     }
                   >
                     Shop
-                  </MyBtn>
+                  </MyBtn> */}
                 </div>
               </div>
             </NavLink>

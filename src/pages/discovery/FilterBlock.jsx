@@ -1,7 +1,12 @@
-import React from "react";
+import React, { useState } from "react";
 import { RiArrowDropDownLine } from "react-icons/ri";
 
 const FilterBlock = () => {
+  const [selectedItem, setSelectedItem] = useState("All");
+
+  const handleItem = (item) => {
+    setSelectedItem(item);
+  };
   return (
     <div className="p-5 ">
       <div
@@ -20,24 +25,39 @@ const FilterBlock = () => {
           </span>
         </div>
 
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        {/* <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           CLothes
         </span>
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           Shoes
         </span>
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           bags
         </span>
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           jewellry
         </span>
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           fans
         </span>
-        <span className="border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
+        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
           wigs
-        </span>
+        </span> */}
+        {["All", "Clothes", "Shoes", "Bags", "jewellry", "fans", "wigs"].map(
+          (item) => (
+            <span
+              key={item}
+              onClick={() => handleItem(item)}
+              className={`rounded-full py-2 px-3 text-sm font-light cursor-pointer border border-[#4a4741] ${
+                selectedItem === item
+                  ? "bg-[#4a4741] text-[#f7f1e8]"
+                  : "bg-white text-[#4a4741]"
+              }`}
+            >
+              {item}
+            </span>
+          )
+        )}
       </div>
     </div>
   );
