@@ -15,6 +15,17 @@ body {
   font-style: italic;
 }
 
+.size {
+  border: 1px solid #4a4741;
+  background-color: #fff; /* light background */
+  color: #4a4741; /* dark text */
+}
+
+.size.active {
+  background-color: #4a4741; /* dark background */
+  color: #f7f1e8; /* light text */
+}
+
 @media (min-width: 768px) {
   .slant {
     font-size: 5rem;
