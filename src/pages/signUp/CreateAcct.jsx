@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const CreateAcct = () => {
   return (
     <div
-      className="bg-neutral-50 h-auto p-10 flex flex-col gap-14 text-[#4a4741]
+      className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741]
     "
     >
       <div className="bg-[#4a4741]/20 absolute -top-48 -right-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div>
@@ -22,7 +22,7 @@ const CreateAcct = () => {
           <label className="text-sm text-[#4a4741]">
             choose from 10,000+ products across 400+ categories
           </label>
-          <button className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8]">
+          <button className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8] text-sm">
             <Google />
             <span>SIgn Up with Google</span>
           </button>
@@ -82,7 +82,7 @@ const CreateAcct = () => {
               <span className="text-sm text-[#4a4741]">Remember Me</span>
             </div>
           </div>
-          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full">
+          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm">
             Login
           </button>
           <div>
