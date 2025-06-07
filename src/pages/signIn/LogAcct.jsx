@@ -3,13 +3,15 @@ import React from "react";
 import MyInput from "../../components/atoms/MyInput";
 import Google from "../../components/atoms/Google";
 import DarkLogo from "../../components/atoms/DarkLogo";
+import { NavLink } from "react-router-dom";
 
-const SignIn = () => {
+const LogAcct = () => {
   return (
     <div
-      className="bg-neutral-50 h-screen p-10 flex flex-col gap-14 text-[#4a4741]
+      className="bg-neutral-50 p-10 flex flex-col gap-14 text-[#4a4741]
     "
     >
+      <div className="bg-[#4a4741]/20 absolute -top-48 -right-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div>
       <header className="">
         <DarkLogo />
       </header>
@@ -19,7 +21,7 @@ const SignIn = () => {
           <label className="text-sm text-[#4a4741]">
             choose from 10,000+ products across 400+ categories
           </label>
-          <button className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8]">
+          <button className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8] text-sm">
             <Google />
             <span>SIgn in with Google</span>
           </button>
@@ -53,20 +55,29 @@ const SignIn = () => {
           </div>
           <div className="flex justify-between my-2">
             <div className="flex items-center gap-1">
-              <div className="h-2.5 w-2.5 rounded-xs bg-[#4e4b47]"></div>
+              <div className="h-2.5 w-2.5 rounded-xs bg-[#4e4b47] cursor-pointer"></div>
               <span className="text-sm text-[#4a4741]">Remember Me</span>
             </div>
             <span className="text-sm text-[#4a4741]">Forgot Password?</span>
           </div>
-          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full">
+          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm">
             Login
           </button>
+          <div>
+            <span>Don't have an account</span>
+            <NavLink
+              to={"/CreateAcct"}
+              className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm block"
+            >
+              Sign Up Here
+            </NavLink>
+          </div>
         </form>
       </section>
     </div>
   );
 };
 
-export default SignIn;
+export default LogAcct;
 /* f7f1e8 */
 /* 4a4741 */
