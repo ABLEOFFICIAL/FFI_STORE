@@ -1,6 +1,6 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const useToggle = (initialValue = true) => {
+const useToggle = (initialValue = false) => {
   const [toggle, setToggle] = useState(initialValue);
   useEffect(() => {
     // console.log(toggle);
@@ -15,7 +15,7 @@ const useToggle = (initialValue = true) => {
       });
       // console.log(toggle);
     };
-  }, [toggle]);
+  }, []);
   return {
     toggle,
     handleToggle,
