@@ -8,7 +8,7 @@ import { NavLink } from "react-router-dom";
 const LogAcct = () => {
   return (
     <div
-      className="bg-neutral-50 p-10 flex flex-col gap-14 text-[#4a4741]
+      className="bg-neutral-50 h-auto p-10 flex flex-col gap-14 text-[#4a4741]
     "
     >
       <div className="bg-[#4a4741]/20 absolute -top-48 -right-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div>
