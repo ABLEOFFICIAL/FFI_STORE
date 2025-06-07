@@ -4,6 +4,7 @@ import HomePage from "./pages/HomePage";
 import NotFound from "./components/organism/NotFound";
 import DiscoveryPage from "./pages/discovery/DiscoveryPage";
 import Details from "./pages/product/Details";
+import SignIn from "./pages/signIn/SignIn";
 
 // Define routes for the application
 
@@ -14,6 +15,7 @@ const App = () => {
         <Route path="/" element={<HomePage />} />
         <Route path="/discover" element={<DiscoveryPage />} />
         <Route path="/product/:id" element={<Details />} />
+        <Route path="/signIn" element={<SignIn />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

@@ -27,7 +27,7 @@ const NavLinks = ({ to }) => {
       </MyBtn>
       <MyBtn
         classname="bg-blue-500 hover:bg-blue-700 px-5 py-3 rounded-3xl cursor-pointer"
-        to="/shop"
+        to="/signIn"
       >
         Shop
       </MyBtn>
