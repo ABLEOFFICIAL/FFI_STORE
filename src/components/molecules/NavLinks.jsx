@@ -8,25 +8,31 @@ const NavLinks = ({ to }) => {
   return (
     <div className="flex gap-16 items-center  justify-between">
       <MyBtn
-        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${
+          screenWidth < 1020 ? "hidden" : "block text-sm"
+        } cursor-pointer`}
         to="/why-ffi"
       >
         Why FFI
       </MyBtn>
       <MyBtn
-        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${
+          screenWidth < 1020 ? "hidden" : "block text-sm"
+        } cursor-pointer`}
         to="/how-it-works"
       >
         How It Works
       </MyBtn>
       <MyBtn
-        classname={`${screenWidth < 1020 ? "hidden" : "block"} cursor-pointer`}
+        classname={`${
+          screenWidth < 1020 ? "hidden" : "block text-sm"
+        } cursor-pointer`}
         to="/for-business"
       >
         For Business
       </MyBtn>
       <MyBtn
-        classname="bg-blue-500 hover:bg-blue-700 px-5 py-3 rounded-3xl cursor-pointer"
+        classname="bg-blue-500 hover:bg-blue-700 px-5 py-3 rounded-3xl cursor-pointer text-sm"
         to="/LogAcct"
       >
         Shop

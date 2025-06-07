@@ -34,7 +34,7 @@ const Sidebar = () => {
       </div>
       <div className="side-bottom flex flex-col h-4/5">
         <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"/"}>About</NavLink>
+        <NavLink to={"/about-us"}>About</NavLink>
         <NavLink to={"/"}>Contact Us</NavLink>
         <NavLink to={"/"}>Style with us</NavLink>
       </div>

@@ -23,7 +23,7 @@ const NavBar = () => {
   // const { screenWidth } = useContext(WidthContext);
   return (
     <div
-      className={` m-4 w-[93%] bg-white/20 backdrop-blur-md px-5 py-2 md:py-1 rounded-lg text-white fixed ${
+      className={` m-4 w-[93%] bg-white/20 backdrop-blur-md px-5 py-0.5 md:py-1 rounded-lg text-white fixed ${
         screenWidth < 768 ? position : lgPosition
       } z-20`}
     >

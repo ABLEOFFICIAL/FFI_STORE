@@ -6,6 +6,8 @@ import DiscoveryPage from "./pages/discovery/DiscoveryPage";
 import Details from "./pages/product/Details";
 import LogAcct from "./pages/signIn/LogAcct";
 import CreateAcct from "./pages/signUp/CreateAcct";
+import About from "./pages/about/About";
+// import About from "./pages/about/About";
 
 // Define routes for the application
 
@@ -18,6 +20,7 @@ const App = () => {
         <Route path="/product/:id" element={<Details />} />
         <Route path="/LogAcct" element={<LogAcct />} />
         <Route path="/CreateAcct" element={<CreateAcct />} />
+        <Route path="/about-us" element={<About />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
