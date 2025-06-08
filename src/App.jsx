@@ -7,7 +7,7 @@ import Details from "./pages/product/Details";
 import LogAcct from "./pages/signIn/LogAcct";
 import CreateAcct from "./pages/signUp/CreateAcct";
 import About from "./pages/about/About";
-// import About from "./pages/about/About";
+import Contact from "./pages/contact/Contact";
 
 // Define routes for the application
 
@@ -21,6 +21,7 @@ const App = () => {
         <Route path="/LogAcct" element={<LogAcct />} />
         <Route path="/CreateAcct" element={<CreateAcct />} />
         <Route path="/about-us" element={<About />} />
+        <Route path="/contact-us" element={<Contact />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
