@@ -40,7 +40,7 @@ const ProductDetail = () => {
 
   const handleAddToCart = async () => {
     if (!user) {
-      alert("Please log in to add items to the cart.");
+      // alert("Please log in to add items to the cart.");
       navigate("/LogAcct");
       return;
     }
@@ -63,11 +63,12 @@ const ProductDetail = () => {
           selectedSize,
           quantity: 1,
         });
+        // trigger to show a modal(optional) and a number on the cart basket
       }
-      alert(`${product.title} (Size: ${selectedSize}) added to cart`);
+      // alert(`${product.title} (Size: ${selectedSize}) added to cart`);
     } catch (err) {
       console.error("Error adding to cart:", err);
-      alert("Failed to add item to cart.");
+      // alert("Failed to add item to cart.");
     }
   };
 
@@ -78,10 +79,10 @@ const ProductDetail = () => {
   return (
     <main className="min-h-max p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741]">
       <div className="flex justify-between pb-3">
-        <ArrowLeft onclick={() => navigate(-1)} className="size-7" />
+        <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
         <h3 className="font-light text-xl">Product Details</h3>
         <NavLink to="/cart">
-          <Cart className="size-5" />
+          <Cart classname="size-5" />
         </NavLink>
       </div>
       <section className="h-auto">
@@ -118,7 +119,9 @@ const ProductDetail = () => {
                   key={size}
                   onClick={() => handleSize(size)}
                   className={`rounded-full py-2 px-3 text-sm cursor-pointer ${
-                    selectedSize === size ? "bg-blue-200" : "bg-white"
+                    selectedSize === size
+                      ? "bg-[#4a4741] text-[#f7f1e8]"
+                      : "bg-white"
                   }`}
                 >
                   {size}

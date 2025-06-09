@@ -39,6 +39,8 @@ const CartPage = () => {
           id: doc.id,
           ...doc.data(),
         }));
+        // console.log(items.length);
+
         setCartItems(items);
       } catch (err) {
         console.error("Error fetching cart:", err);
@@ -82,7 +84,7 @@ const CartPage = () => {
   return (
     <main className="min-h-screen p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741]">
       <div className="flex justify-between pb-3">
-        <ArrowLeft onclick={() => navigate(-1)} className="size-7" />
+        <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
         <h3 className="font-light text-xl">Your Cart</h3>
         <div className="size-5" /> {/* Placeholder for alignment */}
       </div>
@@ -107,8 +109,10 @@ const CartPage = () => {
                   <h4 className="font-semibold">{item.name.slice(0, 30)}...</h4>
                   <p className="text-sm">Size: {item.selectedSize}</p>
                   <p className="text-sm">
-                    ${item.price.toFixed(2)} x {item.quantity} = $
-                    {(item.price * item.quantity).toFixed(2)}
+                    {/* ${item.price.toFixed(2)} x {item.quantity} ={" "} */}
+                    <span className="font-semibold">
+                      ${(item.price * item.quantity).toFixed(2)}
+                    </span>
                   </p>
                   <div className="flex gap-2 mt-2">
                     <button
@@ -126,7 +130,7 @@ const CartPage = () => {
                     </button>
                     <button
                       onClick={() => removeFromCart(item.id)}
-                      className="text-sm bg-red-500 text-white px-2 py-1 rounded"
+                      className="text-sm bg-[#4a4741] text-white px-3 py-1 rounded-3xl"
                     >
                       Remove
                     </button>
@@ -134,9 +138,14 @@ const CartPage = () => {
                 </div>
               </div>
             ))}
-            <h3 className="text-xl font-semibold mt-4">
-              Total: ${total.toFixed(2)}
-            </h3>
+            <div className="mt-4 rounded-2xl p-5 bg-white flex justify-between items-center">
+              <h3 className="text-xl font-semibold">
+                Total: ${total.toFixed(2)}
+              </h3>
+              <button className="bg-[#4a4741] py-3 px-5 rounded-3xl text-[#f7f1e8]">
+                Check Out
+              </button>
+            </div>
           </div>
         )}
       </section>

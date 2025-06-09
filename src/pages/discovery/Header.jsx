@@ -4,7 +4,7 @@ import Bar from "../../components/atoms/Bar";
 import Cart from "../../components/atoms/Cart";
 import MyInput from "../../components/atoms/MyInput";
 import { CiSearch } from "react-icons/ci";
-import { useNavigate } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
   const navigate = useNavigate();
@@ -15,7 +15,9 @@ const Header = () => {
           <ArrowLeft onclick={() => navigate(-1)} classname={"size-8"} />
           <h2 className="text-xl">Discover</h2>
           <div className="flex gap-4 items-center">
-            <Cart classname={"cursor-pointer size-5"} />
+            <NavLink to="/cart">
+              <Cart classname="size-5" />
+            </NavLink>{" "}
             <Bar
               classname={
                 "border-[#4a4741] rounded-full border-[1px] size-10 p-2 cursor-pointer"
