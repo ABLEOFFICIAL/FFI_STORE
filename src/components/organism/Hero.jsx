@@ -16,7 +16,7 @@ const Hero = () => {
           </p>
           <MyBtn
             to="/discover"
-            classname="bg-blue-500 px-5 py-3 rounded-3xl cursor-pointer hover:bg-blue-700 md:w-[30%] text-center mx-auto md:m-0 md:text-lg md:font-semibold "
+            classname="bg-blue-500 text-sm px-5 py-3 rounded-3xl cursor-pointer hover:bg-blue-700 md:w-[30%] text-center mx-auto md:m-0 md:text-lg md:font-semibold "
           >
             Explore Styles
           </MyBtn>
