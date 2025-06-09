@@ -46,7 +46,7 @@ const CreateAcct = () => {
   };
 
   return (
-    <div className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741] overflow-hidden">
+    <div className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741] overflow-x-hidden overflow-y-auto relative">
       {/* Adjusted decorative div */}
       <div className="bg-[#4a4741]/20 absolute top-0 right-0 z-0 w-64 h-64 rotate-45 rounded-full translate-x-1/2 -translate-y-1/2"></div>
       {/* <div className="bg-[#4a4741]/20 absolute -bottom-48 -left-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div> */}
