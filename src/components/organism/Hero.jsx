@@ -10,7 +10,7 @@ const Hero = () => {
           Where Elegance <span className="slant">Becomes you</span>.
         </h1>
         <div className="flex flex-col gap-5 md:gap-10">
-          <p className="text-lg w-[96%] mx-auto md:m-0 md:font-medium md:w-full md:text-xl">
+          <p className="text-base w-[96%] mx-auto md:m-0 md:font-medium md:w-full md:text-xl">
             Elegant fashion for modern women — discover outfits, accessories,
             and style tips to elevate your everyday look.
           </p>
