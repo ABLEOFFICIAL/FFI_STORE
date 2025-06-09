@@ -6,7 +6,6 @@ import Cart from "../../components/atoms/Cart";
 import useToggle from "../../hooks/useToggle";
 import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
 import { db, auth } from "../../../config/firebase";
-
 const ProductDetail = () => {
   const { id } = useParams();
   const { toggle, handleToggle } = useToggle();
@@ -77,7 +76,7 @@ const ProductDetail = () => {
   };
 
   return (
-    <main className="min-h-max p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741]">
+    <main className="min-h-max p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741] pb-20">
       <div className="flex justify-between pb-3">
         <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
         <h3 className="font-light text-xl">Product Details</h3>
@@ -146,14 +145,14 @@ const ProductDetail = () => {
             </div>
           </section>
 
-          <section className="flex justify-between">
+          <section className="fixed bottom-0 left-0 w-full bg-[#f7f1e8] border-t-[1px] border-[#4a4741] rounded-2xl p-4 flex justify-between items-center shadow-lg z-10">
             <div className="flex flex-col gap-1">
               <span className="font-semibold text-sm">Price</span>
               <p className="text-lg font-medium">${product.price.toFixed(2)}</p>
             </div>
             <button
               onClick={handleAddToCart}
-              className="self-start text-sm bg-[#4a4741] text-[#f7f1e8] px-5 py-3 rounded-3xl"
+              className="text-sm bg-[#4a4741] text-[#f7f1e8] px-6 py-3 rounded-3xl hover:bg-[#4a4741]/90 transition-colors"
             >
               Add to Cart
             </button>
