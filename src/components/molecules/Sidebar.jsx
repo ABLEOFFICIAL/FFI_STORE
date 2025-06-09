@@ -5,6 +5,7 @@ import { NavLink } from "react-router-dom";
 import { WidthContext } from "../../context/WidthContext";
 import { MdDarkMode } from "react-icons/md";
 import useToggle from "../../hooks/useToggle";
+import MyBtn from "../atoms/MyBtn";
 
 const Sidebar = () => {
   const { showSide, setShowSide } = useContext(WidthContext);
@@ -27,12 +28,12 @@ const Sidebar = () => {
     <div
       className={`${
         showSide ? "block" : "hidden"
-      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 flex flex-col justify-between`}
+      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 pt-10 pb-3 flex flex-col justify-between`}
     >
       <div className="flex justify-end items-center pb-10">
         <XBar onclick={() => setShowSide(false)} classname={"size-7"} />
       </div>
-      <div className="side-bottom flex flex-col h-4/5">
+      <div className="side-bottom flex flex-col h-3/5">
         <NavLink to={"/"}>Home</NavLink>
         <NavLink to={"/about-us"}>About</NavLink>
         <NavLink to={"/contact-us"}>Contact Us</NavLink>
@@ -42,6 +43,14 @@ const Sidebar = () => {
         <MdDarkMode />
         <span>Dark Mode</span>
       </div>
+      <MyBtn
+        to={"/LogAcct"}
+        classname={
+          "border-[1px] border-[#4a4741] w-full py-3 rounded-3xl text-sm text-center"
+        }
+      >
+        Sign in
+      </MyBtn>
     </div>
   );
 };

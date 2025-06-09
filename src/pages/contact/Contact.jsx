@@ -16,7 +16,7 @@ const Contact = () => {
         <div className="bg-[url('/contact-hero.jpeg')] bg-cover bg-center h-[40vh] flex justify-center items-center">
           <h1 className=" text-[#f7f1e8] slant">Let's Get In Touch</h1>
         </div>
-        <div className="flex flex-col gap-5 px-5 pb-4">
+        <div className="flex flex-col gap-5 pb-4  px-5">
           <div className="flex flex-col gap-3">
             <PiPhoneCall className="size-10 p-2 border-[1px] border-neutral-500 rounded" />
             <div className="flex flex-col gap-1">
@@ -39,13 +39,13 @@ const Contact = () => {
           </div>
         </div>
       </section>
-      <section className="text-sm text-[#4a4741] flex flex-col gap-8 px-5 border-b-[1px] py-5">
-        <h1 className="text-2xl font-light pt-5">Lets Walk Together</h1>
-        <p className="text-sm font-medium w-[80%]">
+      <section className="text-sm text-[#4a4741] flex flex-col gap-8 border-b-[1px] pt-5">
+        <h1 className="text-2xl font-light pt-5  px-5">Lets Walk Together</h1>
+        <p className="text-sm font-medium w-[80%]  px-5">
           Share your vision for your next project with us now. please contact us
           for basic questions. we're here to help!
         </p>
-        <form>
+        <form className="py-4 bg-white  px-5">
           <div className="pb-4">
             <label className="block py-2">First Name</label>
             <MyInput

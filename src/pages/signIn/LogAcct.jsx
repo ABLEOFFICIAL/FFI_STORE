@@ -1,11 +1,42 @@
-import React from "react";
+import React, { useState } from "react";
 // import Logo from "../../components/atoms/Logo";
 import MyInput from "../../components/atoms/MyInput";
 import Google from "../../components/atoms/Google";
 import DarkLogo from "../../components/atoms/DarkLogo";
-import { NavLink } from "react-router-dom";
-
+import { NavLink, useNavigate } from "react-router-dom";
+import { auth, googleProvider } from "../../../config/firebase";
+import { signInWithEmailAndPassword, signInWithPopup } from "firebase/auth";
+// import { auth, googleProvider } from "./firebase"; // Adjust the path to your Firebase config file
 const LogAcct = () => {
+  const [email, setEmail] = useState("");
+  const [password, setPassword] = useState("");
+  const navigate = useNavigate();
+  const handleSignIn = async (e) => {
+    e.preventDefault();
+    try {
+      await signInWithEmailAndPassword(auth, email, password);
+      alert("Signed in successfully");
+    } catch (error) {
+      console.error(error);
+    }
+  };
+  const signInWithGoogle = async () => {
+    try {
+      await signInWithPopup(auth, googleProvider);
+      alert("Signed in successfully with Google");
+      navigate("/");
+    } catch (error) {
+      console.error("Error signing in with Google", error);
+      if (error.code === "auth/popup-blocked") {
+        alert(
+          "Popup was blocked by your browser. Please allow popups for this site and try again."
+        );
+      } else {
+        alert("An error occurred during Google sign-in. Please try again.");
+      }
+    }
+  };
+
   return (
     <div
       className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741]
@@ -21,7 +52,10 @@ const LogAcct = () => {
           <label className="text-sm text-[#4a4741]">
             choose from 10,000+ products across 400+ categories
           </label>
-          <button className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8] text-sm">
+          <button
+            onClick={signInWithGoogle}
+            className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8] text-sm"
+          >
             <Google />
             <span>SIgn in with Google</span>
           </button>
@@ -32,11 +66,13 @@ const LogAcct = () => {
             or
           </span>
         </div>
-        <form>
+        <form onSubmit={handleSignIn}>
           <div className="mb-4">
             <label className="block text-sm font-medium pb-2">Email</label>
             <MyInput
               type={"email"}
+              value={email}
+              onChange={(e) => setEmail(e.target.value)}
               placeholder={"Enter email..."}
               classname={
                 "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"
@@ -47,6 +83,8 @@ const LogAcct = () => {
             <label className="block text-sm font-medium pb-2">Password</label>
             <MyInput
               type={"password"}
+              value={password}
+              onChange={(e) => setPassword(e.target.value)}
               placeholder={"Enter Password..."}
               classname={
                 "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"

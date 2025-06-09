@@ -8,6 +8,7 @@ import LogAcct from "./pages/signIn/LogAcct";
 import CreateAcct from "./pages/signUp/CreateAcct";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
+import AddToCart from "./pages/cart/AddToCart";
 
 // Define routes for the application
 
@@ -22,6 +23,7 @@ const App = () => {
         <Route path="/CreateAcct" element={<CreateAcct />} />
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
+        <Route path="/cart" element={<AddToCart />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
