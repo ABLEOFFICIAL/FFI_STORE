@@ -20,7 +20,7 @@ const CartPage = () => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
       if (!currentUser) {
-        navigate("/login"); // Redirect to login if not authenticated
+        navigate("/LogAcct"); // Redirect to login if not authenticated
       }
     });
     return () => unsubscribe();
