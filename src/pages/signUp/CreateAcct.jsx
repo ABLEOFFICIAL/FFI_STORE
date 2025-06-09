@@ -46,16 +46,14 @@ const CreateAcct = () => {
   };
 
   return (
-    <div
-      className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741]
-    "
-    >
-      <div className="bg-[#4a4741]/20 absolute -top-48 -right-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div>
+    <div className="bg-neutral-50 min-h-screen p-10 flex flex-col gap-14 text-[#4a4741] overflow-hidden">
+      {/* Adjusted decorative div */}
+      <div className="bg-[#4a4741]/20 absolute top-0 right-0 z-0 w-64 h-64 rotate-45 rounded-full translate-x-1/2 -translate-y-1/2"></div>
       {/* <div className="bg-[#4a4741]/20 absolute -bottom-48 -left-1/2 z-10 w-96 h-96 rotate-45 rounded-full"></div> */}
-      <header className="">
+      <header>
         <DarkLogo />
       </header>
-      <section className=" flex flex-col gap-4">
+      <section className="flex flex-col gap-4 max-w-md mx-auto">
         <div className="flex flex-col gap-4">
           <h1 className="font-bold text-[#4a4741] text-lg">Create Account</h1>
           <label className="text-sm text-[#4a4741]">
@@ -63,7 +61,7 @@ const CreateAcct = () => {
           </label>
           <button
             onClick={signInWithGoogle}
-            className="bg-[#4a4741] shadow-md py-3 rounded-full  flex justify-center items-center gap-1 text-[#f7f1e8] text-sm"
+            className="bg-[#4a4741] shadow-md py-3 rounded-full flex justify-center items-center gap-1 text-[#f7f1e8] text-sm hover:bg-[#4a4741]/90 transition-colors"
           >
             <Google />
             <span>SIgn Up with Google</span>
@@ -71,7 +69,7 @@ const CreateAcct = () => {
         </div>
         <div className="relative py-3 ">
           <hr className="opacity-[0.4]" />
-          <span className="text-center absolute top-0 left-[47%] bg-neutral-50 rounded-2xl">
+          <span className="text-center absolute top-0 left-1/2 -translate-x-1/2 bg-neutral-50 rounded-2xl px-2 text-sm">
             or
           </span>
         </div>
@@ -83,9 +81,7 @@ const CreateAcct = () => {
               onChange={(e) => setName(e.target.value)}
               type={"text"}
               placeholder={"Enter Name"}
-              classname={
-                "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"
-              }
+              classname="bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full focus:outline-none focus:ring-2 focus:ring-[#4a4741]/50"
             />
           </div>
           <div className="mb-4">
@@ -95,9 +91,7 @@ const CreateAcct = () => {
               onChange={(e) => setEmail(e.target.value)}
               type={"email"}
               placeholder={"Enter email"}
-              classname={
-                "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"
-              }
+              classname="bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full focus:outline-none focus:ring-2 focus:ring-[#4a4741]/50"
             />
           </div>
           <div className="mb-4">
@@ -107,9 +101,7 @@ const CreateAcct = () => {
               onChange={(e) => setPassword(e.target.value)}
               type={"password"}
               placeholder={"Enter password"}
-              classname={
-                "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"
-              }
+              classname="bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full focus:outline-none focus:ring-2 focus:ring-[#4a4741]/50"
             />
           </div>
           <div className="mb-4">
@@ -121,25 +113,25 @@ const CreateAcct = () => {
               onChange={(e) => setRepeatPassword(e.target.value)}
               type={"password"}
               placeholder={"Repeat Password"}
-              classname={
-                "bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full"
-              }
+              classname="bg-[#fff] shadow-md py-2.5 px-5 rounded-full text-[#4a4741] w-full focus:outline-none focus:ring-2 focus:ring-[#4a4741]/50"
             />
           </div>
           <div className="flex justify-between my-2">
             <div className="flex items-center gap-1">
-              <div className="h-2.5 w-2.5 rounded-xs bg-[#4e4b47]"></div>
+              <div className="h-2.5 w-2.5 rounded-sm bg-[#4e4b47] cursor-pointer"></div>
               <span className="text-sm text-[#4a4741]">Remember Me</span>
             </div>
           </div>
-          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm">
+          <button className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm hover:bg-[#4a4741]/90 transition-colors">
             Create account
           </button>
-          <div>
-            <span>Already have an account?</span>
+          <div className="text-center">
+            <span className="text-sm text-[#4a4741]">
+              Already have an account?
+            </span>
             <NavLink
               to={"/LogAcct"}
-              className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm block"
+              className="w-full my-2 py-3 text-center bg-[#4a4741] text-[#f7f1e8] rounded-full text-sm block hover:bg-[#4a4741]/90 transition-colors"
             >
               Sign In Here
             </NavLink>

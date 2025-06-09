@@ -6,7 +6,7 @@ import { WidthContext } from "../../context/WidthContext";
 const NavLinks = ({ to }) => {
   const { screenWidth } = useContext(WidthContext);
   return (
-    <div className="flex gap-16 items-center  justify-between">
+    <div className="flex gap-16 items-center  justify-between text-[#f7f1e8]">
       <MyBtn
         classname={`${
           screenWidth < 1020 ? "hidden" : "block text-sm"
@@ -33,7 +33,7 @@ const NavLinks = ({ to }) => {
       </MyBtn>
       <MyBtn
         classname="bg-blue-500 hover:bg-blue-700 px-5 py-3 rounded-3xl cursor-pointer text-sm"
-        to="/LogAcct"
+        to="/shop"
       >
         Shop
       </MyBtn>

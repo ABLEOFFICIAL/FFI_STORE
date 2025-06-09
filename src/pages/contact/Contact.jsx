@@ -10,7 +10,7 @@ import MyInput from "../../components/atoms/MyInput";
 const Contact = () => {
   return (
     <div>
-      {/* <NavBar /> */}
+      <NavBar />
       <Sidebar />
       <section className="text-sm text-[#4a4741] flex flex-col gap-8 border-b-[1px]">
         <div className="bg-[url('/contact-hero.jpeg')] bg-cover bg-center h-[40vh] flex justify-center items-center">

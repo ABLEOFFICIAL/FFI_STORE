@@ -1,14 +1,21 @@
-import React, { useContext, useMemo, useState } from "react";
+import React, { useContext, useEffect, useMemo, useState } from "react";
 import Logo from "../atoms/Logo";
 import XBar from "../atoms/XBar";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 import { WidthContext } from "../../context/WidthContext";
 import { MdDarkMode } from "react-icons/md";
 import useToggle from "../../hooks/useToggle";
 import MyBtn from "../atoms/MyBtn";
+import DarkLogo from "../atoms/DarkLogo";
+import { collection, getDocs } from "firebase/firestore";
+import { db, auth } from "../../../config/firebase";
 
 const Sidebar = () => {
   const { showSide, setShowSide } = useContext(WidthContext);
+  const [cartItems, setCartItems] = useState([]);
+  const [user, setUser] = useState(null);
+  const navigate = useNavigate();
+
   // const [dark, setDark] = useState(false);
   const { toggle, handleToggle } = useToggle();
   if (showSide) {
@@ -16,6 +23,14 @@ const Sidebar = () => {
       console.log("hello");
     });
   }
+
+  useEffect(() => {
+    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+      setUser(currentUser);
+    });
+    return () => unsubscribe();
+  }, [navigate]);
+
   // // console.log(dark);
   // const handleMode = useMemo(() => {
   //   return () => {
@@ -30,7 +45,8 @@ const Sidebar = () => {
         showSide ? "block" : "hidden"
       } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 pt-10 pb-3 flex flex-col justify-between`}
     >
-      <div className="flex justify-end items-center pb-10">
+      <div className="flex justify-between items-center pb-10">
+        <DarkLogo />
         <XBar onclick={() => setShowSide(false)} classname={"size-7"} />
       </div>
       <div className="side-bottom flex flex-col h-3/5">
@@ -45,9 +61,9 @@ const Sidebar = () => {
       </div>
       <MyBtn
         to={"/LogAcct"}
-        classname={
-          "border-[1px] border-[#4a4741] w-full py-3 rounded-3xl text-sm text-center"
-        }
+        classname={`border-[1px] border-[#4a4741] w-full py-3 rounded-3xl text-sm text-center ${
+          user ? "hidden" : "block"
+        } `}
       >
         Sign in
       </MyBtn>

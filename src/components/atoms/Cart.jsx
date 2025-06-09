@@ -18,10 +18,10 @@ const Cart = ({ classname }) => {
   }, [navigate]);
 
   useEffect(() => {
-    if (!user) {
-      setCartItems([]);
-      return;
-    }
+    // if (!user) {
+    //   setCartItems([]);
+    //   return;
+    // }
 
     const fetchCart = async () => {
       // setLoading(true);

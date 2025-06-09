@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useContext } from "react";
 import TopBar from "../components/atoms/TopBar";
 import Hero from "../components/organism/Hero";
 import NavBar from "../components/molecules/NavBar";
@@ -12,24 +12,31 @@ import Testimonial from "../components/organism/Testimonial";
 import Newsletter from "../components/organism/Newsletter";
 import Social from "../components/organism/Social";
 import Footer from "../components/organism/Footer";
+import { PreloaderContext } from "../context/PreLoaderContext";
 
 const HomePage = () => {
+  const { loading } = useContext(PreloaderContext);
+
   return (
-    <div className="relative text-white overflow-hidden">
-      <TopBar />
-      <NavBar />
-      <Sidebar />
-      <Hero />
-      <Explore />
-      <FFIDisplay />
-      <StyleMoments />
-      <Featured />
-      <StyleGuide />
-      <Testimonial />
-      <Newsletter />
-      <Social />
-      <Footer />
-    </div>
+    <>
+      {!loading && (
+        <div className="relative text-white overflow-hidden">
+          <TopBar />
+          <NavBar initialTop="top-14" finaltop="top-2" />
+          <Sidebar />
+          <Hero />
+          <Explore />
+          <FFIDisplay />
+          <StyleMoments />
+          <Featured />
+          <StyleGuide />
+          <Testimonial />
+          <Newsletter />
+          <Social />
+          <Footer />
+        </div>
+      )}
+    </>
   );
 };
 

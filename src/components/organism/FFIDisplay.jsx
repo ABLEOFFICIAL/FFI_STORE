@@ -95,7 +95,7 @@ const FFIDisplay = () => {
           <em className="slant font-serif italic">voice</em>
         </h1>
         <MyBtn
-          to={"/why-ffi"}
+          to={"/about-us"}
           classname="bg-[rgb(74,71,65)] w-32 text-center mx-auto px-5 py-3 rounded-4xl"
         >
           Why FFI
@@ -136,7 +136,11 @@ const FFIDisplay = () => {
                           <div>
                             <div>
                               <h1 className="text-3xl">{box.Heading}</h1>
-                              <p className={box.showText ? "block" : "hidden"}>
+                              <p
+                                className={
+                                  box.showText ? "block py-3" : "hidden"
+                                }
+                              >
                                 {box.Paragraph}
                               </p>
                             </div>
