@@ -43,30 +43,32 @@ const Sidebar = () => {
     <div
       className={`${
         showSide ? "block" : "hidden"
-      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 pb-12 flex flex-col justify-between`}
+      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 pb-12 `}
     >
-      <div className="flex justify-between items-center pb-10">
-        <DarkLogo />
-        <XBar onclick={() => setShowSide(false)} classname={"size-7"} />
+      <div className="h-4/5 flex flex-col justify-between">
+        <div className="flex justify-between items-center pb-10">
+          <DarkLogo />
+          <XBar onclick={() => setShowSide(false)} classname={"size-7"} />
+        </div>
+        <div className="side-bottom flex flex-col h-3/5">
+          <NavLink to={"/"}>Home</NavLink>
+          <NavLink to={"/about-us"}>About</NavLink>
+          <NavLink to={"/contact-us"}>Contact Us</NavLink>
+          <NavLink to={"/"}>Style with us</NavLink>
+        </div>
+        <div onClick={handleToggle} className="inline-flex items-center gap-2">
+          <MdDarkMode />
+          <span>Dark Mode</span>
+        </div>
+        <MyBtn
+          to={"/LogAcct"}
+          classname={`border-[1px] border-[#4a4741] w-full py-3 rounded-3xl text-sm text-center ${
+            user ? "hidden" : "block"
+          } `}
+        >
+          Sign in
+        </MyBtn>
       </div>
-      <div className="side-bottom flex flex-col h-3/5">
-        <NavLink to={"/"}>Home</NavLink>
-        <NavLink to={"/about-us"}>About</NavLink>
-        <NavLink to={"/contact-us"}>Contact Us</NavLink>
-        <NavLink to={"/"}>Style with us</NavLink>
-      </div>
-      <div onClick={handleToggle} className="inline-flex items-center gap-2">
-        <MdDarkMode />
-        <span>Dark Mode</span>
-      </div>
-      <MyBtn
-        to={"/LogAcct"}
-        classname={`border-[1px] border-[#4a4741] w-full py-3 rounded-3xl text-sm text-center ${
-          user ? "hidden" : "block"
-        } `}
-      >
-        Sign in
-      </MyBtn>
     </div>
   );
 };
