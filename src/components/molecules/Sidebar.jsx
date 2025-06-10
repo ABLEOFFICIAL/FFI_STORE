@@ -54,7 +54,7 @@ const Sidebar = () => {
           <NavLink to={"/"}>Home</NavLink>
           <NavLink to={"/about-us"}>About</NavLink>
           <NavLink to={"/contact-us"}>Contact Us</NavLink>
-          <NavLink to={"/"}>Style with us</NavLink>
+          <NavLink to={"/style-with-us"}>Blog</NavLink>
         </div>
         <div onClick={handleToggle} className="inline-flex items-center gap-2">
           <MdDarkMode />

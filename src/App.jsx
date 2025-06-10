@@ -9,6 +9,8 @@ import CreateAcct from "./pages/signUp/CreateAcct";
 import About from "./pages/about/About";
 import Contact from "./pages/contact/Contact";
 import AddToCart from "./pages/cart/AddToCart";
+import Blog from "./pages/blog/Blog";
+import FeaturedBlogPost from "./pages/featureBlog/FeaturedBlogPost";
 
 // Define routes for the application
 
@@ -24,6 +26,8 @@ const App = () => {
         <Route path="/about-us" element={<About />} />
         <Route path="/contact-us" element={<Contact />} />
         <Route path="/cart" element={<AddToCart />} />
+        <Route path="/style-with-us" element={<Blog />} />
+        <Route path="/featureBlog/:id" element={<FeaturedBlogPost />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>
