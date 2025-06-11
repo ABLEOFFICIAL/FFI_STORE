@@ -64,7 +64,7 @@ const StyleMoments = () => {
               way around.
             </p>
             <MyBtn
-              to={"how-to-style"}
+              to={"/style-with-us"}
               classname={
                 "bg-[#4a4741] text-[#f7f1e8] px-5 py-3 rounded-3xl md:text-lg w-40 text-center "
               }

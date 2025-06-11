@@ -79,12 +79,13 @@ const Featured = () => {
             {featured.map((item, index) => {
               return (
                 <Products
-                  classname={item.display ? "" : "h-[60vh] w-[90vw]"}
-                  onclick={() => handleDisplay(item)}
-                  key={index}
+                  classname="w-[200px] h-[250px] shrink-0"
+                  key={item.id}
                   image={item.image}
                   name={item.name}
-                  to={`/prducts/${item.id}`}
+                  description={item.description}
+                  to={`/product/${item.id}`}
+                  onClick={() => handleDisplay(item)}
                 />
               );
             })}

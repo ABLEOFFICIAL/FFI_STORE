@@ -7,22 +7,26 @@ import { MdDarkMode } from "react-icons/md";
 import useToggle from "../../hooks/useToggle";
 import MyBtn from "../atoms/MyBtn";
 import DarkLogo from "../atoms/DarkLogo";
-import { collection, getDocs } from "firebase/firestore";
 import { db, auth } from "../../../config/firebase";
+import { useLocation } from "react-router-dom";
 
 const Sidebar = () => {
   const { showSide, setShowSide } = useContext(WidthContext);
   const [cartItems, setCartItems] = useState([]);
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
+  const location = useLocation();
 
-  // const [dark, setDark] = useState(false);
-  const { toggle, handleToggle } = useToggle();
+  const { toggle, handleToggle, closeSidebar } = useToggle();
   if (showSide) {
     window.addEventListener("scrollx", () => {
       console.log("hello");
     });
   }
+
+  useEffect(() => {
+    setShowSide(false); // close it on every route change
+  }, [location.pathname]);
 
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
@@ -31,14 +35,6 @@ const Sidebar = () => {
     return () => unsubscribe();
   }, [navigate]);
 
-  // // console.log(dark);
-  // const handleMode = useMemo(() => {
-  //   return () => {
-  //     setDark((prev) => !prev);
-  //     console.log("hello");
-  //     console.log(dark);
-  //   };
-  // }, [dark]);
   return (
     <div
       className={`${

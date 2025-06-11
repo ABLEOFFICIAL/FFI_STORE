@@ -1,7 +1,7 @@
 import React, { useEffect, useMemo, useState } from "react";
 
-const useToggle = (initialValue = false) => {
-  const [toggle, setToggle] = useState(initialValue);
+const useToggle = () => {
+  const [toggle, setToggle] = useState(false);
   useEffect(() => {
     // console.log(toggle);
   }, [toggle]);
@@ -10,15 +10,16 @@ const useToggle = (initialValue = false) => {
     return () => {
       setToggle((prev) => {
         const newVal = !prev;
-        // console.log(newVal);
         return newVal;
       });
-      // console.log(toggle);
     };
   }, []);
+  const closeSidebar = () => setToggle(false);
+
   return {
     toggle,
     handleToggle,
+    closeSidebar,
   };
 };
 

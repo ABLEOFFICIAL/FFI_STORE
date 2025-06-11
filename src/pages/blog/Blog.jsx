@@ -4,6 +4,7 @@ import { NavLink } from "react-router-dom";
 import { img, summary } from "framer-motion/client";
 import NavBar from "../../components/molecules/NavBar";
 import Footer from "../../components/organism/Footer";
+import Sidebar from "../../components/molecules/Sidebar";
 
 export const features = [
   {
@@ -349,6 +350,7 @@ const Blog = () => {
   return (
     <div className="">
       <NavBar />
+      <Sidebar />
       {/* features */}
       {features && (
         <>

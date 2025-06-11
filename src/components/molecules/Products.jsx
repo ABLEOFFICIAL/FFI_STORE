@@ -1,29 +1,28 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
 
-const Products = ({ name, description, image, classname, to }) => {
+const Products = ({ name, description, image, classname, to, onClick }) => {
   return (
     <div
-      className={`${classname} rounded-2xl  bg-cover bg-center`}
+      onClick={onClick}
+      className={`${classname} min-w-[200px] h-[250px] cursor-pointer rounded-2xl bg-cover bg-center`}
       style={{
-        background: `url('${image}')`,
-        backgroundSize: "contain",
-        backgroundPosition: "center",
+        backgroundImage: `url('${image}')`,
         backgroundRepeat: "no-repeat",
       }}
     >
-      <div className="bg-linear-to-b from-neutral-950/5 to-neutral-950/50 h-full w-full rounded-2xl">
-        <div className="flex justify-between items-end h-full p-5">
-          <h1 className="text-3xl w-52">{name}</h1>
-          <p>{description}</p>
-          <NavLink
-            to={to}
-            className={"backdrop-blur-3xl bg-white/20 px-5 py-3 rounded-3xl"}
-          >
-            Details
-          </NavLink>
+      {/* <div className="bg-gradient-to-b from-black/20 to-black/60 h-full w-full rounded-2xl p-3 flex flex-col justify-between text-white">
+        <div>
+          <h1 className="text-xl font-bold">{name}</h1>
+          <p className="text-sm">{description}</p>
         </div>
-      </div>
+        <NavLink
+          to={to}
+          className="self-end bg-white text-black text-sm px-3 py-1 rounded-full"
+        >
+          Details
+        </NavLink>
+      </div> */}
     </div>
   );
 };
