@@ -1,8 +1,10 @@
 import React, { useContext, useState } from "react";
 import MyBtn from "../atoms/MyBtn";
 import { WidthContext } from "../../context/WidthContext";
+import { div } from "framer-motion/client";
 
 const StyleMoments = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
   const [moments, setMoments] = useState([
     {
       id: 1,
@@ -45,6 +47,9 @@ const StyleMoments = () => {
     },
   ]);
   const { screenWidth } = useContext(WidthContext);
+  const handleclick = (index) => {
+    setCurrentIndex(index);
+  };
   return (
     <div className="text-[#4a4741] md:px-28">
       <div className="flex flex-col gap-5 items-start  px-5">
@@ -74,9 +79,9 @@ const StyleMoments = () => {
           </div>
         </div>
       </div>
-      <div>
+      <div className="md:hidden">
         {moments.map((item) => {
-          return screenWidth < 768 ? (
+          return (
             <div key={item.id}>
               <h1 className=" px-5 text-3xl font-extralight py-5">
                 {item.title}
@@ -89,8 +94,49 @@ const StyleMoments = () => {
                 />
               </div>
             </div>
-          ) : (
-            <div key={item.id} className="flex flex-col gap-5 px-5"></div>
+          );
+        })}
+      </div>
+      <div className=" justify-between border-b-[1px] border-neutral-300 py-5 hidden md:flex">
+        {moments.map((item, idx) => {
+          return (
+            <div
+              onClick={() => handleclick(idx)}
+              key={item.id}
+              className="text-lg font-medium cursor-pointer"
+            >
+              {item.title}
+            </div>
+          );
+        })}
+      </div>
+      <div className="mt-10 h-[60vh] relative hidden md:block">
+        {moments.map((item, idx) => {
+          return (
+            idx === currentIndex && (
+              <div key={item.id}>
+                <img
+                  src={item.img}
+                  className="absolute h-[90%] top-0 left-56 rounded-lg"
+                />
+                <img
+                  src={item.overlay}
+                  className="absolute bg-black/30 backdrop-blur-md top-40 left-[40%] rounded-lg h-72 w-72 object-center object-cover"
+                />
+                <img
+                  src="/stretch-legs.avif"
+                  className="absolute bg-black/30 backdrop-blur-md top-10 left-[45%] rounded-lg h-24"
+                />
+                <div className="absolute bg-transparent border-[1px] border-[#4a4741] top-[30%] right-[21%] rounded-lg h-72 w-60 text-[#4a4741] px-5 py-7">
+                  <h2 className="quote text-2xl font-light pb-5">
+                    {item.quote}
+                  </h2>
+                  <span className="text-sm font-medium">
+                    {item.author}, {item.role}
+                  </span>
+                </div>
+              </div>
+            )
           );
         })}
       </div>
@@ -99,3 +145,5 @@ const StyleMoments = () => {
 };
 
 export default StyleMoments;
+/* f7f1e8 */
+/* 4a4741 */

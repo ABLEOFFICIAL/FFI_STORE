@@ -22,7 +22,7 @@ const HomePage = () => {
       {!loading && (
         <div className="relative text-white overflow-hidden">
           <TopBar />
-          <NavBar initialTop="top-14" finaltop="top-2" />
+          <NavBar initialTop="top-14 md:top-8" finaltop="top-2" />
           <Sidebar />
           <Hero />
           <Explore />
