@@ -74,14 +74,14 @@ const Testimonial = () => {
       </div>
 
       {/* try looping balls */}
-      <div className="w-24 m-auto my-8 flex justify-between items-center">
+      <div className="w-12 m-auto my-8 flex justify-between items-center">
         {details.map((_, idx) => (
           <div
             key={idx}
-            className="flex justify-center items-center w-3 h-3 bg-[#4a4741] rounded-full"
+            className="flex justify-center items-center w-2 h-2 bg-[#4a4741] rounded-full"
           >
             {selectedIndex === idx && (
-              <div className="w-1.5 h-1.5 bg-white rounded-full"></div>
+              <div className="w-1 h-1 bg-white rounded-full"></div>
             )}
           </div>
         ))}

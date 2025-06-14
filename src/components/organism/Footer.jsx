@@ -5,7 +5,7 @@ import Logo from "../atoms/Logo";
 function Footer() {
   return (
     <div className="bg-[#4a4741] text-[#f7f1e8] px-5 py-10">
-      <div>
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3">
         <div className=" text-center">
           <h4 className="py-4 text-lg font-semibold">About Us</h4>
           <div className="flex flex-col gap-1 font-extralight">
@@ -34,7 +34,7 @@ function Footer() {
           </div>
         </div>
       </div>
-      <hr className="w-4/5 m-auto my-4" />
+      <hr className="w-4/5 m-auto my-4 md:my-10" />
       <div className=" flex flex-col items-center gap-2">
         <Logo />
         <span className="text-xs text-center block py-2">

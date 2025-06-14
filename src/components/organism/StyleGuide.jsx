@@ -11,7 +11,7 @@ const tips = [
   {
     title: "Layering Like a Pro",
     desc: "Master the monochrome look for an effortlessly sleek vibe.",
-    image: "/slide1.jpg", // Replace with actual image paths
+    image: "/slide1.jpg",
   },
   {
     title: "Bold Accessories",

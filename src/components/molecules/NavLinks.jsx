@@ -11,7 +11,7 @@ const NavLinks = ({ to }) => {
         classname={`${
           screenWidth < 1020 ? "hidden" : "block text-sm"
         } cursor-pointer`}
-        to="/why-ffi"
+        to="/about-us"
       >
         Why FFI
       </MyBtn>
@@ -19,17 +19,17 @@ const NavLinks = ({ to }) => {
         classname={`${
           screenWidth < 1020 ? "hidden" : "block text-sm"
         } cursor-pointer`}
-        to="/how-it-works"
+        to="/style-with-us"
       >
-        How It Works
+        Blogs
       </MyBtn>
       <MyBtn
         classname={`${
           screenWidth < 1020 ? "hidden" : "block text-sm"
         } cursor-pointer`}
-        to="/for-business"
+        to="/contact-us"
       >
-        For Business
+        COntact-us
       </MyBtn>
       <MyBtn
         classname="bg-blue-500 hover:bg-blue-700 px-5 py-3 rounded-3xl cursor-pointer text-sm"
