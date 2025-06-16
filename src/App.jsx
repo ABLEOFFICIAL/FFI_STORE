@@ -13,6 +13,7 @@ import Blog from "./pages/blog/Blog";
 import FeaturedBlogPost from "./pages/featureBlog/FeaturedBlogPost";
 import { PreloaderContext } from "./context/PreLoaderContext.jsx";
 import Preloader from "./components/atoms/PreLoader.jsx";
+import BlogDetails from "./pages/blog-details/BlogDetails.jsx";
 
 // Define routes for the application
 
@@ -47,6 +48,7 @@ const App = () => {
           <Route path="/cart" element={<AddToCart />} />
           <Route path="/style-with-us" element={<Blog />} />
           <Route path="/featureBlog/:id" element={<FeaturedBlogPost />} />
+          <Route path="/blog-details/:id" element={<BlogDetails />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       )}

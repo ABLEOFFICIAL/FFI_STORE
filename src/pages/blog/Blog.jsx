@@ -330,7 +330,7 @@ export const blogPosts = [
 
 const Blog = () => {
   const [selectedIndex, setSelectedIndex] = useState(0);
-
+  const [showBlogs, setShowBlogs] = useState(false);
   useEffect(() => {
     const interval = setInterval(() => {
       setSelectedIndex((prevIndex) => {
@@ -346,6 +346,10 @@ const Blog = () => {
       const nextIndex = (prevIndex + 1) % features.length;
       return nextIndex;
     });
+  };
+  const visibleBlog = showBlogs ? blogPosts : blogPosts.slice(0, 6);
+  const handleSeeMore = () => {
+    setShowBlogs((prev) => !prev);
   };
   return (
     <div className="">
@@ -407,11 +411,11 @@ const Blog = () => {
       <section className="px-5 pb-10">
         <h1 className="text-3xl font-extralight pt-20">Recent Blog Posts</h1>
         <div className="grid grid-cols-1">
-          {blogPosts &&
-            blogPosts.slice(0, 7).map((blog) => {
+          {visibleBlog &&
+            visibleBlog.map((blog) => {
               return (
                 <NavLink
-                  to={`/blogs/${blog.id}`}
+                  to={`/blog-details/${blog.id}`}
                   key={blog.id}
                   className="flex flex-col gap-8 py-10"
                 >
@@ -427,8 +431,11 @@ const Blog = () => {
               );
             })}
         </div>
-        <button className="bg-[#4a4741] text-[#f7f1e8] text-sm rounded-3xl px-5 py-3 block ml-auto">
-          see more
+        <button
+          onClick={handleSeeMore}
+          className="bg-[#4a4741] text-[#f7f1e8] text-sm rounded-3xl px-5 py-3 block ml-auto"
+        >
+          {showBlogs ? "see Less" : "see more"}
         </button>
       </section>
       <Footer />
