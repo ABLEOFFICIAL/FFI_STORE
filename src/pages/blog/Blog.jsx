@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import ArrowRight from "../../components/atoms/ArrowRight";
 import { NavLink } from "react-router-dom";
 import { img, summary } from "framer-motion/client";
-import NavBar from "../../components/molecules/NavBar";
+import DarkNav from "../../components/molecules/DarkNav";
 import Footer from "../../components/organism/Footer";
 import Sidebar from "../../components/molecules/Sidebar";
 
@@ -353,7 +353,7 @@ const Blog = () => {
   };
   return (
     <div className="">
-      <NavBar />
+      <DarkNav />
       <Sidebar />
       {/* features */}
       {features && (

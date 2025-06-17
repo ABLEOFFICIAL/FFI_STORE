@@ -1,5 +1,5 @@
 import React, { useContext } from "react";
-import NavBar from "../../components/molecules/NavBar";
+import DarkNav from "../../components/molecules/DarkNav";
 import Footer from "../../components/organism/Footer";
 import Sidebar from "../../components/molecules/Sidebar";
 import { FaUsers } from "react-icons/fa6";
@@ -23,7 +23,7 @@ const About = () => {
     <>
       {!loading && (
         <div>
-          <NavBar />
+          <DarkNav />
           <Sidebar />
           <section>
             <div className="bg-[url('/feel.avif')] h-[60vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">

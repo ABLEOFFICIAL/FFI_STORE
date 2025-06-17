@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import MyBtn from "../atoms/MyBtn";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { EffectCoverflow, Navigation, Pagination } from "swiper/modules";
@@ -6,6 +6,8 @@ import "swiper/css";
 import "swiper/css/effect-coverflow";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
+import ArrowLeft from "../atoms/ArrowLeft";
+import ArrowRight from "../atoms/ArrowRight";
 
 const tips = [
   {
@@ -41,10 +43,33 @@ const tips = [
 ];
 
 const StyleGuide = () => {
+  const [currentIndex, setCurrentIndex] = useState(0);
+  useEffect(() => {
+    const timeout = setTimeout(() => {
+      setCurrentIndex((prev) => {
+        const nextIndex = (prev + 1) % 6;
+        return nextIndex;
+      });
+    }, 4000);
+    return () => clearTimeout(timeout);
+  }, [currentIndex]);
+
+  const handleStyleTips = () => {
+    setCurrentIndex((prev) => {
+      const nextIndex = (prev + 1) % 6;
+      return nextIndex;
+    });
+  };
+  const handleLeftDirection = () => {
+    setCurrentIndex((prev) => {
+      const nextIndex = (prev - 1 + 6) % 6;
+      return nextIndex;
+    });
+  };
   return (
     <section className="px-5 md:px-12 py-12 bg-[#fafafa] text-[#4a4741]">
       <div className="text-center mb-10">
-        <h2 className="text-3xl md:text-4xl font-extralight">
+        <h2 className="text-3xl w-4/5 mx-auto pt-10 pb-5 md:text-4xl font-extralight">
           Style Tips & Digital Styling Guide
         </h2>
         <p className="mt-2 max-w-xl mx-auto">
@@ -62,7 +87,7 @@ const StyleGuide = () => {
         Explore the Use Guide
       </MyBtn>
 
-      <div className="mt-16">
+      {/* <div className="mt-16">
         <Swiper
           modules={[EffectCoverflow, Navigation, Pagination]}
           effect="coverflow"
@@ -98,7 +123,35 @@ const StyleGuide = () => {
             </SwiperSlide>
           ))}
         </Swiper>
-      </div>
+      </div> */}
+      <section className="my-10">
+        <div className="relative">
+          {tips.map((tip, idx) => {
+            return (
+              currentIndex === idx && (
+                <div key={idx}>
+                  <img
+                    src={tip.image}
+                    className="w-full h-72 object-contain object-center rounded-xl"
+                  />
+                </div>
+              )
+            );
+          })}
+          <ArrowLeft
+            onclick={handleLeftDirection}
+            classname={
+              "absolute top-1/2 left-3 bg-black/20 rounded-full p-2 size-12"
+            }
+          />
+          <ArrowRight
+            onclick={handleStyleTips}
+            classname={
+              "absolute top-1/2 right-3 bg-black/20 rounded-full p-2 size-12"
+            }
+          />
+        </div>
+      </section>
     </section>
   );
 };

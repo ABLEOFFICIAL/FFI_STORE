@@ -39,7 +39,7 @@ const Sidebar = () => {
     <div
       className={`${
         showSide ? "block" : "hidden"
-      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 pb-12 `}
+      } fixed top-0 right-0 h-screen w-[92vw] bg-[#f7f1e8] text-[#4a4741] z-40 px-6 py-10 pb-12 shadow-md`}
     >
       <div className="h-4/5 flex flex-col justify-between">
         <div className="flex justify-between items-center pb-10">

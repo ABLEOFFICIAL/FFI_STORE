@@ -1,14 +1,15 @@
 import React, { useRef } from "react";
 import { useParams } from "react-router-dom";
 import { blogPosts } from "../blog/Blog";
-import NavBar from "../../components/molecules/NavBar";
+import DarkNav from "../../components/molecules/DarkNav";
 import { FaPlay } from "react-icons/fa6";
 import Footer from "../../components/organism/Footer";
+import Sidebar from "../../components/molecules/Sidebar";
 
 const BlogDetails = () => {
   const { id } = useParams();
   const clickedPost = blogPosts.find((post) => post.id === Number(id));
-  console.log(clickedPost);
+  // console.log(clickedPost);
   const play = useRef();
   const handlePlay = () => {
     if (play.current.paused) {
@@ -20,7 +21,8 @@ const BlogDetails = () => {
 
   return (
     <div>
-      <NavBar />
+      <DarkNav />
+      <Sidebar />
       {clickedPost && (
         <div>
           <div className="h-20 w-screen"></div>

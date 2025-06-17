@@ -1,13 +1,14 @@
 import React from "react";
 import { useParams } from "react-router-dom";
 import { features } from "../blog/Blog";
-import NavBar from "../../components/molecules/NavBar";
+import DarkNav from "../../components/molecules/DarkNav";
 import Footer from "../../components/organism/Footer";
+import Sidebar from "../../components/molecules/Sidebar";
 
 const FeaturedBlogPost = () => {
   const { id } = useParams(); // Destructure id from params
   const clickedPost = features.find((blog) => blog.id === Number(id)); // Use find for single item, Number for safety
-  console.log(clickedPost);
+  // console.log(clickedPost);
   // Split the title into words
   const titleWords = clickedPost.title.trim().split(/\s+/);
   // Get all words except the last two
@@ -22,7 +23,8 @@ const FeaturedBlogPost = () => {
 
   return (
     <div>
-      <NavBar />
+      <DarkNav />
+      <Sidebar />
       <div
         style={{ backgroundImage: `url('${clickedPost.img1}')` }}
         className="h-[49vh] w-screen bg-center bg-cover text-[#f7f1e8] relative flex justify-center items-end"
