@@ -4,8 +4,16 @@ import useFetch from "../../hooks/useFetch";
 import ArrowLeft from "../../components/atoms/ArrowLeft";
 import Cart from "../../components/atoms/Cart";
 import useToggle from "../../hooks/useToggle";
-import { doc, getDoc, setDoc, updateDoc } from "firebase/firestore";
+import {
+  doc,
+  getDoc,
+  setDoc,
+  updateDoc,
+  collection,
+  onSnapshot,
+} from "firebase/firestore";
 import { db, auth } from "../../../config/firebase";
+
 const ProductDetail = () => {
   const { id } = useParams();
   const { toggle, handleToggle } = useToggle();
@@ -15,13 +23,41 @@ const ProductDetail = () => {
   const navigate = useNavigate();
   const [selectedSize, setSelectedSize] = useState("sm");
   const [user, setUser] = useState(null);
+  const [cartCount, setCartCount] = useState(0); // Tracks number of unique products
 
+  // Handle user authentication state
   useEffect(() => {
     const unsubscribe = auth.onAuthStateChanged((currentUser) => {
       setUser(currentUser);
+      if (!currentUser) {
+        setCartCount(0); // Reset cart count if user logs out
+      }
     });
     return () => unsubscribe();
   }, []);
+
+  // Fetch and listen to cart items in real-time
+  useEffect(() => {
+    if (!user) return;
+
+    const userId = user.uid;
+    const cartCollectionRef = collection(db, "carts", userId, "items");
+
+    // Set up real-time listener for cart items
+    const unsubscribe = onSnapshot(
+      cartCollectionRef,
+      (snapshot) => {
+        const uniqueProducts = snapshot.size; // Count number of documents (unique products)
+        setCartCount(uniqueProducts);
+      },
+      (err) => {
+        console.error("Error listening to cart updates:", err);
+        setCartCount(0);
+      }
+    );
+
+    return () => unsubscribe(); // Clean up listener on unmount
+  }, [user]);
 
   if (loading) return <p className="text-center p-10">Loading...</p>;
   if (error)
@@ -39,22 +75,22 @@ const ProductDetail = () => {
 
   const handleAddToCart = async () => {
     if (!user) {
-      // alert("Please log in to add items to the cart.");
       navigate("/LogAcct");
       return;
     }
 
     const userId = user.uid;
-    console.log(auth.currentUser); // Should show UID if logged in
     const cartRef = doc(db, "carts", userId, "items", product.id.toString());
 
     try {
       const cartSnap = await getDoc(cartRef);
       if (cartSnap.exists()) {
+        // Product is already in cart — just update quantity
         await updateDoc(cartRef, {
           quantity: cartSnap.data().quantity + 1,
         });
       } else {
+        // Product is not in cart — add it
         await setDoc(cartRef, {
           name: product.title,
           price: product.price,
@@ -62,12 +98,9 @@ const ProductDetail = () => {
           selectedSize,
           quantity: 1,
         });
-        // trigger to show a modal(optional) and a number on the cart basket
       }
-      // alert(`${product.title} (Size: ${selectedSize}) added to cart`);
     } catch (err) {
       console.error("Error adding to cart:", err);
-      // alert("Failed to add item to cart.");
     }
   };
 
@@ -81,7 +114,7 @@ const ProductDetail = () => {
         <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
         <h3 className="font-light text-xl">Product Details</h3>
         <NavLink to="/cart">
-          <Cart classname="size-5" />
+          <Cart classname="size-5" cartCount={cartCount} />
         </NavLink>
       </div>
       <section className="h-auto">
@@ -164,5 +197,3 @@ const ProductDetail = () => {
 };
 
 export default ProductDetail;
-/* f7f1e8 */
-/* 4a4741 */

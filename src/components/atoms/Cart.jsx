@@ -30,10 +30,7 @@ const Cart = ({ classname }) => {
       cartCollectionRef,
       (snapshot) => {
         let totalQuantity = 0;
-        snapshot.forEach((doc) => {
-          totalQuantity += doc.data().quantity || 0;
-        });
-        setCartCount(totalQuantity);
+        setCartCount(snapshot.size); // .size is the number of documents = unique products
       },
       (err) => {
         console.error("Error listening to cart updates:", err);
