@@ -1,0 +1,32 @@
+.input-form {
+  /* border: 1px solid red; */
+  position: relative;
+  width: 80vw;
+}
+
+.input-card {
+  width: 100%;
+  padding: 1rem;
+  border: 1px solid #4a4741;
+  border-radius: 10px;
+  outline: none;
+  color: #4a4741;
+  font-size: 1em;
+}
+.input-card:focus ~ .input-label {
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #f7f1e8;
+}
+
+.input-label {
+  position: absolute;
+  left: 0;
+  padding: 1rem;
+  pointer-events: none;
+  font-size: 1em;
+  color: #4a4741;
+}
+/* f7f1e8 */
+/* 4a4741 */

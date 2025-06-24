@@ -9,6 +9,19 @@ import {
 import { db, auth } from "../../../config/firebase";
 import { useNavigate } from "react-router-dom";
 import ArrowLeft from "../../components/atoms/ArrowLeft";
+import MyBtn from "../../components/atoms/MyBtn";
+
+export const PageHeaders = ({ title }) => {
+  const navigate = useNavigate();
+
+  return (
+    <div className="flex justify-between pb-3">
+      <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
+      <h3 className="font-light text-xl">{title}</h3>
+      <div className="size-5" /> {/* Placeholder for alignment */}
+    </div>
+  );
+};
 
 const CartPage = () => {
   const [cartItems, setCartItems] = useState([]);
@@ -83,11 +96,7 @@ const CartPage = () => {
 
   return (
     <main className="min-h-screen p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741]">
-      <div className="flex justify-between pb-3">
-        <ArrowLeft onclick={() => navigate(-1)} classname="size-7" />
-        <h3 className="font-light text-xl">Your Cart</h3>
-        <div className="size-5" /> {/* Placeholder for alignment */}
-      </div>
+      <PageHeaders title="Your Carts" />
       <section>
         {!user ? (
           <p className="text-center p-10">Please log in to view your cart.</p>
@@ -142,9 +151,12 @@ const CartPage = () => {
               <h3 className="text-xl font-semibold">
                 Total: ${total.toFixed(2)}
               </h3>
-              <button className="bg-[#4a4741] py-3 px-5 rounded-3xl text-[#f7f1e8]">
+              <MyBtn
+                to={"/check-out"}
+                classname="bg-[#4a4741] py-3 px-5 rounded-3xl text-[#f7f1e8]"
+              >
                 Check Out
-              </button>
+              </MyBtn>
             </div>
           </div>
         )}

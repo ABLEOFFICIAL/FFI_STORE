@@ -176,7 +176,9 @@ const ProductDetail = () => {
         <section>
           <figure
             className={`${
-              zoom ? "h-[80vh] py-10 z-50 shadow-4xl" : "h-72 py-2"
+              zoom
+                ? "h-[80vh] py-10 z-50 shadow-4xl fixed top-10 left-0"
+                : "h-72 py-2"
             } w-full bg-white rounded-2xl md:h-auto relative flex justify-center items-center`}
           >
             {views.map((img, idx) => {
@@ -308,14 +310,14 @@ const ProductDetail = () => {
             </div>
           </section>
 
-          <section>
+          <section className="pb-10">
             <h3 className="text-2xl font-light text-center py-5">
               You might also like
             </h3>
             <div className="grid grid-cols-2 gap-5">
               {categoryArray.map((item) => (
                 <NavLink
-                  to={`/product/${item.id}`}
+                  to={`/discover/${item.id}`}
                   key={item.id}
                   className="relative"
                 >
