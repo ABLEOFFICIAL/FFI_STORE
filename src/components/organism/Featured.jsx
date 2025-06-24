@@ -73,10 +73,10 @@ const Featured = () => {
   ];
   const imageVariants = {
     center: { x: "0%", scale: 1, zIndex: 5 },
-    left1: { x: "-50%", scale: 0.7, zIndex: 2 },
-    left: { x: "-90%", scale: 0.5, zIndex: 1 },
-    right: { x: "90%", scale: 0.5, zIndex: 1 },
-    right1: { x: "50%", scale: 0.7, zIndex: 2 },
+    left1: { x: "-90%", scale: 0.7, zIndex: 2 },
+    left: { x: "-180%", scale: 0.5, zIndex: 1 },
+    right: { x: "180%", scale: 0.5, zIndex: 1 },
+    right1: { x: "90%", scale: 0.7, zIndex: 2 },
   };
 
   return (

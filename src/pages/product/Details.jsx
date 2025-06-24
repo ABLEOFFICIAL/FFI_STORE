@@ -1,7 +1,8 @@
-import React, { useState, useEffect } from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { NavLink, useNavigate, useParams } from "react-router-dom";
 import useFetch from "../../hooks/useFetch";
 import ArrowLeft from "../../components/atoms/ArrowLeft";
+import ArrowRight from "../../components/atoms/ArrowRight";
 import Cart from "../../components/atoms/Cart";
 import useToggle from "../../hooks/useToggle";
 import {
@@ -13,8 +14,36 @@ import {
   onSnapshot,
 } from "firebase/firestore";
 import { db, auth } from "../../../config/firebase";
+import { Like, Liked } from "../discovery/DisplayProducts";
+import useLikedProducts from "../../hooks/useLikedProducts";
+import { MdOutlineZoomOutMap } from "react-icons/md";
+import { MdOutlineZoomInMap } from "react-icons/md";
+import bag1 from "../../assets/premium_photo-1678739395192-bfdd13322d34.avif";
+import bag2 from "../../assets/bag2-bg.avif";
+
+export const ZoomIn = ({ onClick }) => {
+  return (
+    <MdOutlineZoomOutMap
+      onClick={onClick}
+      className="size-7 bg-black/20 p-1 rounded-full"
+    />
+  );
+};
+export const ZoomOut = ({ onClick }) => {
+  return (
+    <MdOutlineZoomInMap
+      onClick={onClick}
+      className="size-7 bg-black/20 p-1 rounded-full"
+    />
+  );
+};
 
 const ProductDetail = () => {
+  const { likedProducts, like, dislike } = useLikedProducts();
+  const [zoom, setZoom] = useState(false);
+  const [selectedView, setSelectedView] = useState(0);
+
+  const imgRef = useRef(null);
   const { id } = useParams();
   const { toggle, handleToggle } = useToggle();
   const { data, loading, error } = useFetch(
@@ -66,6 +95,8 @@ const ProductDetail = () => {
     );
 
   const product = data?.find((item) => item.id === parseInt(id));
+  const isLiked = likedProducts.includes(product.id);
+
   const productCategory = data?.filter(
     (item) => item.category === product?.category
   );
@@ -108,6 +139,30 @@ const ProductDetail = () => {
     setSelectedSize(size);
   };
 
+  // handle the enlarge function
+  const handleImageView = () => {
+    setZoom((prev) => !prev);
+  };
+  const views = [product.image, bag1, bag2];
+  const showClickedImage = (e) => {
+    console.log(imgRef.current.src);
+    console.log(e.target.src);
+    imgRef.current.src = e.target.src;
+  };
+  // handle directions
+  const handleRight = () => {
+    setSelectedView((prev) => {
+      const updated = (prev + 1) % 3;
+      return updated;
+    });
+  };
+  const handleLeft = () => {
+    setSelectedView((prev) => {
+      const updated = (prev - 1 + 3) % 3;
+      return updated;
+    });
+  };
+
   return (
     <main className="min-h-max p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741] pb-20">
       <div className="flex justify-between pb-3">
@@ -118,18 +173,106 @@ const ProductDetail = () => {
         </NavLink>
       </div>
       <section className="h-auto">
-        <figure className="h-72 w-full bg-white py-2 rounded-2xl md:h-auto">
-          <img
-            src={product.image}
-            alt={product.title}
-            className="w-[60%] m-auto h-full object-cover"
-          />
-        </figure>
+        <section>
+          <figure
+            className={`${
+              zoom ? "h-[80vh] py-10 z-50 shadow-4xl" : "h-72 py-2"
+            } w-full bg-white rounded-2xl md:h-auto relative flex justify-center items-center`}
+          >
+            {views.map((img, idx) => {
+              return (
+                selectedView === idx && (
+                  <img
+                    key={idx}
+                    ref={imgRef}
+                    src={img}
+                    alt={product.title}
+                    className="w-[60%] m-auto  h-[270px] object-cover"
+                  />
+                )
+              );
+            })}
+            <div className="absolute bottom-5 w-[90%] mx-auto flex justify-between">
+              {zoom ? (
+                <ZoomOut onClick={handleImageView} />
+              ) : (
+                <ZoomIn onClick={handleImageView} />
+              )}
+              <div className="flex gap-3 ">
+                <ArrowLeft
+                  onclick={handleLeft}
+                  classname="size-8 bg-[#4a4741] text-white rounded-full p-1"
+                />
+                <ArrowRight
+                  onclick={handleRight}
+                  classname="size-8 bg-[#4a4741] text-white rounded-full p-1"
+                />
+              </div>
+            </div>
+          </figure>
+          <div className="flex justify-start gap-5 my-4">
+            {views.map((item, idx) => {
+              return (
+                <img
+                  key={idx}
+                  onClick={showClickedImage}
+                  src={item}
+                  className="w-20 h-20 rounded border-[1px] border-[#4a4741] p-2 object-cover object-center bg-white"
+                />
+              );
+            })}
+            {/* <img
+              onClick={showClickedImage}
+              src={product.image}
+              alt="view-1"
+              className="w-20 h-20 rounded border-[1px] border-[#4a4741] p-2 object-cover object-center bg-white"
+            />
+            <img
+              onClick={showClickedImage}
+              src={bag1}
+              // src="/"
+              alt="view-2"
+              className="w-20 h-20 rounded border-[1px] border-[#4a4741] p-2 object-cover object-center bg-white"
+            />
+            <img
+              onClick={showClickedImage}
+              src={bag2}
+              // src="/"
+              alt="view-3"
+              className="w-20 h-20 rounded border-[1px] border-[#4a4741] p-2 object-cover object-center bg-white"
+            /> */}
+          </div>
+        </section>
 
         <div className="flex flex-col gap-6 pt-4">
           <header>
-            <h1 className="text-xl font-bold w-[60%]">{product.title}</h1>
+            <div
+              className="flex justify-between
+            "
+            >
+              <h1 className="text-xl font-bold w-[60%]">{product.title}</h1>
+              {isLiked ? (
+                <Liked
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dislike(product.id);
+                  }}
+                  className=" bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
+                />
+              ) : (
+                <Like
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    like(product.id);
+                  }}
+                  className=" bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
+                />
+              )}
+            </div>
             <p className="text-xl font-medium">${product.price.toFixed(2)}</p>
+
             <p className="mt-2 font-light text-sm w-80">
               {toggle
                 ? product.description
@@ -140,6 +283,9 @@ const ProductDetail = () => {
               >
                 {toggle ? "show less" : "show more"}
               </span>
+            </p>
+            <p className="text-sm py-5">
+              <span className="font-bold ">category</span>: {product.category}
             </p>
           </header>
 
@@ -163,15 +309,40 @@ const ProductDetail = () => {
           </section>
 
           <section>
-            <h3>You might also like</h3>
+            <h3 className="text-2xl font-light text-center py-5">
+              You might also like
+            </h3>
             <div className="grid grid-cols-2 gap-5">
               {categoryArray.map((item) => (
-                <NavLink to={`/product/${item.id}`} key={item.id}>
+                <NavLink
+                  to={`/product/${item.id}`}
+                  key={item.id}
+                  className="relative"
+                >
                   <img
                     src={item.image}
                     className="h-48 object-center object-contain bg-white py-2 rounded-2xl px-3 w-full"
                     alt={item.title}
                   />
+                  {likedProducts.includes(item.id) ? (
+                    <Liked
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        dislike(item.id);
+                      }}
+                      className="absolute top-2 right-2 bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
+                    />
+                  ) : (
+                    <Like
+                      onClick={(e) => {
+                        e.preventDefault();
+                        e.stopPropagation();
+                        like(item.id);
+                      }}
+                      className="absolute top-2 right-2 bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
+                    />
+                  )}
                   <h4 className="py-2">{item.title.slice(0, 20)}...</h4>
                 </NavLink>
               ))}

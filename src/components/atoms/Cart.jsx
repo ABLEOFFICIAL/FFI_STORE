@@ -1,6 +1,8 @@
 import React, { useEffect, useState } from "react";
 import { BsCart3 } from "react-icons/bs";
 import { collection, onSnapshot } from "firebase/firestore";
+import { onAuthStateChanged } from "firebase/auth";
+
 import { db, auth } from "../../../config/firebase";
 import { useNavigate } from "react-router-dom";
 
@@ -9,10 +11,11 @@ const Cart = ({ classname }) => {
   const [user, setUser] = useState(null);
   const navigate = useNavigate();
 
+  // checks if user exists
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
-      if (!currentUser) {
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      setUser(user);
+      if (!user) {
         setCartCount(0); // Reset count if user logs out
       }
     });
@@ -45,7 +48,7 @@ const Cart = ({ classname }) => {
     <div className="relative">
       <BsCart3 className={classname} />
       {cartCount > 0 && (
-        <span className="absolute -top-3 -right-2 bg-[#4a4741] text-[#f7f1e8] px-1.5 py-0.5 rounded-full text-xs">
+        <span className="absolute -top-3 -right-2 bg-[#4a4741] text-[#f7f1e8] px-2 py-0.5 rounded-full text-xs">
           {cartCount}
         </span>
       )}

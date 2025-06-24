@@ -15,27 +15,26 @@ import Footer from "../components/organism/Footer";
 import { PreloaderContext } from "../context/PreLoaderContext";
 
 const HomePage = () => {
-  const { loading } = useContext(PreloaderContext);
+  // const { loading } = useContext(PreloaderContext);
 
   return (
     <>
-      {!loading && (
-        <div className="relative text-white overflow-hidden">
-          <TopBar />
-          <NavBar initialTop="top-14 md:top-8" finaltop="top-2" />
-          <Sidebar />
-          <Hero />
-          <Explore />
-          <FFIDisplay />
-          <StyleMoments />
-          <Featured />
-          <StyleGuide />
-          <Testimonial />
-          <Newsletter />
-          <Social />
-          <Footer />
-        </div>
-      )}
+      {/* {!loading && ( */}
+      <div className="relative text-white overflow-hidden">
+        <TopBar />
+        <NavBar initialTop="top-14 md:top-8" finaltop="top-2" />
+        <Sidebar />
+        <Hero />
+        <Explore />
+        <FFIDisplay />
+        <StyleMoments />
+        <Featured />
+        <StyleGuide />
+        <Testimonial />
+        <Newsletter />
+        <Social />
+        <Footer />
+      </div>
     </>
   );
 };

@@ -8,6 +8,8 @@ import useToggle from "../../hooks/useToggle";
 import MyBtn from "../atoms/MyBtn";
 import DarkLogo from "../atoms/DarkLogo";
 import { db, auth } from "../../../config/firebase";
+import { onAuthStateChanged } from "firebase/auth";
+
 import { useLocation } from "react-router-dom";
 
 const Sidebar = () => {
@@ -28,12 +30,22 @@ const Sidebar = () => {
     setShowSide(false); // close it on every route change
   }, [location.pathname]);
 
+  // useEffect(() => {
+  //   const unsubscribe = auth.onAuthStateChanged((currentUser) => {
+  //     setUser(currentUser);
+  //   });
+  //   return () => unsubscribe();
+  // }, [navigate]);
   useEffect(() => {
-    const unsubscribe = auth.onAuthStateChanged((currentUser) => {
-      setUser(currentUser);
+    const unsubscribe = onAuthStateChanged(auth, (user) => {
+      if (user) {
+        const uid = user.uid;
+        console.log(uid);
+        setUser(user);
+      }
+      return () => unsubscribe();
     });
-    return () => unsubscribe();
-  }, [navigate]);
+  }, []);
 
   return (
     <div

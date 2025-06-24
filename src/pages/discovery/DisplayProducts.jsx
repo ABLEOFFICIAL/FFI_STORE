@@ -1,66 +1,93 @@
-import { div } from "framer-motion/client";
-import React, { useEffect, useState } from "react";
-import MyBtn from "../../components/atoms/MyBtn";
+import React, { useState, useEffect } from "react";
 import { NavLink } from "react-router-dom";
+import { CiHeart } from "react-icons/ci";
+import { FaHeart } from "react-icons/fa";
+import { db } from "../../../config/firebase";
+import { doc, setDoc, getDoc } from "firebase/firestore";
+import { getAuth, onAuthStateChanged } from "firebase/auth";
 import useFetch from "../../hooks/useFetch";
+import useLikedProducts from "../../hooks/useLikedProducts";
+
+// Heart Icons
+export const Like = ({ className, onClick }) => (
+  <CiHeart onClick={onClick} className={className} />
+);
+
+export const Liked = ({ className, onClick }) => (
+  <FaHeart onClick={onClick} className={className} />
+);
 
 const DisplayProducts = () => {
   const { data, loading, error } = useFetch(
     "https://fakestoreapi.com/products"
   );
-  // const ProductsAPI = "";
-  // const [products, setProducts] = useState([]);
+  // const [likedProducts, setLikedProducts] = useState([]);
 
-  // useEffect(() => {
-  //   fetch(ProductsAPI)
-  //     .then((response) => response.json())
-  //     .then((data) => {
-  //       setProducts(data);
-  //     })
-  //     .catch((error) => {
-  //       console.error("Error fetching products:", error);
-  //     });
-  // }, []);
+  const { likedProducts, like, dislike, userId } = useLikedProducts();
+
+  // Handle like/dislike
+  // const handleLike = (id) => {
+  //   if (userId === "guest") {
+  //     alert("Please sign in to like products.");
+  //     return;
+  //   }
+  //   setLikedProducts((prev) => (prev.includes(id) ? prev : [...prev, id]));
+  // };
+
+  // const handleDislike = (id) => {
+  //   setLikedProducts((prev) => prev.filter((pid) => pid !== id));
+  // };
+
+  if (loading) return <div>Loading products...</div>;
+  if (error) return <div>Error fetching products: {error.message}</div>;
+
   return (
-    <>
-      {data && (
-        <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10">
-          {data.map((product) => (
-            <NavLink
-              to={`/product/${product.id}`}
-              key={product.id}
-              className=""
-            >
-              <div>
-                <img
-                  src={product.image}
-                  alt={product.title}
-                  className="w-full h-48 object-cover mb-4 bg-white shadow-md  hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10">
+      {data?.map((product) => {
+        const isLiked = likedProducts.includes(product.id);
+
+        return (
+          <NavLink to={`/discover/${product.id}`} key={product.id}>
+            <div className="relative">
+              <img
+                src={product.image}
+                alt={product.title}
+                className="w-full h-48 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+              />
+              {isLiked ? (
+                <Liked
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    dislike(product.id);
+                  }}
+                  className="absolute top-2 right-2 bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
                 />
+              ) : (
+                <Like
+                  onClick={(e) => {
+                    e.preventDefault();
+                    e.stopPropagation();
+                    like(product.id);
+                  }}
+                  className="absolute top-2 right-2 bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
+                />
+              )}
+            </div>
+            <div>
+              <h2 className="text-sm font-light mb-2">
+                {product.title.slice(0, 20)}...
+              </h2>
+              <div className="flex justify-between">
+                <p className="text-gray-700 font-semibold mb-2">
+                  ${product.price}
+                </p>
               </div>
-              <div>
-                <h2 className="text-sm font-light mb-2">
-                  {product.title.slice(0, 20)}...
-                </h2>
-                <div className="flex justify-between">
-                  <p className="text-gray-700 font-semibold mb-2">
-                    ${product.price}
-                  </p>
-                  {/* <MyBtn
-                    to={`/product/${product.id}`}
-                    classname={
-                      "px-4 py-2 text-xs bg-[#4a4741] rounded-3xl text-[#f7f1e8]"
-                    }
-                  >
-                    Shop
-                  </MyBtn> */}
-                </div>
-              </div>
-            </NavLink>
-          ))}
-        </div>
-      )}
-    </>
+            </div>
+          </NavLink>
+        );
+      })}
+    </div>
   );
 };
 

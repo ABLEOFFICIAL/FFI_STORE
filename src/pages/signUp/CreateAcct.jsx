@@ -3,7 +3,7 @@ import MyInput from "../../components/atoms/MyInput";
 import Google from "../../components/atoms/Google";
 import DarkLogo from "../../components/atoms/DarkLogo";
 import { NavLink } from "react-router-dom";
-import { auth, googleProvider } from "../../../config/firebase";
+import { auth, googleProvider, app, database } from "../../../config/firebase";
 import { signInWithPopup, createUserWithEmailAndPassword } from "firebase/auth";
 import { useNavigate } from "react-router-dom";
 
