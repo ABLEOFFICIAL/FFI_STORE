@@ -1,5 +1,4 @@
 .input-form {
-  /* border: 1px solid red; */
   position: relative;
   width: 80vw;
 }
@@ -12,11 +11,6 @@
   outline: none;
   color: #4a4741;
   font-size: 1em;
-}
-.input-card:focus ~ .input-label {
-  transform: translateX(10px) translateY(-7px);
-  font-size: 0.65em;
-  padding: 0 10px;
   background: #f7f1e8;
 }
 
@@ -27,6 +21,17 @@
   pointer-events: none;
   font-size: 1em;
   color: #4a4741;
+  transition: 0.2s ease all;
 }
+
+/* When focused OR not empty */
+.input-card:focus ~ .input-label,
+.input-card:not(:placeholder-shown) ~ .input-label {
+  transform: translateX(10px) translateY(-7px);
+  font-size: 0.65em;
+  padding: 0 10px;
+  background: #f7f1e8;
+}
+
 /* f7f1e8 */
 /* 4a4741 */
