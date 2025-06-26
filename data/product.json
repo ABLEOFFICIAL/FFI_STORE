@@ -1,0 +1,1804 @@
+{
+  "products": [
+    {
+      "id": 1,
+      "title": "Elegant Floral Maxi Dress",
+      "price": 89.99,
+      "description": "Step into elegance with this breathtaking floral maxi dress that perfectly captures the essence of feminine grace. Crafted from premium lightweight chiffon fabric, this dress features a stunning botanical print with vibrant roses and delicate leaves against a soft cream background. The flowing silhouette creates a romantic and effortless look that's perfect for garden parties, beach weddings, or romantic dinner dates. The dress features a flattering V-neckline that elongates the neck, while the empire waistline accentuates your natural curves. The three-quarter sleeves provide just the right amount of coverage, making it suitable for both day and evening wear. The maxi length adds drama and sophistication, while the lightweight fabric ensures comfort throughout the day.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 156
+      },
+      "trending": true
+    },
+    {
+      "id": 2,
+      "title": "Premium Leather Pointed Heels",
+      "price": 129.99,
+      "description": "Elevate your style with these exquisite premium leather pointed heels that seamlessly blend sophistication with comfort. Crafted from genuine Italian leather, these heels feature a sleek pointed toe design that elongates your legs and adds an air of professional elegance to any outfit. The 3.5-inch stiletto heel is expertly engineered to provide stability while maintaining that coveted height boost. The interior is lined with soft leather padding and features arch support technology that ensures all-day comfort, whether you're navigating the boardroom or dancing the night away. The versatile black color makes these heels a wardrobe essential that pairs beautifully with everything from tailored suits to little black dresses. The heel construction uses reinforced steel shank technology for durability and long-lasting wear.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 243
+      },
+      "trending": false
+    },
+    {
+      "id": 3,
+      "title": "Luxurious Silk Scarf Necklace",
+      "price": 45.99,
+      "description": "Transform your look with this luxurious silk scarf necklace that adds instant sophistication to any ensemble. Made from 100% pure mulberry silk, this versatile accessory features an intricate paisley pattern in rich jewel tones of emerald, sapphire, and gold. The silk has been treated with our signature finishing process that gives it a lustrous sheen and prevents fraying, ensuring longevity and beauty wash after wash. This piece can be worn in multiple ways - as a traditional necklace, wrapped around the neck as a choker, tied to your handbag for a pop of color, or even worn as a headband for a retro-chic look. The generous length of 36 inches provides versatility in styling, while the feather-light weight ensures comfort throughout the day. Each scarf is individually hand-rolled and hemmed by skilled artisans, making every piece unique.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 87
+      },
+      "trending": true
+    },
+    {
+      "id": 4,
+      "title": "Cozy Knit Cardigan Sweater",
+      "price": 67.99,
+      "description": "Embrace comfort and style with this incredibly cozy knit cardigan sweater that's perfect for layering during transitional seasons. Crafted from a premium blend of merino wool and cashmere, this cardigan offers exceptional softness and warmth without the bulk. The relaxed fit design provides freedom of movement while maintaining a flattering silhouette. The cardigan features a classic button-front closure with genuine mother-of-pearl buttons, ribbed cuffs and hem for a polished finish, and two convenient front pockets for carrying small essentials. The neutral oatmeal color makes it incredibly versatile - pair it with jeans for a casual weekend look, or layer it over a dress for office-appropriate attire. The medium-weight knit provides just the right amount of warmth for spring evenings and cool summer nights. Machine washable on gentle cycle, this cardigan maintains its shape and softness wear after wear.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 5,
+      "title": "Designer Tote Bag with Leather Trim",
+      "price": 156.99,
+      "description": "Make a statement with this gorgeous designer tote bag that perfectly balances functionality with high-fashion aesthetics. The bag features a sophisticated combination of durable canvas body with genuine leather trim and handles that develop a beautiful patina over time. The spacious interior is lined with premium cotton fabric and includes multiple organizational pockets - a padded laptop compartment that fits up to 15-inch devices, zippered interior pocket for valuables, and multiple slip pockets for easy access to your phone, keys, and other essentials. The magnetic snap closure keeps your belongings secure while allowing easy access. The bag's structured design maintains its shape even when fully loaded, while the reinforced bottom provides extra durability. The adjustable shoulder straps can be shortened for hand-carrying or lengthened for comfortable shoulder wear. This versatile tote seamlessly transitions from office to weekend, making it an essential piece for the modern woman on the go.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 312
+      },
+      "trending": true
+    },
+    {
+      "id": 6,
+      "title": "Comfortable Flat Slippers",
+      "price": 32.99,
+      "description": "Treat your feet to ultimate comfort with these luxuriously soft flat slippers that combine style with all-day wearability. Crafted with a memory foam insole that contours to your foot shape, these slippers provide exceptional cushioning and support with every step. The upper is made from breathable faux suede that feels incredibly soft against the skin, while the flexible rubber sole offers excellent grip and durability for both indoor and outdoor wear. The classic moccasin-style design features decorative stitching and a small bow detail that adds a touch of femininity. The low-profile construction makes them perfect for wearing with cropped pants, jeans, or skirts. Available in versatile colors that complement any wardrobe, these slippers are designed to maintain their shape and comfort even with frequent wear. The easy slip-on design makes them perfect for busy mornings or relaxed evenings at home.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 176
+      },
+      "trending": false
+    },
+    {
+      "id": 7,
+      "title": "Vintage-Style Denim Jacket",
+      "price": 78.99,
+      "description": "Channel effortless cool with this vintage-inspired denim jacket that's been expertly crafted to capture the authentic look and feel of classic Americana. Made from premium cotton denim in a medium wash that's been stone-washed for exceptional softness and a perfectly broken-in feel. The jacket features all the classic details you'd expect - chest pockets with snap closures, adjustable cuffs, and a slightly cropped fit that's flattering on all body types. The vintage-inspired fading and subtle distressing give it character and authenticity, while the modern tailoring ensures a contemporary fit. The jacket is versatile enough to dress up or down - layer it over a sundress for casual weekend outings, or pair it with your favorite jeans for the ultimate double-denim look. The durable construction and quality hardware ensure this jacket will be a wardrobe staple for years to come. The classic blue color pairs beautifully with any color palette.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+        "https://images.unsplash.com/photo-1562137369-1a1a0bc66744?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 234
+      },
+      "trending": true
+    },
+    {
+      "id": 8,
+      "title": "Elegant Hand Fan - Bamboo & Lace",
+      "price": 24.99,
+      "description": "Stay cool and stylish with this exquisite hand fan that combines traditional craftsmanship with elegant design. The fan features a sturdy bamboo frame that's been carefully carved and polished to a smooth finish, paired with delicate lace fabric that creates beautiful patterns when opened. The lace is made from fine cotton and features intricate floral motifs that add a romantic touch to any occasion. Perfect for outdoor weddings, garden parties, or warm summer days, this fan provides gentle air circulation while serving as a beautiful accessory. The compact size makes it easy to carry in your purse or clutch, while the sturdy construction ensures it will last through countless uses. The fan opens to approximately 10 inches wide and features a subtle ribbon tie that keeps it closed when not in use. This makes an excellent gift for bridesmaids, mothers, or anyone who appreciates beautiful, functional accessories with a vintage charm.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.4,
+        "count": 67
+      },
+      "trending": false
+    },
+    {
+      "id": 9,
+      "title": "Professional Blazer - Tailored Fit",
+      "price": 119.99,
+      "description": "Command attention in the boardroom with this impeccably tailored professional blazer that combines classic sophistication with modern design elements. Crafted from a premium wool-blend fabric that resists wrinkles and maintains its shape throughout long workdays. The blazer features a flattering fitted silhouette with strategic princess seaming that creates an hourglass shape, while the single-button closure keeps the look clean and contemporary. The peaked lapels add a touch of authority, while the functional pockets provide practical storage for business cards or your phone. The jacket is fully lined with smooth polyester that allows for easy layering over blouses or shells. The sleeve length is perfectly proportioned to show just a hint of your shirt cuff, creating a polished professional appearance. Available in classic navy, this blazer pairs beautifully with matching trousers for a full suit look, or with skirts and dresses for versatile office styling. The quality construction and timeless design make this an investment piece that will serve you well for years.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 189
+      },
+      "trending": true
+    },
+    {
+      "id": 10,
+      "title": "Strappy Sandal Heels",
+      "price": 92.99,
+      "description": "Step into summer with confidence wearing these stunning strappy sandal heels that perfectly balance elegance with comfort. The intricate strapping design features multiple thin straps that create a delicate crisscross pattern across the foot, while the ankle strap with adjustable buckle closure ensures a secure and comfortable fit. The 2.5-inch block heel provides stability and all-day wearability, making these perfect for both daytime events and evening occasions. Crafted from soft faux leather in a versatile nude tone that complements all skin tones and elongates the leg. The cushioned footbed features arch support and heel padding for exceptional comfort, while the non-slip rubber sole provides traction and durability. These sandals are designed to pair beautifully with everything from flowing sundresses to tailored work attire. The timeless design and neutral color make them a versatile addition to any wardrobe, while the quality construction ensures they'll remain a favorite for seasons to come.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 156
+      },
+      "trending": false
+    },
+    {
+      "id": 11,
+      "title": "Statement Gold Earrings",
+      "price": 68.99,
+      "description": "Make a bold statement with these gorgeous gold earrings that instantly elevate any outfit from ordinary to extraordinary. Crafted from high-quality 18k gold-plated brass, these earrings feature an intricate geometric design with cascading elements that catch and reflect light beautifully. The sophisticated pattern combines classic and contemporary elements, making them suitable for both daytime professional wear and elegant evening events. Each earring measures approximately 2.5 inches in length, creating dramatic movement and visual interest without being overwhelming. The secure lever-back closure ensures comfortable all-day wear and prevents loss. The hypoallergenic plating is designed to resist tarnishing and maintain its lustrous finish with proper care. These earrings pair beautifully with both casual and formal attire - wear them with a simple black dress for instant glamour, or add them to your everyday outfit for a touch of luxury. The timeless gold finish complements all skin tones and works beautifully with other gold jewelry pieces.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 143
+      },
+      "trending": true
+    },
+    {
+      "id": 12,
+      "title": "High-Waisted Wide Leg Trousers",
+      "price": 84.99,
+      "description": "Embrace sophisticated style with these flattering high-waisted wide leg trousers that combine vintage charm with modern tailoring. Crafted from a premium ponte knit fabric that offers the perfect balance of structure and stretch, these trousers move with you while maintaining their elegant drape. The high-rise waistband sits comfortably at the natural waist, creating a flattering silhouette that elongates the legs and defines the waist. The wide leg cut flows beautifully from hip to hem, creating a dramatic and elegant silhouette that's both comfortable and chic. The trousers feature a concealed side zipper closure, pressed creases for a polished look, and subtle seaming details that enhance the sophisticated aesthetic. The versatile black color makes these trousers incredibly wearable - pair them with a fitted blouse for office wear, or with a crop top for weekend styling. The quality fabric and construction ensure these trousers will maintain their shape and color wash after wash, making them a valuable addition to your wardrobe.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 267
+      },
+      "trending": false
+    },
+    {
+      "id": 13,
+      "title": "Crossbody Mini Bag",
+      "price": 58.99,
+      "description": "Perfect for busy days and nights out, this chic crossbody mini bag combines style with functionality in a compact, hands-free design. Crafted from premium vegan leather with a smooth finish that resists scratches and wear, this bag features a sophisticated quilted pattern that adds texture and visual interest. Despite its petite size, the bag includes a thoughtfully designed interior with a main compartment that easily fits your phone, keys, cards, and other essentials. The adjustable crossbody strap can be shortened for a higher, more structured look or lengthened for a relaxed, casual style. The strap is padded for comfort during extended wear and features gold-tone hardware that complements the bag's elegant aesthetic. The magnetic snap closure provides security while allowing quick access to your belongings. This versatile bag seamlessly transitions from day to night - wear it with jeans and a t-shirt for casual outings, or pair it with a dress for evening events. Available in classic black, it coordinates beautifully with any outfit.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 198
+      },
+      "trending": true
+    },
+    {
+      "id": 14,
+      "title": "Natural Curly Wig - Medium Length",
+      "price": 145.99,
+      "description": "Transform your look instantly with this beautiful natural curly wig that features incredibly realistic texture and movement. Made from high-quality synthetic fibers that have been specially treated to mimic the look and feel of natural hair, this wig offers versatility and convenience without the commitment of permanent styling. The medium-length cut falls just below the shoulders with gorgeous spiral curls that frame the face beautifully. The wig features a comfortable lace front construction that creates a natural-looking hairline, while the adjustable cap fits head sizes from 21-23 inches. The curls are pre-styled and hold their shape beautifully, requiring minimal maintenance while providing maximum impact. The rich chocolate brown color has subtle highlights throughout that add dimension and depth, creating a multi-tonal effect that looks completely natural. The wig can be gently brushed and styled with low-heat tools, and maintains its curl pattern even after washing. Perfect for special occasions, everyday wear, or anyone looking to change their style without damaging their natural hair.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 89
+      },
+      "trending": false
+    },
+    {
+      "id": 15,
+      "title": "Silk Blouse with Bow Detail",
+      "price": 76.99,
+      "description": "Elevate your professional wardrobe with this exquisite silk blouse that perfectly balances feminine charm with sophisticated style. Crafted from 100% pure mulberry silk, this blouse features a lustrous finish that drapes beautifully and feels incredibly soft against the skin. The classic button-front design is enhanced by a detachable bow tie at the neck, allowing you to customize your look from day to night. The blouse features a slightly relaxed fit through the body with a flattering curved hemline that looks elegant when tucked in or worn loose. The long sleeves with button cuffs can be worn down for a formal look or rolled up for a more casual style. The silk has been treated with a wrinkle-resistant finish that maintains its smooth appearance throughout the day. Available in timeless ivory, this blouse pairs beautifully with tailored trousers, pencil skirts, or even jeans for versatile styling options. The quality construction and luxurious fabric make this an investment piece that will remain a wardrobe staple for years to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 176
+      },
+      "trending": true
+    },
+    {
+      "id": 16,
+      "title": "Platform Sneakers - Retro Style",
+      "price": 89.99,
+      "description": "Step up your casual style game with these trendy platform sneakers that perfectly capture the retro-chic aesthetic that's dominating fashion. Featuring a chunky 2-inch platform sole that adds height while maintaining comfort, these sneakers are designed with a classic low-top silhouette updated with modern details. The upper combines premium canvas with synthetic leather accents, creating interesting texture contrasts while ensuring durability. The platform sole is made from lightweight EVA foam that provides excellent cushioning and shock absorption, making these perfect for all-day wear. The sneakers feature classic lace-up closure with metal eyelets, and the padded collar and tongue provide additional comfort around the ankle. The retro-inspired colorway features a cream base with soft pink and mint green accents that give them a playful, vintage vibe. These versatile sneakers pair beautifully with everything from jeans and t-shirts to feminine dresses, adding an unexpected cool factor to any outfit. The rubber outsole provides excellent traction and durability for both indoor and outdoor wear.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 298
+      },
+      "trending": true
+    },
+    {
+      "id": 17,
+      "title": "Cozy Bedroom Slippers",
+      "price": 28.99,
+      "description": "Indulge in ultimate comfort with these incredibly cozy bedroom slippers that feel like walking on clouds. Made from plush faux fur lining that's both soft and breathable, these slippers provide luxurious comfort for relaxing at home. The memory foam insole conforms to your foot shape, providing personalized cushioning and support that reduces fatigue even during extended wear. The upper features a charming pom-pom detail and soft knit construction that stretches gently to accommodate different foot shapes. The flexible rubber sole with textured grip pattern provides safety on various indoor surfaces while maintaining the slipper's lightweight feel. The slip-on design makes them perfect for quick morning routines or late-night trips to the kitchen. The cute and cozy aesthetic makes these slippers perfect for lounging, while the quality construction ensures they'll maintain their comfort and appearance through regular use. Available in soft blush pink, these slippers add a touch of feminine charm to your relaxation time and make an excellent gift for yourself or someone special.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 18,
+      "title": "Delicate Chain Bracelet Set",
+      "price": 39.99,
+      "description": "Add a touch of delicate elegance to your jewelry collection with this beautiful chain bracelet set that includes three complementary pieces designed to be worn together or separately. Each bracelet is crafted from high-quality sterling silver with a lustrous finish that won't tarnish or discolor with proper care. The set includes a classic link chain bracelet, a delicate bar bracelet with a subtle geometric design, and a charm bracelet featuring a small heart pendant. The varying lengths (6.5, 7, and 7.5 inches) create a beautiful layered effect when worn together, while the adjustable closures ensure a perfect fit for any wrist size. The bracelets feature secure lobster clasp closures that provide peace of mind during wear. The minimalist design makes these bracelets incredibly versatile - they complement both casual and formal attire and can be easily mixed and matched with other jewelry pieces. The set comes in an elegant gift box, making it perfect for special occasions or as a thoughtful gift for someone special. These timeless pieces will remain stylish and wearable for years to come.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 167
+      },
+      "trending": false
+    },
+    {
+      "id": 19,
+      "title": "Wrap Midi Dress - Floral Print",
+      "price": 72.99,
+      "description": "Embrace feminine elegance with this stunning wrap midi dress that flatters every figure with its universally flattering silhouette. The dress features a beautiful botanical print with delicate flowers in soft pastels against a cream background, creating a romantic and timeless look. Crafted from flowing jersey fabric that drapes beautifully and moves with you, this dress is perfect for both casual and dressed-up occasions. The wrap design creates a flattering V-neckline while the adjustable tie waist allows you to customize the fit and accentuate your natural curves. The three-quarter sleeves provide elegant coverage while the midi length is perfectly positioned to flatter your legs. The dress features a subtle high-low hem that adds movement and visual interest. The comfortable stretch fabric and relaxed fit make this dress perfect for all-day wear, whether you're attending a brunch, garden party, or office meeting. The versatile style can be dressed up with heels and statement jewelry or kept casual with sandals and a denim jacket. The quality construction ensures this dress will remain a wardrobe favorite for seasons to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 189
+      },
+      "trending": true
+    },
+    {
+      "id": 20,
+      "title": "Structured Shoulder Bag",
+      "price": 138.99,
+      "description": "Make a sophisticated statement with this beautifully structured shoulder bag that combines classic elegance with modern functionality. Crafted from premium saffiano leather that's both scratch-resistant and water-repellent, this bag maintains its pristine appearance even with daily use. The structured silhouette features clean lines and thoughtful proportions that create a polished, professional look. The bag includes a spacious main compartment with a zip closure for security, plus multiple interior pockets for organization including a padded smartphone pocket and card slots. The exterior features a convenient front slip pocket for items you need quick access to. The adjustable shoulder strap can be removed entirely for a sleek clutch look, or adjusted to your preferred length for comfortable carrying. The bag's sophisticated hardware in polished gold tone adds a luxurious touch, while the magnetic snap closure on the front pocket provides easy access. The bag's versatile design transitions seamlessly from day to night, making it perfect for business meetings, dinner dates, or special events. Available in classic black, this timeless piece coordinates with any wardrobe.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 245
+      },
+      "trending": true
+    },
+    {
+      "id": 21,
+      "title": "Athletic Sneakers - Breathable Mesh",
+      "price": 79.99,
+      "description": "Stay active in style with these high-performance athletic sneakers designed for both comfort and fashion. The upper features a breathable mesh construction that promotes airflow while providing support and structure where you need it most. The sleek design incorporates synthetic overlays in strategic areas for durability and style, while the padded collar and tongue provide comfort around the ankle. The midsole uses advanced foam technology that provides excellent cushioning and energy return with each step, making these perfect for walking, light jogging, or all-day wear. The rubber outsole features a multi-directional tread pattern that provides excellent traction on various surfaces. The sneakers feature a traditional lace-up closure with flat laces that stay tied throughout your activities. The contemporary colorway combines white, soft gray, and rose gold accents for a feminine yet sporty aesthetic that pairs well with athletic wear, jeans, or casual dresses. The removable insole allows for easy cleaning or replacement with custom orthotics if needed. These versatile sneakers seamlessly blend performance features with street-style aesthetics.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 312
+      },
+      "trending": false
+    },
+    {
+      "id": 22,
+      "title": "Embroidered Hand Fan - Traditional",
+      "price": 34.99,
+      "description": "Experience the artistry of traditional craftsmanship with this exquisite embroidered hand fan that showcases intricate needlework passed down through generations. The fan features a beautifully carved wooden frame made from sustainable bamboo, paired with fine silk fabric that has been hand-embroidered with delicate floral motifs in vibrant colors. Each flower and leaf has been carefully stitched using traditional techniques, creating a stunning piece of functional art. The embroidery features roses, peonies, and butterflies in rich reds, blues, and golds against a soft cream background. The fan opens to reveal the full beauty of the embroidered design, spanning approximately 11 inches when fully extended. The sturdy construction ensures durability while the lightweight design makes it easy to carry in your purse or evening bag. This fan is perfect for outdoor weddings, cultural events, or anyone who appreciates fine handcraft. The traditional design makes it an excellent conversation piece and a meaningful gift that celebrates cultural heritage and artisanal skill. Each fan comes with a protective silk pouch for storage and transport.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 78
+      },
+      "trending": false
+    },
+    {
+      "id": 23,
+      "title": "Oversized Cozy Sweater",
+      "price": 89.99,
+      "description": "Embrace ultimate comfort and style with this incredibly cozy oversized sweater that's perfect for relaxed days and chilly evenings. Knit from an ultra-soft blend of merino wool and cashmere, this sweater offers luxurious warmth without any itchiness or bulk. The relaxed, oversized fit creates a casual, effortless silhouette that's both flattering and comfortable. The sweater features a classic crew neckline, dropped shoulders, and ribbed cuffs and hem for a polished finish. The neutral oatmeal color is incredibly versatile and pairs beautifully with jeans, leggings, or skirts. The generous cut makes it perfect for layering over tank tops or wearing on its own. The high-quality yarn has been treated to resist pilling and maintain its soft texture wash after wash. The sweater's relaxed aesthetic makes it perfect for working from home, weekend errands, or cozy nights in. The classic design and premium materials make this an investment piece that will remain stylish and comfortable for years. Machine washable on gentle cycle, this sweater is as practical as it is beautiful.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 267
+      },
+      "trending": true
+    },
+    {
+      "id": 24,
+      "title": "Statement Layered Necklace",
+      "price": 54.99,
+      "description": "Create instant glamour with this stunning statement layered necklace that combines multiple chains in varying lengths to create a perfectly curated look. This piece features three distinct chains that work together harmoniously - a delicate 16-inch chain with small linking, an 18-inch chain with medium links, and a 20-inch chain featuring a beautiful pendant with geometric details. All chains are crafted from high-quality 14k gold-plated brass that resists tarnishing and maintains its lustrous finish. The varying chain styles create interesting texture and visual depth, while the graduated lengths ensure a flattering cascading effect. The necklace features an adjustable clasp system that allows you to customize the fit and styling options. The pendant on the longest chain features an intricate Art Deco-inspired design with subtle etching details that catch the light beautifully. This versatile piece can dress up a simple outfit or complement other jewelry for a more elaborate look. The layered effect eliminates the guesswork of mixing and matching multiple necklaces while ensuring a perfectly balanced, stylish appearance every time.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 198
+      },
+      "trending": true
+    },
+    {
+      "id": 25,
+      "title": "Open-Toe Mule Slippers",
+      "price": 36.99,
+      "description": "Enjoy the perfect blend of style and comfort with these chic open-toe mule slippers that seamlessly transition from bedroom to casual outings. The sophisticated design features a sleek silhouette with an open-toe front and secure heel backing that provides stability while maintaining the easy slip-on convenience. Crafted from buttery-soft vegan leather with a subtle sheen finish, these slippers offer durability and easy care. The cushioned footbed features memory foam technology that conforms to your foot shape, providing personalized comfort and support with every step. The interior is lined with smooth, breathable fabric that prevents chafing and keeps your feet comfortable all day. The low-profile rubber sole with subtle texture provides grip and traction while maintaining the sleek aesthetic. The versatile design and neutral taupe color make these slippers perfect for wearing with everything from pajamas to casual daywear. The open-toe design keeps your feet cool and comfortable, while the secure fit ensures they stay in place during wear. These stylish slippers are perfect for morning coffee runs, quick errands, or lounging at home in style.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 156
+      },
+      "trending": false
+    },
+    {
+      "id": 26,
+      "title": "Long Straight Wig - Platinum Blonde",
+      "price": 167.99,
+      "description": "Transform your look with this stunning long straight wig in gorgeous platinum blonde that offers versatility, glamour, and natural-looking beauty. Crafted from premium synthetic fibers that have been specially treated to mimic the texture and movement of natural hair, this wig provides incredible realism at an accessible price point. The long length reaches to the mid-back, creating dramatic impact and endless styling possibilities. The straight texture has been precision-cut to create subtle layers that add movement and dimension while maintaining the sleek, polished appearance. The platinum blonde color is perfectly balanced with cool undertones that complement all skin tones and adds instant glamour to any look. The wig features a comfortable cap construction with adjustable straps that accommodate head sizes from 21-23 inches, while the lace front creates an incredibly natural-looking hairline. The high-quality synthetic fibers are heat-resistant up to 320°F, allowing for gentle styling with heat tools when needed. This wig is perfect for special occasions, costume events, or anyone looking to experiment with a dramatic new look without the commitment of permanent color or styling.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 134
+      },
+      "trending": true
+    },
+    {
+      "id": 27,
+      "title": "Tailored Pencil Skirt",
+      "price": 65.99,
+      "description": "Command attention in the workplace with this impeccably tailored pencil skirt that combines professional sophistication with modern styling. Crafted from a premium wool-blend fabric that offers structure and stretch, this skirt hugs your curves in all the right places while maintaining a polished, professional appearance. The high-waisted design creates a flattering silhouette that elongates the legs and defines the waist, while the knee-length cut strikes the perfect balance between modest and modern. The skirt features a concealed back zipper closure, subtle seaming details that enhance the fit, and a small back vent for ease of movement. The quality construction ensures the skirt maintains its shape throughout long workdays, while the wrinkle-resistant fabric keeps you looking polished from morning meetings to evening events. The versatile black color makes this skirt incredibly wearable with a variety of blouses, sweaters, and blazers. The classic design and premium materials make this an investment piece that will remain a wardrobe staple for years. Machine washable on gentle cycle, this skirt is as practical as it is stylish.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 289
+      },
+      "trending": false
+    },
+    {
+      "id": 28,
+      "title": "Canvas Backpack - Vintage Style",
+      "price": 74.99,
+      "description": "Combine style and functionality with this beautifully designed vintage-style canvas backpack that's perfect for work, travel, or everyday adventures. Crafted from heavyweight cotton canvas that's both durable and develops a beautiful patina over time, paired with genuine leather trim and hardware that adds sophistication and longevity. The spacious main compartment features a drawstring closure topped with a fold-over flap secured by antique brass buckles, creating a secure and stylish closure system. The interior includes a padded laptop sleeve that fits devices up to 15 inches, plus multiple pockets for organization. The backpack features adjustable padded shoulder straps for comfortable carrying, even when fully loaded, and a top handle for easy grab-and-go convenience. The exterior includes a front zip pocket for quick access to essentials and two side pockets perfect for water bottles or umbrellas. The vintage-inspired design in rich olive green makes this backpack suitable for both casual and professional settings. The quality construction and timeless styling ensure this backpack will be a reliable companion for years of use.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 203
+      },
+      "trending": false
+    },
+    {
+      "id": 29,
+      "title": "Classic Ballet Flats",
+      "price": 68.99,
+      "description": "Embrace timeless elegance with these classic ballet flats that offer both comfort and sophisticated style for any occasion. Crafted from soft, supple leather that molds to your feet over time, these flats feature a round-toe design that provides ample room for your toes while maintaining a polished appearance. The minimalist silhouette is enhanced by subtle stitching details and a small bow accent at the toe that adds a touch of feminine charm. The interior is lined with soft leather and features a lightly padded insole that provides comfort for all-day wear. The flexible sole allows for natural movement while providing just enough support for extended walking. The versatile black color makes these flats incredibly wearable with everything from jeans and casual dresses to professional attire and evening wear. The classic design ensures these flats will never go out of style, making them a smart investment for any wardrobe. The quality leather construction means these flats will only get more comfortable and beautiful with wear. These flats seamlessly transition from day to night and from season to season, making them an essential wardrobe staple.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 345
+      },
+      "trending": true
+    },
+    {
+      "id": 30,
+      "title": "Folding Paper Fan - Decorative",
+      "price": 19.99,
+      "description": "Stay cool with style using this beautifully crafted decorative folding paper fan that combines traditional artistry with practical functionality. Made from high-quality rice paper that's been treated for durability and water resistance, this fan features an intricate cherry blossom design painted with traditional watercolor techniques. The delicate pink and white blossoms are complemented by soft green leaves and brown branches, creating a serene and beautiful scene that unfolds as you open the fan. The bamboo ribs are carefully selected and treated for strength and flexibility, ensuring smooth opening and closing action. The fan spans 9 inches when fully opened and folds down to a compact 5-inch length that fits easily in your purse or pocket. Perfect for outdoor events, travel, or home decor, this fan provides gentle air circulation while serving as a beautiful accessory. The traditional design makes it an excellent gift for anyone who appreciates cultural artistry or needs a stylish way to stay cool. Each fan comes with a protective sleeve to prevent damage during storage and transport.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.3,
+        "count": 89
+      },
+      "trending": false
+    },
+    {
+      "id": 31,
+      "title": "Cashmere Blend Cardigan",
+      "price": 124.99,
+      "description": "Indulge in luxury with this exquisite cashmere blend cardigan that combines the finest materials with impeccable craftsmanship. Made from a premium blend of cashmere and merino wool, this cardigan offers incredible softness, warmth, and breathability that only the finest natural fibers can provide. The relaxed fit design drapes beautifully while providing comfortable movement throughout your day. The cardigan features a classic V-neckline, button-front closure with genuine horn buttons, and ribbed cuffs and hem for a polished finish. The longer length provides elegant coverage and creates a flattering silhouette when layered over dresses or paired with trousers. The neutral camel color is incredibly versatile and coordinates beautifully with both casual and professional attire. The cardigan includes two front pockets for carrying small essentials and keeping your hands warm. The lightweight yet warm construction makes it perfect for transitional seasons and layering. Hand-washable with proper care, this cardigan will maintain its beauty and softness for years to come, making it a worthwhile investment in your wardrobe.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 167
+      },
+      "trending": true
+    },
+    {
+      "id": 32,
+      "title": "Pearl Drop Earrings",
+      "price": 89.99,
+      "description": "Add timeless elegance to your jewelry collection with these exquisite pearl drop earrings that perfectly capture classic sophistication. Each earring features a lustrous freshwater pearl that has been hand-selected for its perfect round shape, smooth surface, and beautiful nacre that gives it a subtle iridescent glow. The pearls are suspended from delicate sterling silver posts that have been rhodium-plated for extra durability and shine resistance. The drop design creates elegant movement and draws attention to your neckline, while the classic white color complements any outfit and skin tone. These earrings are perfect for both everyday wear and special occasions - they add instant polish to professional attire and provide the perfect finishing touch for evening wear. The secure post backs ensure comfortable wear and prevent loss. The 8mm pearls are the perfect size - large enough to make a statement while remaining appropriate for any setting. These earrings come in a elegant gift box, making them perfect for graduations, anniversaries, or any special milestone. The timeless design ensures these earrings will never go out of style and will be treasured for years to come.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 33,
+      "title": "Fleece-Lined Slippers",
+      "price": 42.99,
+      "description": "Experience ultimate warmth and comfort with these incredibly cozy fleece-lined slippers that feel like wrapping your feet in a warm hug. The luxurious interior features premium fleece lining that's both soft and breathable, while providing excellent insulation for cold mornings and chilly evenings. The exterior is crafted from durable suede-like material that's water-resistant and easy to clean, making these slippers suitable for both indoor and outdoor wear. The memory foam insole provides personalized cushioning that adapts to your foot shape, offering superior comfort and support. The slip-on design features elastic goring on both sides for a secure yet comfortable fit that accommodates different foot widths. The sturdy rubber sole with textured grip pattern provides excellent traction on various surfaces, giving you confidence when walking on smooth floors or stepping outside. The classic moccasin-style design with decorative stitching adds a touch of sophistication to your relaxation time. Available in rich chocolate brown, these slippers coordinate beautifully with any loungewear or pajamas. The quality construction ensures these slippers will maintain their comfort and appearance through regular use.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 34,
+      "title": "Short Bob Wig - Auburn",
+      "price": 98.99,
+      "description": "Refresh your look with this chic short bob wig in gorgeous auburn that perfectly captures the essence of modern sophistication. The precision-cut bob falls just below the chin, creating a sleek and polished silhouette that flatters all face shapes. Crafted from high-quality synthetic fibers that mimic the texture and movement of natural hair, this wig offers incredible realism and versatility. The rich auburn color features subtle highlights and lowlights that add depth and dimension, creating a multi-tonal effect that looks completely natural. The wig features a comfortable cap construction with adjustable straps and a natural-looking hairline that creates seamless blending. The straight texture has been expertly layered to create subtle movement and prevent the flat appearance often associated with synthetic wigs. The heat-resistant fibers can withstand temperatures up to 300°F, allowing for gentle styling with heat tools when desired. This versatile wig is perfect for anyone looking to try a new style without the commitment of cutting their natural hair, or for those dealing with hair loss who want a natural-looking solution. The easy-care synthetic fibers maintain their style with minimal maintenance.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 145
+      },
+      "trending": true
+    },
+    {
+      "id": 35,
+      "title": "Bohemian Maxi Skirt",
+      "price": 73.99,
+      "description": "Embrace free-spirited style with this flowing bohemian maxi skirt that perfectly captures the essence of carefree elegance. Crafted from lightweight chiffon fabric that moves beautifully with every step, this skirt features a stunning paisley print in rich jewel tones of deep purple, emerald green, and gold. The elastic waistband ensures a comfortable fit while creating gentle gathering that adds to the skirt's romantic appeal. The maxi length creates dramatic movement and is perfect for both casual and dressed-up occasions. The skirt features a subtle high-low hemline that adds visual interest and makes walking easier. The bohemian-inspired print is versatile enough to pair with solid-colored tops, while the flowing silhouette flatters all body types. The lightweight fabric makes this skirt perfect for warm weather, while the full coverage makes it appropriate for various settings. Layer it with a denim jacket for casual daytime looks, or pair it with a fitted blouse for evening events. The easy-care fabric maintains its vibrant colors and flowing drape wash after wash. This versatile skirt seamlessly transitions from beach vacations to music festivals to garden parties.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 176
+      },
+      "trending": false
+    },
+    {
+      "id": 36,
+      "title": "Designer Clutch Purse",
+      "price": 94.99,
+      "description": "Make a sophisticated statement with this elegant designer clutch purse that perfectly balances luxury with functionality. Crafted from premium faux leather with a subtle pebbled texture, this clutch offers durability and style in a compact package. The structured design maintains its shape beautifully while the magnetic snap closure provides security for your essentials. The interior features a fully lined main compartment with a slip pocket for cards and a zippered pocket for valuables. Despite its compact size, this clutch comfortably holds your phone, keys, makeup essentials, and cards. The exterior features subtle quilted detailing that adds texture and visual interest, while the gold-tone hardware provides a luxurious finishing touch. The detachable chain strap can be used for crossbody or shoulder wear, or removed entirely for a sleek clutch look. The versatile black color coordinates with any outfit, making this clutch perfect for both daytime and evening events. The timeless design ensures this clutch will remain stylish for years to come, while the quality construction guarantees durability through frequent use. This clutch seamlessly transitions from business meetings to cocktail parties.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 201
+      },
+      "trending": true
+    },
+    {
+      "id": 37,
+      "title": "Wedge Sandals - Espadrille Style",
+      "price": 76.99,
+      "description": "Step into summer with confidence wearing these stylish espadrille wedge sandals that perfectly blend comfort with Mediterranean-inspired charm. The 3-inch wedge heel is crafted from natural jute rope that's been tightly woven for durability and authentic texture. The platform design provides additional height while maintaining stability and comfort for all-day wear. The upper features soft canvas straps that crisscross beautifully across the foot, creating an elegant and secure fit. The ankle strap with adjustable buckle closure ensures a personalized fit while the padded footbed provides cushioning and support. The natural materials and earthy color palette make these sandals incredibly versatile - they pair beautifully with everything from flowing sundresses to tailored shorts. The espadrille styling adds a touch of European sophistication to any outfit, while the comfortable construction makes them perfect for walking, sightseeing, or dancing. The durable rubber sole provides traction and flexibility, while the breathable materials keep your feet comfortable in warm weather. These sandals capture the essence of effortless summer style and are perfect for vacation wardrobes or adding a touch of Mediterranean flair to everyday outfits.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 38,
+      "title": "Vintage Brooch Collection",
+      "price": 56.99,
+      "description": "Add timeless elegance to your accessories collection with this exquisite vintage brooch collection that includes three beautifully crafted pieces inspired by different eras of fashion history. The set includes an Art Deco-inspired geometric brooch with intricate etching and crystal accents, a delicate floral brooch featuring enamel petals and gold-tone leaves, and a classic cameo brooch with a beautiful silhouette profile. Each brooch is crafted from high-quality metals with antique finishes that give them authentic vintage appeal. The brooches range in size from 1.5 to 2.5 inches, making them perfect for adding interest to lapels, scarves, hats, or even handbags. The secure pin backs ensure they stay in place throughout wear, while the quality construction guarantees longevity. These versatile pieces can be worn individually for subtle accent or grouped together for dramatic impact. The collection comes in an elegant vintage-style box, making it perfect for gift-giving or storage. These brooches are perfect for anyone who appreciates vintage fashion, antique jewelry, or unique accessories that tell a story. The timeless designs ensure these pieces will never go out of style and can be passed down as treasured heirlooms.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 98
+      },
+      "trending": false
+    },
+    {
+      "id": 39,
+      "title": "Floral Print Blouse",
+      "price": 59.99,
+      "description": "Embrace feminine charm with this beautiful floral print blouse that brings a touch of romance to your professional and casual wardrobe. Crafted from lightweight polyester georgette that drapes beautifully and resists wrinkles, this blouse features a delicate botanical print with small flowers in soft pastels against a cream background. The relaxed fit design provides comfortable movement while maintaining a polished appearance. The blouse features a classic button-front closure, long sleeves with button cuffs that can be rolled up for a casual look, and a curved hemline that looks elegant both tucked in and worn loose. The subtle pleating at the shoulders adds visual interest and creates a flattering silhouette. The V-neckline is perfectly proportioned to be flattering without being too revealing, making it appropriate for office wear. The versatile design pairs beautifully with tailored trousers for professional settings, or with jeans for weekend casual looks. The easy-care fabric maintains its vibrant colors and soft drape wash after wash. This timeless blouse is a wardrobe essential that seamlessly transitions from season to season and from day to evening with simple styling changes.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 189
+      },
+      "trending": true
+    },
+    {
+      "id": 40,
+      "title": "Silk Hand Fan - Luxury",
+      "price": 48.99,
+      "description": "Experience luxury and elegance with this exquisite silk hand fan that combines traditional craftsmanship with premium materials. The fan features a meticulously carved rosewood frame that has been polished to a smooth, lustrous finish and paired with pure silk fabric that has been hand-painted with intricate designs. The artwork depicts a serene landscape with cherry blossoms, flowing water, and distant mountains, rendered in traditional watercolor techniques that create depth and beauty. Each brushstroke has been carefully applied by skilled artisans, making every fan a unique work of art. The fan opens to reveal the full splendor of the painted design, spanning 12 inches when fully extended. The silk fabric has been treated to resist fading and moisture while maintaining its luxurious feel and appearance. The fan's construction allows for smooth opening and closing action, while the durable materials ensure years of use. This fan is perfect for special occasions, cultural events, or as a sophisticated accessory for evening wear. It comes with a protective silk pouch and makes an exceptional gift for anyone who appreciates fine art, traditional craftsmanship, or luxurious accessories.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 67
+      },
+      "trending": true
+    },
+    {
+      "id": 41,
+      "title": "Comfortable Loafers",
+      "price": 85.99,
+      "description": "Step into comfort and style with these beautifully crafted loafers that combine classic design with modern comfort technology. Made from supple genuine leather that's been carefully selected for its softness and durability, these loafers feature a timeless silhouette that never goes out of style. The slip-on design with subtle elastic goring provides a secure fit while maintaining the clean lines of the classic loafer aesthetic. The interior features a fully cushioned footbed with arch support and heel padding that provides all-day comfort, whether you're walking to meetings or exploring the city. The leather lining prevents chafing and allows your feet to breathe, while the flexible sole provides natural movement and traction. The classic penny loafer design with decorative strap detail adds sophistication to any outfit. Available in rich cognac brown, these loafers coordinate beautifully with both casual and professional attire. The quality construction and timeless design make these loafers a smart investment that will serve you well for years. The leather will develop a beautiful patina over time, making them even more attractive with age. These versatile shoes seamlessly transition from office to weekend and from season to season.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 276
+      },
+      "trending": false
+    },
+    {
+      "id": 42,
+      "title": "Memory Foam Slippers",
+      "price": 38.99,
+      "description": "Treat your feet to ultimate comfort with these incredibly plush memory foam slippers that feel like walking on clouds. The interior features premium memory foam that conforms to your unique foot shape, providing personalized cushioning and support that reduces pressure points and fatigue. The exterior is crafted from soft, breathable knit fabric that stretches gently to accommodate different foot shapes while maintaining a snug, comfortable fit. The slippers feature a classic slip-on design with a low-profile silhouette that's perfect for wearing around the house or for quick errands. The memory foam is encased in moisture-wicking fabric that keeps your feet dry and comfortable, while the breathable construction prevents overheating. The durable rubber sole with textured grip pattern provides excellent traction on various surfaces, making these slippers safe for use on stairs and smooth floors. The machine-washable construction makes maintenance easy - simply toss them in the washing machine and they'll come out looking and feeling fresh. Available in soft lavender, these slippers add a touch of color to your relaxation routine. The quality construction ensures these slippers will maintain their comfort and appearance through regular use.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 213
+      },
+      "trending": false
+    },
+    {
+      "id": 43,
+      "title": "Layered Waves Wig - Honey Blonde",
+      "price": 156.99,
+      "description": "Transform your look with this gorgeous layered waves wig in stunning honey blonde that perfectly captures natural beauty and movement. The expertly cut layers create beautiful volume and dimension, while the soft waves provide texture and movement that looks completely natural. Crafted from premium synthetic fibers that have been specially treated to mimic the feel and appearance of natural hair, this wig offers incredible realism and versatility. The honey blonde color features subtle highlights and lowlights that add depth and richness, creating a sun-kissed effect that complements all skin tones. The medium length falls just past the shoulders, making it versatile enough for both casual and formal occasions. The wig features a comfortable lace front construction that creates an incredibly natural-looking hairline, while the adjustable cap fits head sizes from 21-23 inches. The heat-resistant fibers can withstand temperatures up to 350°F, allowing for styling with heat tools when desired. The pre-styled waves maintain their shape beautifully and require minimal maintenance. This wig is perfect for anyone looking to change their style without commitment, or for those dealing with hair loss who want a natural-looking solution that boosts confidence.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 167
+      },
+      "trending": true
+    },
+    {
+      "id": 44,
+      "title": "A-Line Midi Dress",
+      "price": 82.99,
+      "description": "Embrace effortless elegance with this beautifully tailored A-line midi dress that flatters every figure with its universally flattering silhouette. Crafted from premium ponte knit fabric that offers the perfect balance of structure and stretch, this dress hugs you in all the right places while providing comfortable movement throughout your day. The classic A-line cut skims the body beautifully, creating a feminine silhouette that's both sophisticated and comfortable. The dress features a modest crew neckline, three-quarter sleeves that provide elegant coverage, and a midi length that hits at the most flattering point on the leg. The solid navy color is incredibly versatile and coordinates with a wide range of accessories and shoes. The dress includes subtle seaming details that enhance the flattering fit, while the wrinkle-resistant fabric ensures you look polished from morning to night. This versatile dress seamlessly transitions from office meetings to dinner dates with simple styling changes. Pair it with blazers and pumps for professional wear, or add statement jewelry and sandals for evening events. The quality construction and timeless design make this dress a valuable addition to any wardrobe.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 45,
+      "title": "Leather Wallet Clutch",
+      "price": 67.99,
+      "description": "Stay organized in style with this sophisticated leather wallet clutch that combines functionality with elegant design. Crafted from genuine top-grain leather that's been carefully selected for its quality and durability, this clutch features a smooth finish that develops a beautiful patina over time. The compact design maximizes storage while maintaining a sleek profile that fits comfortably in your hand or larger bag. The interior features multiple card slots, a clear ID window, a zippered coin compartment, and full-length bill slots that keep your essentials organized and easily accessible. The exterior includes a convenient slip pocket for frequently used cards or receipts. The clutch is secured with a snap closure that provides quick access while keeping your belongings safe. The versatile black color coordinates with any outfit, while the classic design ensures this clutch will remain stylish for years. The quality leather construction means this clutch will only get more beautiful with age and use. Despite its compact size, this clutch can hold everything you need for a night out or daily errands. The sophisticated design makes it appropriate for both casual and formal occasions, while the practical organization features make it a joy to use every day.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 46,
+      "title": "Stackable Ring Set",
+      "price": 43.99,
+      "description": "Create your own unique style with this versatile stackable ring set that includes five complementary pieces designed to be mixed, matched, and layered. The set includes a variety of styles - a classic thin band, a textured twisted band, a delicate band with cubic zirconia stones, a simple midi ring, and a statement band with geometric detailing. Each ring is crafted from high-quality sterling silver with different finishes including polished, brushed, and oxidized treatments that create visual interest when worn together. The rings are designed in various widths and profiles to create a beautiful stacked effect that looks intentional and curated. The set includes rings in sizes 6, 7, and 8, allowing for versatile wearing options across different fingers. The cubic zirconia stones are hand-set and provide brilliant sparkle that catches light beautifully. These rings can be worn individually for subtle accent or all together for dramatic impact. The hypoallergenic materials ensure comfortable wear for those with sensitive skin, while the durable construction guarantees long-lasting beauty. This set offers endless styling possibilities and allows you to create different looks based on your mood and outfit.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 156
+      },
+      "trending": true
+    },
+    {
+      "id": 47,
+      "title": "Cropped Blazer - Pastel Pink",
+      "price": 96.99,
+      "description": "Add a fresh, modern touch to your wardrobe with this chic cropped blazer in beautiful pastel pink that brings feminine elegance to any outfit. Crafted from a premium cotton-blend fabric that maintains its shape and resists wrinkles, this blazer features a contemporary cropped length that hits at the perfect point to define your waist. The tailored fit creates a flattering silhouette while allowing comfortable movement. The blazer features notched lapels, a single-button closure, and functional pockets that add both style and practicality. The fully lined interior ensures smooth layering over blouses and tops, while the structured shoulders create a polished, professional appearance. The soft pastel pink color is both sophisticated and playful, making this blazer perfect for spring and summer styling. It pairs beautifully with white jeans for weekend outings, or with matching trousers for a modern suit look. The versatile design allows it to dress up casual outfits or add a pop of color to neutral ensembles. The quality construction and timeless silhouette ensure this blazer will remain a wardrobe favorite for years. The cropped length makes it perfect for wearing with high-waisted bottoms and creates a modern, fashion-forward look.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 203
+      },
+      "trending": true
+    },
+    {
+      "id": 48,
+      "title": "Block Heel Ankle Boots",
+      "price": 119.99,
+      "description": "Step into versatile style with these sophisticated block heel ankle boots that combine comfort with contemporary fashion. Crafted from premium faux leather with a subtle grain texture, these boots offer durability and style in a design that works with virtually any outfit. The 2.5-inch block heel provides stability and comfort for all-day wear, while the ankle height creates a flattering silhouette that pairs well with both pants and skirts. The boots feature a side zipper closure for easy on and off, while the lace-up front adds style and allows for fit adjustment. The interior is lined with soft fabric and includes a cushioned insole that provides comfort and support. The durable rubber sole with textured grip pattern ensures traction and stability on various surfaces. The versatile black color makes these boots incredibly wearable with everything from jeans and sweaters to dresses and tights. The contemporary design bridges the gap between casual and dressy, making them perfect for office wear, weekend outings, or evening events. The quality construction ensures these boots will maintain their appearance and comfort through regular wear. These boots are essential for transitional seasons and add instant sophistication to any outfit.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 298
+      },
+      "trending": false
+    },
+    {
+      "id": 49,
+      "title": "Modern Hand Fan - Geometric",
+      "price": 29.99,
+      "description": "Stay cool with contemporary style using this modern geometric hand fan that reimagines the traditional accessory for today's fashion-forward woman. The fan features a sleek aluminum frame with a matte black finish that's both lightweight and durable. The fabric is made from high-quality polyester with a striking geometric print in black, white, and gold that creates visual interest and complements modern aesthetics. The contemporary design makes this fan perfect for outdoor events, music festivals, or anyone who wants to stay cool while making a style statement. The fan opens to 8 inches wide and features a smooth, quiet opening mechanism that's both functional and satisfying to use. The geometric pattern is printed using advanced digital techniques that ensure the design remains vibrant and sharp even with frequent use. The compact size when closed makes it easy to carry in your purse, while the sturdy construction ensures it will withstand regular use. This fan bridges the gap between traditional functionality and modern design, making it appealing to contemporary tastes while serving its practical purpose. The affordable price point makes it accessible for gifting or purchasing multiple fans in different patterns.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.4,
+        "count": 134
+      },
+      "trending": false
+    },
+    {
+      "id": 50,
+      "title": "Terry Cloth Slippers",
+      "price": 26.99,
+      "description": "Pamper your feet with these incredibly soft terry cloth slippers that provide spa-like comfort in the convenience of your own home. Made from premium cotton terry that's both absorbent and plush, these slippers feel like wrapping your feet in a luxurious towel. The open-toe design promotes airflow while the secure heel strap keeps the slippers in place during wear. The cushioned footbed provides gentle support, while the lightweight construction prevents fatigue even during extended wear. The slip-resistant sole features small grip dots that provide traction on bathroom and bedroom floors, making these perfect for post-shower or spa treatments. The machine-washable construction makes maintenance effortless - simply toss them in the washing machine and they'll come out fresh and fluffy. Available in soothing spa blue, these slippers add a touch of tranquility to your self-care routine. The hotel-style design makes you feel like you're enjoying a luxury spa experience at home. These slippers are perfect for after baths, during pedicures, or anytime you want to treat your feet to something special. The quality terry cloth maintains its softness and absorbency wash after wash, ensuring long-lasting comfort and performance.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 167
+      },
+      "trending": false
+    },
+    {
+      "id": 51,
+      "title": "Elegant Evening Gown",
+      "price": 189.99,
+      "description": "Make a stunning entrance at your next special event with this breathtaking evening gown that embodies sophisticated glamour. Crafted from luxurious chiffon fabric that flows beautifully and catches light with every movement, this gown creates an ethereal, romantic silhouette. The fitted bodice features delicate beading and sequin details that add sparkle without being overwhelming, while the flowing skirt creates dramatic movement and elegance. The gown features a flattering sweetheart neckline that's both romantic and sophisticated, supported by delicate spaghetti straps that can be adjusted for the perfect fit. The empire waistline creates a flattering silhouette that works beautifully on all body types, while the floor-length hem adds formal elegance. The gown includes a built-in bra with light padding for support and confidence. The deep navy color is both timeless and elegant, coordinating beautifully with a variety of jewelry and accessories. The quality construction includes French seams and hand-finished details that ensure durability and a luxurious feel. This gown is perfect for galas, weddings, proms, or any special occasion where you want to make an unforgettable impression. The timeless design ensures this gown will remain elegant for years to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1595777457583-95e059d581b8?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 145
+      },
+      "trending": true
+    },
+    {
+      "id": 52,
+      "title": "Pixie Cut Wig - Jet Black",
+      "price": 78.99,
+      "description": "Embrace bold, modern style with this chic pixie cut wig in striking jet black that perfectly captures contemporary sophistication. The expertly layered cut creates beautiful texture and movement while maintaining the clean, polished look of a professional salon style. Crafted from high-quality synthetic fibers that mimic the texture of natural hair, this wig offers incredible realism and easy maintenance. The short length is incredibly versatile and flattering on all face shapes, while the layered styling adds volume and dimension. The rich jet black color is deep and lustrous, providing a dramatic and striking appearance that commands attention. The wig features a comfortable cap construction with adjustable straps that ensure a secure, comfortable fit for head sizes ranging from 21-23 inches. The natural-looking hairline creates seamless blending with your skin, while the lightweight construction ensures all-day comfort. The pre-styled cut requires minimal maintenance while providing maximum impact. This wig is perfect for anyone wanting to try a dramatic new look without the commitment of cutting their natural hair, or for those dealing with hair loss who want a stylish, low-maintenance option. The easy-care synthetic fibers maintain their style with simple washing and air drying.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 53,
+      "title": "Suede Ankle Boots",
+      "price": 134.99,
+      "description": "Step into luxury with these beautifully crafted suede ankle boots that combine premium materials with timeless style. Made from genuine suede leather with a rich, velvety texture that's both sophisticated and durable when properly cared for. The ankle height creates a flattering silhouette that works beautifully with both pants and skirts, while the pointed toe adds elegance and extends the line of your leg. The boots feature a comfortable 2-inch block heel that provides height without sacrificing stability or comfort. The side zipper closure ensures easy on and off while maintaining the clean lines of the boot's design. The interior is fully lined with soft leather and includes a cushioned insole that provides all-day comfort and support. The flexible sole allows for natural movement while providing excellent traction. The rich cognac brown color is incredibly versatile and coordinates beautifully with autumn and winter wardrobes. These boots are perfect for transitional seasons and add instant sophistication to any outfit. The quality suede construction and expert craftsmanship ensure these boots will be a treasured part of your wardrobe for years. With proper care, suede develops a beautiful character and becomes even more attractive over time.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 234
+      },
+      "trending": true
+    },
+    {
+      "id": 54,
+      "title": "Chandelier Earrings",
+      "price": 72.99,
+      "description": "Make a glamorous statement with these stunning chandelier earrings that bring drama and elegance to any special occasion. These show-stopping earrings feature multiple tiers of sparkling cubic zirconia stones set in intricate metalwork that creates beautiful movement and light reflection. Each earring measures approximately 3 inches in length, creating dramatic impact while remaining surprisingly lightweight for comfortable wear. The earrings are crafted from high-quality brass with 18k gold plating that resists tarnishing and maintains its lustrous finish. The cascading design features both round and marquise-cut stones that are expertly set to maximize brilliance and sparkle. The secure lever-back closure ensures these earrings stay in place throughout your event while providing comfortable wear. These earrings are perfect for weddings, galas, formal dinners, or any occasion where you want to make an unforgettable impression. The timeless design works beautifully with both contemporary and classic styling, while the neutral gold tone complements all skin tones and hair colors. Despite their dramatic appearance, these earrings are surprisingly versatile and can elevate even simple outfits into something special. The quality construction ensures these earrings will remain beautiful through many special occasions.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 167
+      },
+      "trending": true
+    },
+    {
+      "id": 55,
+      "title": "Weekend Tote Bag",
+      "price": 89.99,
+      "description": "Prepare for weekend adventures with this spacious and stylish weekend tote bag that combines functionality with fashion-forward design. Crafted from durable canvas with leather trim, this bag is built to withstand the demands of travel while maintaining its sophisticated appearance. The generous size easily accommodates everything you need for weekend getaways, gym sessions, or beach trips. The main compartment features a full-length zipper closure for security, while the interior includes multiple pockets for organization including a padded laptop sleeve, zippered pocket for valuables, and slip pockets for easy access items. The exterior features front and back slip pockets perfect for magazines, phones, or travel documents. The sturdy canvas construction is water-resistant and easy to clean, while the leather handles and trim add durability and style. The handles are long enough for comfortable shoulder carrying, even when the bag is fully packed. The neutral gray and brown color scheme is both sophisticated and practical, hiding dirt while coordinating with a variety of outfits. This versatile bag seamlessly transitions from casual weekend wear to more polished travel looks. The quality construction ensures this bag will be a reliable companion for all your adventures.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 56,
+      "title": "Thermal Slippers",
+      "price": 44.99,
+      "description": "Keep your feet warm and cozy during cold winter months with these incredibly insulating thermal slippers designed for maximum warmth and comfort. The interior features a specialized thermal lining made from advanced microfiber that traps body heat while wicking away moisture to keep your feet dry and comfortable. The outer shell is crafted from water-resistant material that protects against spills and moisture. The thick, cushioned sole provides excellent insulation from cold floors while offering superior comfort and support. The high-top design extends coverage around the ankle for additional warmth, while the adjustable velcro closure ensures a secure, customizable fit. The slip-resistant rubber sole features deep treads that provide excellent traction on various surfaces, making these safe for both indoor and outdoor use. The quilted exterior design not only looks stylish but also adds an extra layer of insulation. These slippers are perfect for cold mornings, chilly evenings, or anyone who suffers from cold feet. The durable construction and quality materials ensure these slippers will provide reliable warmth season after season. Available in sophisticated charcoal gray, these slippers coordinate with any loungewear or pajamas while providing the ultimate in warmth and comfort.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 201
+      },
+      "trending": false
+    },
+    {
+      "id": 57,
+      "title": "Striped Long Sleeve Top",
+      "price": 45.99,
+      "description": "Add classic style to your casual wardrobe with this versatile striped long sleeve top that combines timeless design with modern comfort. Crafted from soft cotton jersey that feels comfortable against the skin and moves with you throughout your day. The classic navy and white stripe pattern is both sophisticated and casual, making this top incredibly versatile for various styling options. The relaxed fit provides comfortable movement while maintaining a flattering silhouette that works well on all body types. The long sleeves with fitted cuffs provide coverage and warmth, while the crew neckline is universally flattering. The top features subtle side seaming that creates shape without being too fitted, and the curved hemline looks great both tucked in and worn loose. This versatile piece pairs beautifully with jeans for casual weekend looks, or can be dressed up with blazers and trousers for smart-casual occasions. The quality cotton construction ensures this top will maintain its shape and softness wash after wash. The timeless stripe pattern never goes out of style, making this a reliable wardrobe staple that will serve you well season after season. The easy-care fabric makes this top practical for busy lifestyles.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 267
+      },
+      "trending": false
+    },
+    {
+      "id": 58,
+      "title": "Decorative Feather Fan",
+      "price": 38.99,
+      "description": "Add drama and elegance to your special occasions with this stunning decorative feather fan that captures the glamour of vintage Hollywood. This exquisite fan features premium ostrich feathers that have been carefully selected for their quality, fullness, and natural beauty. The feathers are arranged in a magnificent display that creates volume and movement, while the sturdy bamboo frame provides structure and durability. The fan opens to an impressive 12-inch span, creating dramatic impact perfect for photography, performances, or special events. The natural white feathers have been treated to maintain their pristine appearance and prevent shedding, while the smooth bamboo ribs allow for graceful opening and closing action. This fan is perfect for vintage-themed parties, burlesque performances, wedding photography, or anyone who wants to add a touch of old-world glamour to their special occasion. The lightweight construction makes it comfortable to hold and wave, while the quality materials ensure it will maintain its beauty through multiple uses. The fan comes with a protective storage pouch to prevent damage when not in use. This makes an excellent gift for performers, vintage enthusiasts, or anyone who appreciates beautiful, dramatic accessories.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 145
+      },
+      "trending": true
+    },
+    {
+      "id": 59,
+      "title": "Skinny Jeans - Dark Wash",
+      "price": 78.99,
+      "description": "Perfect your casual wardrobe with these impeccably fitted skinny jeans in a versatile dark wash that flatters every figure. Crafted from premium denim with the perfect amount of stretch, these jeans hug your curves comfortably while maintaining their shape throughout the day. The dark indigo wash is both sophisticated and slimming, making these jeans incredibly versatile for both casual and dressed-up occasions. The high-rise waistband sits comfortably at your natural waist, creating a flattering silhouette that elongates your legs and defines your waist. The skinny fit from hip to ankle creates a sleek, modern silhouette that pairs beautifully with everything from casual t-shirts to dressy blouses. The jeans feature classic five-pocket styling with functional pockets and belt loops. The quality denim construction includes reinforced stress points and premium hardware that ensures durability through frequent wear and washing. The dark wash is treated to resist fading while maintaining its rich color. These versatile jeans seamlessly transition from day to night and from casual to dressy with simple styling changes. The comfortable stretch fabric provides all-day wearability without sacrificing the structured look that makes denim so appealing. These jeans are an essential foundation piece for any modern wardrobe.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1551028719-00167b16eac5?w=500",
+        "https://images.unsplash.com/photo-1562137369-1a1a0bc66744?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 398
+      },
+      "trending": true
+    },
+    {
+      "id": 60,
+      "title": "Satin Evening Clutch",
+      "price": 54.99,
+      "description": "Complete your evening look with this elegant satin evening clutch that adds sophistication and glamour to any special occasion outfit. Crafted from lustrous satin fabric that catches light beautifully, this clutch creates an elegant finishing touch for formal events. The structured design maintains its shape beautifully while the compact size is perfect for carrying evening essentials like your phone, keys, lipstick, and cards. The interior is fully lined with smooth fabric and includes a slip pocket for easy organization. The magnetic snap closure provides security while allowing quick access to your belongings. The clutch features a detachable chain strap that can be used for crossbody or shoulder wear, or removed entirely for a sleek handheld look. The versatile champagne color coordinates beautifully with both warm and cool-toned outfits, making it incredibly wearable with a variety of formal wear. The subtle pleating detail adds texture and visual interest without being overwhelming. This clutch is perfect for weddings, galas, theater events, or any occasion where you want to carry your essentials in style. The quality construction and timeless design ensure this clutch will be a reliable companion for many special occasions. The affordable luxury of this piece makes it accessible for building a complete formal accessories collection.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 178
+      },
+      "trending": false
+    },
+    {
+      "id": 61,
+      "title": "Platform Sandals - Cork Wedge",
+      "price": 68.99,
+      "description": "Embrace summer style with these chic platform sandals featuring a natural cork wedge that perfectly balances height with comfort. The 3-inch wedge heel provides significant height boost while the platform front ensures comfortable walking and all-day wearability. Crafted from premium vegan leather with a smooth finish, these sandals feature adjustable ankle straps with gold-tone buckles that ensure a secure, comfortable fit. The cork wedge is not only stylish but also naturally shock-absorbing, making these sandals more comfortable than traditional heels. The footbed is cushioned and contoured to support your arches, while the toe strap design keeps your foot securely in place. The natural cork material adds an organic, earthy element that pairs beautifully with both casual and dressy summer outfits. These sandals are perfect for beach vacations, summer parties, or any warm-weather occasion where you want to add height and style to your look. The neutral color palette coordinates with virtually any outfit, while the natural materials ensure these sandals will only get more beautiful with age. The quality construction and comfortable design make these sandals perfect for extended wear, whether you're walking on the beach or dancing at an outdoor event.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 223
+      },
+      "trending": false
+    },
+    {
+      "id": 62,
+      "title": "Charm Bracelet - Travel Theme",
+      "price": 63.99,
+      "description": "Celebrate your wanderlust with this delightful travel-themed charm bracelet that captures the spirit of adventure and exploration. This beautifully crafted bracelet features eight detailed charms that represent different aspects of travel - including a miniature airplane, passport, camera, globe, compass, suitcase, Eiffel Tower, and palm tree. Each charm is expertly crafted from high-quality metals with antique finishes that give them character and authenticity. The bracelet chain is made from sterling silver and features a secure lobster clasp closure. The charms are attached with jump rings that allow for movement and prevent tangling, while the 7.5-inch length fits most wrist sizes comfortably. This bracelet tells a story and serves as a beautiful reminder of past adventures while inspiring future travels. The detailed craftsmanship on each charm shows attention to quality and artistry that makes this piece special. This bracelet makes an excellent gift for travel enthusiasts, graduates embarking on new adventures, or anyone who dreams of exploring the world. The meaningful design and quality construction ensure this bracelet will be treasured for years to come. Each charm can represent different memories and experiences, making this a truly personal and meaningful piece of jewelry.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 156
+      },
+      "trending": false
+    },
+    {
+      "id": 63,
+      "title": "Lace Camisole Top",
+      "price": 52.99,
+      "description": "Add feminine elegance to your wardrobe with this beautiful lace camisole top that combines delicate details with versatile styling options. Crafted from soft, stretch lace that feels comfortable against the skin while providing an elegant, romantic appearance. The delicate floral lace pattern creates beautiful texture and visual interest, while the adjustable spaghetti straps ensure a perfect, comfortable fit. The camisole features a flattering V-neckline that's sophisticated without being too revealing, and the fitted silhouette creates a feminine shape that layers beautifully under jackets and cardigans. The lace trim along the neckline and hem adds extra detail and luxury to the overall design. This versatile piece can be worn on its own for warm weather or layered under blazers, cardigans, or jackets for year-round styling. The soft blush pink color is both romantic and sophisticated, coordinating beautifully with neutral and jewel-toned pieces. The quality lace construction maintains its shape and beauty wash after wash, while the comfortable fit ensures this top will become a wardrobe favorite. This camisole seamlessly transitions from day to evening wear and from casual to dressy occasions with simple styling changes. The timeless lace design ensures this piece will remain stylish and relevant for years to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 234
+      },
+      "trending": true
+    },
+    {
+      "id": 64,
+      "title": "Faux Fur Slippers",
+      "price": 49.99,
+      "description": "Indulge in luxurious comfort with these incredibly plush faux fur slippers that bring a touch of glamour to your relaxation time. The sumptuous faux fur lining is made from high-quality synthetic materials that mimic the softness and warmth of genuine fur while being cruelty-free and easy to maintain. The exterior features matching faux fur that creates a sophisticated, spa-like appearance that's perfect for both private relaxation and hosting guests. The slip-on style with open back design allows for easy wearing while the contoured footbed provides excellent arch support and cushioning. The memory foam insole adapts to your foot shape, providing personalized comfort that reduces pressure points and fatigue. The sturdy sole with subtle grip texture provides stability on various indoor surfaces while maintaining the slipper's elegant appearance. Available in sophisticated ivory, these slippers coordinate beautifully with any loungewear or bedroom decor. The quality construction ensures these slippers will maintain their plush feel and elegant appearance through regular use. These slippers make an excellent gift for anyone who appreciates luxury and comfort, or as a special treat for yourself. The hotel-luxury aesthetic makes every day feel like a spa day.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 187
+      },
+      "trending": true
+    },
+    {
+      "id": 65,
+      "title": "Curly Lob Wig - Caramel Highlights",
+      "price": 134.99,
+      "description": "Transform your look with this gorgeous curly lob wig featuring beautiful caramel highlights that add dimension and warmth to your style. The expertly cut lob (long bob) length hits just below the shoulders, creating a modern, sophisticated silhouette that's both trendy and timeless. The natural-looking curls are precision-styled to create volume and movement, while the layered cut prevents the wig from looking flat or lifeless. Crafted from premium synthetic fibers that have been specially treated to feel soft and natural, this wig offers incredible realism and easy maintenance. The rich brown base color is enhanced with caramel highlights throughout, creating a multi-dimensional color effect that looks completely natural and adds warmth to your complexion. The wig features a comfortable lace front construction that creates an incredibly natural-looking hairline, allowing for versatile styling including swept-back looks. The adjustable cap fits head sizes from 21-23 inches and includes adjustable straps for a secure, comfortable fit. The heat-resistant fibers can withstand temperatures up to 320°F, allowing for gentle styling adjustments when needed. This wig is perfect for anyone looking to try a new style without commitment or for those seeking a natural-looking solution for hair loss.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 176
+      },
+      "trending": true
+    },
+    {
+      "id": 66,
+      "title": "Leather Ankle Boots - Combat Style",
+      "price": 149.99,
+      "description": "Add edge and versatility to your shoe collection with these stylish combat-style ankle boots that combine rugged aesthetics with contemporary fashion. Crafted from genuine leather that's been treated for durability and water resistance, these boots feature the classic lace-up front with speed lacing for easy on and off. The combat-inspired design includes functional details like reinforced toe caps, padded ankle collars, and sturdy metal eyelets that add both style and durability. The interior is fully lined with soft fabric and includes a cushioned insole that provides all-day comfort and support. The 1.5-inch heel adds subtle height while maintaining the boot's utilitarian aesthetic. The lugged rubber sole provides excellent traction and durability, while the flexibility allows for comfortable walking on various surfaces. These boots are incredibly versatile and can be styled with everything from skinny jeans and leather jackets for an edgy look, to flowy dresses for an interesting contrast of styles. The quality leather construction means these boots will develop character and become more comfortable with wear. The timeless combat boot design ensures these will remain stylish and relevant for many seasons. Perfect for transitional weather and adding a tough-chic element to any outfit.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 312
+      },
+      "trending": false
+    },
+    {
+      "id": 67,
+      "title": "Vintage Compact Hand Fan",
+      "price": 42.99,
+      "description": "Carry a piece of elegance wherever you go with this exquisite vintage compact hand fan that combines portability with timeless style. This sophisticated fan features a unique folding design that collapses to an incredibly compact 4-inch size, making it perfect for carrying in your purse, clutch, or pocket. The fan is crafted from high-quality materials including a durable plastic frame and delicate silk fabric that has been printed with a beautiful vintage-inspired floral pattern in soft pastels. When opened, the fan extends to 7 inches, providing effective air circulation while serving as a beautiful accessory. The vintage aesthetic features romantic roses and delicate leaves against a cream background, creating a design that's both nostalgic and timeless. The compact mechanism is engineered for smooth operation and durability, ensuring the fan will function beautifully for years to come. This fan is perfect for outdoor weddings, vintage-themed events, or anyone who appreciates classic style with modern convenience. The protective case included with the fan prevents damage during transport and makes it easy to keep in your bag. This makes an excellent gift for anyone who loves vintage accessories or needs a stylish way to stay cool during warm weather events.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 134
+      },
+      "trending": false
+    },
+    {
+      "id": 68,
+      "title": "Kimono-Style Cardigan",
+      "price": 87.99,
+      "description": "Embrace relaxed elegance with this beautiful kimono-style cardigan that brings a touch of Eastern-inspired sophistication to your wardrobe. Crafted from flowing rayon fabric that drapes beautifully and moves gracefully with your body, this cardigan features wide, flowing sleeves and an open-front design that creates an effortlessly chic silhouette. The gorgeous botanical print features delicate cherry blossoms, flowing branches, and traditional Japanese-inspired motifs in soft pinks and greens against a cream background. The longer length provides elegant coverage while the relaxed fit ensures comfortable movement and easy layering. The cardigan features a self-tie belt that allows you to customize the fit and create definition at the waist when desired. The three-quarter length sleeves provide coverage while allowing for comfortable movement. This versatile piece can be worn as a light jacket over tank tops and jeans for casual looks, or layered over dresses for more sophisticated styling. The flowing design and beautiful print make this cardigan perfect for vacation wear, weekend relaxation, or adding an artistic touch to your everyday outfits. The quality rayon fabric maintains its vibrant colors and soft drape wash after wash, ensuring this cardigan will remain a favorite for seasons to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500",
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 167
+      },
+      "trending": true
+    },
+    {
+      "id": 69,
+      "title": "Hobo Shoulder Bag",
+      "price": 78.99,
+      "description": "Embrace casual sophistication with this stylish hobo shoulder bag that combines relaxed aesthetics with practical functionality. Crafted from soft, supple faux leather that has been treated to achieve a beautiful, natural-looking grain texture, this bag develops character and becomes more beautiful with use. The crescent-shaped silhouette creates the classic hobo aesthetic while the structured base ensures the bag maintains its shape and stands upright when set down. The spacious main compartment easily accommodates daily essentials plus larger items like tablets or small laptops. The interior features a zippered pocket for valuables and multiple slip pockets for organization. The exterior includes a convenient front pocket for items you need quick access to. The comfortable shoulder strap is adjustable and padded for extended wear, while the magnetic snap closure provides security with easy access. The rich cognac brown color is incredibly versatile and coordinates beautifully with both casual and dressy outfits. This bag seamlessly transitions from weekend errands to work meetings, making it perfect for busy lifestyles. The quality construction and timeless design ensure this bag will be a reliable companion for years. The relaxed yet polished aesthetic makes this bag perfect for modern women who value both style and practicality.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 70,
+      "title": "Tennis Bracelet - Cubic Zirconia",
+      "price": 94.99,
+      "description": "Add timeless elegance to your jewelry collection with this stunning tennis bracelet featuring brilliant cubic zirconia stones that rival the sparkle of genuine diamonds. This classic piece features a continuous line of perfectly matched round-cut stones, each expertly set in individual prong settings that maximize light reflection and brilliance. The bracelet is crafted from high-quality sterling silver with rhodium plating that provides extra durability and prevents tarnishing while maintaining a brilliant white gold appearance. Each cubic zirconia stone has been hand-selected for clarity, cut, and brilliance, ensuring consistent sparkle throughout the entire bracelet. The secure box clasp with safety latch provides peace of mind during wear, while the 7-inch length fits most wrist sizes comfortably. The flexible design allows the bracelet to move naturally with your wrist while maintaining its elegant appearance. This versatile piece is perfect for both everyday wear and special occasions - it adds instant sophistication to casual outfits and provides the perfect finishing touch for formal attire. The classic design ensures this bracelet will never go out of style, making it an excellent investment piece. The quality construction and brilliant stones make this an affordable luxury that delivers the look of fine jewelry at an accessible price point.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 234
+      },
+      "trending": true
+    },
+    {
+      "id": 71,
+      "title": "Pleated Midi Skirt",
+      "price": 69.99,
+      "description": "Embrace feminine elegance with this beautiful pleated midi skirt that combines classic styling with modern sophistication. Crafted from high-quality polyester crepe that holds pleats beautifully while providing comfortable movement, this skirt features knife pleats that create gorgeous texture and visual interest. The midi length hits at the most flattering point on the leg, while the high-waisted design creates a flattering silhouette that elongates your legs and defines your waist. The skirt features a concealed side zipper closure and is fully lined for comfort and opacity. The pleated design adds volume and movement that creates an elegant, feminine silhouette perfect for both professional and social occasions. The versatile dusty rose color is both sophisticated and romantic, coordinating beautifully with a wide range of tops and accessories. This skirt pairs perfectly with fitted blouses for office wear, or with sweaters and boots for weekend styling. The quality construction ensures the pleats maintain their crisp appearance wash after wash, while the comfortable fit makes this skirt perfect for all-day wear. The timeless pleated design ensures this skirt will remain stylish and relevant for years to come. This versatile piece seamlessly transitions from season to season with appropriate styling changes.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500",
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 72,
+      "title": "Spa Slippers - Waffle Weave",
+      "price": 34.99,
+      "description": "Transform your home into a luxury spa with these elegant waffle weave slippers that provide comfort and sophistication for your relaxation time. Made from premium cotton waffle weave fabric that's both absorbent and breathable, these slippers are perfect for post-shower wear or spa treatments. The textured waffle pattern not only looks sophisticated but also provides gentle exfoliation and massage with each step. The open-toe design promotes airflow while the secure heel strap keeps the slippers in place during wear. The cushioned footbed provides gentle support and comfort, while the lightweight construction prevents fatigue during extended wear. The slip-resistant sole features subtle grip dots that provide traction on wet bathroom floors, making these perfect for spa and bathroom use. The classic white color maintains a clean, spa-like aesthetic that coordinates with any bathroom decor or loungewear. These slippers are machine washable and maintain their shape and texture through multiple wash cycles. The hotel-quality construction and materials make these slippers feel luxurious and special. Perfect for creating a spa experience at home, these slippers also make excellent gifts for anyone who enjoys self-care and relaxation. The quality construction ensures these slippers will provide comfort and elegance for years to come.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 145
+      },
+      "trending": false
+    },
+    {
+      "id": 73,
+      "title": "Straight Hair Wig - Chestnut Brown",
+      "price": 112.99,
+      "description": "Achieve sleek, sophisticated style with this gorgeous straight hair wig in rich chestnut brown that offers versatility and natural-looking beauty. The precision-cut straight style falls to mid-back length, creating a dramatic and elegant silhouette that's perfect for both casual and formal occasions. Crafted from premium synthetic fibers that have been specially treated to mimic the texture and shine of natural hair, this wig provides incredible realism and easy maintenance. The rich chestnut brown color features subtle undertones that add depth and dimension, creating a natural-looking color that complements all skin tones. The wig features a comfortable lace front construction that creates an incredibly natural-looking hairline, allowing for versatile styling including center parts, side parts, and swept-back looks. The adjustable cap fits head sizes from 21-23 inches and includes comfort features like adjustable straps and breathable construction. The heat-resistant fibers can withstand temperatures up to 300°F, allowing for gentle styling with heat tools when desired. The straight texture maintains its sleek appearance with minimal maintenance, making this wig perfect for busy lifestyles. This wig is ideal for anyone looking to achieve a polished, professional look without the time and commitment required for natural hair styling.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 167
+      },
+      "trending": false
+    },
+    {
+      "id": 74,
+      "title": "Mary Jane Flats",
+      "price": 72.99,
+      "description": "Step into timeless charm with these classic Mary Jane flats that combine vintage-inspired styling with modern comfort technology. Crafted from soft, supple leather that molds to your feet over time, these flats feature the iconic single strap across the instep with an adjustable buckle closure that ensures a secure, comfortable fit. The round toe design provides ample room for your toes while maintaining the classic Mary Jane silhouette that's both sweet and sophisticated. The interior features a cushioned insole with arch support that provides all-day comfort, while the leather lining prevents chafing and allows your feet to breathe. The flexible sole allows for natural movement while providing just enough support for extended walking. The low profile and classic design make these flats incredibly versatile - they pair beautifully with everything from vintage-inspired dresses to modern jeans and blouses. Available in classic black, these flats coordinate with virtually any outfit and never go out of style. The quality leather construction means these flats will only get more comfortable and beautiful with wear. These shoes are perfect for anyone who appreciates classic styling with modern comfort, and they're suitable for both professional and casual occasions. The timeless design ensures these flats will remain a wardrobe staple for years to come.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 267
+      },
+      "trending": true
+    },
+    {
+      "id": 75,
+      "title": "Lace Hand Fan - Bridal",
+      "price": 56.99,
+      "description": "Add romantic elegance to your special day with this exquisite bridal lace hand fan that perfectly captures the essence of timeless romance. This stunning fan features a delicate ivory lace overlay on fine silk fabric, creating layers of texture and visual interest that photograph beautifully. The intricate lace pattern includes traditional bridal motifs like roses, leaves, and delicate scrollwork that add meaning and symbolism to your special day. The fan is constructed with a sturdy yet elegant bamboo frame that has been painted in coordinating ivory and finished with a smooth, lustrous coating. The fan opens to 10 inches wide, creating a beautiful accessory that's perfect for wedding photography, ceremony use, or as a keepsake. The handle features a delicate satin ribbon tie that can be used to secure the fan when closed or worn around the wrist during use. This fan is perfect for outdoor weddings, destination ceremonies, or any bride who wants to incorporate vintage elegance into her special day. The quality construction ensures this fan will serve as a beautiful keepsake long after your wedding day. This makes an excellent gift for brides, bridesmaids, or mothers of the bride who appreciate beautiful, meaningful accessories. The timeless design ensures this fan will remain a treasured memento for years to come.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 89
+      },
+      "trending": true
+    },
+    {
+      "id": 76,
+      "title": "Tunic Sweater - Oversized",
+      "price": 76.99,
+      "description": "Embrace cozy comfort with this luxuriously soft oversized tunic sweater that combines relaxed styling with sophisticated design elements. Crafted from a premium blend of merino wool and cashmere, this sweater offers exceptional softness and warmth while maintaining breathability and comfort. The oversized fit creates a relaxed, effortless silhouette that's both comfortable and stylish, while the longer tunic length provides flattering coverage that pairs beautifully with leggings, skinny jeans, or over dresses. The sweater features a classic crew neckline, dropped shoulders for a relaxed fit, and ribbed cuffs and hem for a polished finish. The neutral heather gray color is incredibly versatile and coordinates with virtually any color palette. The sweater includes subtle side slits that add movement and prevent the oversized fit from looking boxy. The quality yarn blend ensures this sweater will maintain its shape and softness through multiple wears and washes. This versatile piece is perfect for layering during transitional seasons or wearing on its own during cooler weather. The comfortable fit makes it ideal for working from home, weekend relaxation, or casual outings. The sophisticated color and quality construction make this sweater appropriate for both casual and smart-casual occasions. This investment piece will remain a wardrobe favorite for years to come.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 203
+      },
+      "trending": false
+    },
+    {
+      "id": 77,
+      "title": "Convertible Backpack Purse",
+      "price": 94.99,
+      "description": "Experience ultimate versatility with this innovative convertible backpack purse that transforms from a stylish handbag to a practical backpack in seconds. Crafted from durable vegan leather with a smooth finish that resists scratches and water, this bag is designed to keep up with your busy lifestyle. The main compartment is spacious enough for daily essentials plus a laptop up to 13 inches, while multiple interior pockets keep you organized. The bag features both traditional handbag handles and convertible backpack straps that can be easily adjusted or tucked away when not in use. The magnetic snap closure provides security while allowing quick access to your belongings. The exterior includes a front zip pocket for frequently accessed items and side pockets perfect for water bottles or phones. The sophisticated black color and clean lines make this bag appropriate for both professional and casual settings. The convertible design makes this perfect for commuting, travel, or anyone who needs hands-free carrying options. The quality construction ensures this bag will withstand daily use while maintaining its stylish appearance. This innovative design eliminates the need for multiple bags, making it perfect for minimalist lifestyles or anyone who values versatility and functionality. The comfortable straps and ergonomic design ensure this bag is as practical as it is stylish.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 234
+      },
+      "trending": true
+    },
+    {
+      "id": 78,
+      "title": "Hoop Earrings - Medium Size",
+      "price": 38.99,
+      "description": "Add classic style to your jewelry collection with these perfectly sized medium hoop earrings that strike the ideal balance between subtle and statement-making. Crafted from high-quality sterling silver with a lustrous finish that catches light beautifully, these hoops feature a classic round shape that's universally flattering. The 1.5-inch diameter is the perfect size for everyday wear while still making a stylish impact. The earrings feature a secure hinged closure that clicks into place, ensuring they stay secure throughout your day while being easy to put on and remove. The smooth, polished finish gives these hoops a timeless elegance that works with both casual and formal attire. The lightweight construction ensures comfortable all-day wear without pulling or discomfort. These versatile earrings are perfect for anyone building a jewelry wardrobe, as they coordinate beautifully with other pieces and complement virtually any outfit. The classic design ensures these earrings will never go out of style, making them an excellent investment piece. The quality sterling silver construction means these earrings will maintain their beauty and luster for years with proper care. These hoops are perfect for both day and evening wear, seamlessly transitioning from office meetings to dinner dates with effortless style.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1506629905057-f18d79a2e5e4?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 298
+      },
+      "trending": false
+    },
+    {
+      "id": 79,
+      "title": "Slip-On Sneakers - Canvas",
+      "price": 54.99,
+      "description": "Embrace effortless style with these comfortable canvas slip-on sneakers that combine casual aesthetics with all-day wearability. Crafted from durable cotton canvas that's both breathable and easy to clean, these sneakers feature a classic low-profile silhouette that pairs well with virtually any casual outfit. The slip-on design with elastic side goring provides a secure fit while allowing for easy on and off convenience. The padded collar and tongue provide comfort around the ankle, while the cushioned insole offers support and shock absorption for extended wear. The vulcanized rubber sole provides excellent traction and flexibility, making these perfect for walking, light activities, or all-day wear. The timeless white color is incredibly versatile and coordinates with everything from jeans and t-shirts to sundresses and shorts. The classic design draws inspiration from vintage sneaker styles while incorporating modern comfort features. These sneakers are perfect for busy lifestyles where convenience and comfort are priorities. The easy-care canvas construction can be machine washed for simple maintenance. The affordable price point makes these sneakers accessible for building a versatile shoe wardrobe. These shoes seamlessly blend comfort, style, and practicality, making them perfect for students, busy professionals, or anyone who values comfortable, stylish footwear.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 345
+      },
+      "trending": false
+    },
+    {
+      "id": 80,
+      "title": "Bootie Slippers - Sherpa Lined",
+      "price": 52.99,
+      "description": "Keep your feet warm and cozy during cold winter months with these incredibly comfortable bootie slippers featuring luxurious sherpa lining. The high-top bootie design provides coverage and warmth around the ankle, while the soft sherpa lining creates a cloud-like feeling that pampers your feet. The exterior is crafted from soft, durable knit fabric that stretches gently to accommodate different foot shapes while maintaining its structure. The memory foam insole provides personalized cushioning that adapts to your foot shape, offering superior comfort and support. The slip-on design with easy-stretch opening makes these perfect for quick wear, while the secure fit ensures they stay in place during movement. The sturdy rubber sole with textured grip pattern provides excellent traction on various indoor surfaces, making these safe for use throughout your home. The bootie style is both practical and stylish, providing more coverage and warmth than traditional slippers. Available in sophisticated charcoal gray, these slippers coordinate with any loungewear or pajamas. The quality construction ensures these slippers will maintain their comfort and appearance through regular use. These slippers make an excellent gift for anyone who suffers from cold feet or appreciates luxurious comfort during relaxation time. The hotel-quality materials and construction make every step feel like a spa experience.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 81,
+      "title": "Beach Wave Wig - Ombre",
+      "price": 143.99,
+      "description": "Achieve effortless beach goddess vibes with this stunning beach wave wig featuring a beautiful ombre color transition that captures the sun-kissed look of natural highlights. The expertly styled waves create natural-looking texture and movement that mimics hair that's been tousled by ocean breezes. Crafted from premium synthetic fibers that have been specially treated to feel soft and natural, this wig offers incredible realism and easy maintenance. The gorgeous ombre effect transitions from rich chocolate brown roots to warm caramel and honey blonde ends, creating a multi-dimensional color that adds depth and interest. The medium length falls just past the shoulders, making it versatile for both casual and dressy occasions. The wig features a comfortable lace front construction that creates an incredibly natural-looking hairline, while the adjustable cap fits head sizes from 21-23 inches. The pre-styled waves maintain their shape beautifully and require minimal maintenance, making this perfect for busy lifestyles. The heat-resistant fibers can withstand temperatures up to 320°F, allowing for gentle styling adjustments when needed. This wig is perfect for anyone looking to achieve a trendy, sun-kissed look without the time and damage associated with bleaching and styling natural hair. The beachy waves are perfect for vacation looks, summer styling, or adding effortless glamour to everyday outfits.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 156
+      },
+      "trending": true
+    },
+    {
+      "id": 82,
+      "title": "Wrap Top - Satin Finish",
+      "price": 64.99,
+      "description": "Embrace sophisticated femininity with this elegant wrap top featuring a luxurious satin finish that adds instant glamour to any outfit. Crafted from high-quality polyester satin that drapes beautifully and catches light with subtle sheen, this top creates an elevated look that's perfect for both day and evening wear. The classic wrap design creates a flattering V-neckline while the adjustable tie waist allows you to customize the fit and create definition. The three-quarter sleeves provide elegant coverage while the flowing silhouette creates graceful movement. The satin finish gives this top a luxurious feel and appearance that rivals much more expensive pieces. The versatile deep emerald color is both sophisticated and striking, coordinating beautifully with neutral bottoms while adding a pop of rich color to your outfit. This top pairs perfectly with tailored trousers for office wear, or with jeans for elevated casual styling. The wrap design is universally flattering and works beautifully on all body types. The quality construction ensures this top maintains its shape and lustrous finish wash after wash. This versatile piece seamlessly transitions from day to night with simple styling changes, making it perfect for busy schedules. The elegant design and luxurious finish make this top feel special enough for important occasions while being practical enough for regular wear.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 178
+      },
+      "trending": true
+    },
+    {
+      "id": 83,
+      "title": "Folding Electric Hand Fan",
+      "price": 67.99,
+      "description": "Stay cool with modern convenience using this innovative folding electric hand fan that combines traditional aesthetics with contemporary technology. This rechargeable fan features a sleek, compact design that folds to just 6 inches for easy portability, yet opens to provide powerful air circulation when needed. The fan includes three speed settings that allow you to customize airflow from gentle breeze to strong cooling, while the whisper-quiet motor ensures peaceful operation. The built-in rechargeable battery provides up to 8 hours of continuous use on a single charge, making this perfect for outdoor events, travel, or anywhere you need portable cooling. The elegant design features a sophisticated black and rose gold color scheme that looks stylish and modern. The fan includes a convenient LED display that shows battery level and speed setting, while the ergonomic handle provides comfortable grip during use. The folding mechanism is engineered for durability and smooth operation, ensuring years of reliable use. This fan is perfect for outdoor weddings, concerts, travel, or anyone who wants the convenience of electric cooling in a portable, stylish package. The USB charging capability makes it easy to recharge using any standard USB port. This represents the perfect fusion of traditional fan elegance with modern technology and convenience.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 123
+      },
+      "trending": true
+    },
+    {
+      "id": 84,
+      "title": "Crossbody Phone Bag",
+      "price": 42.99,
+      "description": "Stay connected and hands-free with this practical crossbody phone bag that combines functionality with contemporary style. Designed to accommodate most smartphone sizes including larger models, this bag features a clear touch-screen window that allows you to use your phone without removing it from the bag. The main compartment is perfectly sized for your phone, while additional pockets provide space for cards, cash, keys, and other small essentials. Crafted from durable vegan leather with a smooth finish, this bag is both stylish and practical for daily use. The adjustable crossbody strap can be shortened for a higher, more structured look or lengthened for comfortable crossbody wear. The secure zip closure keeps your belongings safe while the easy-access design allows for quick phone use. The compact size makes this perfect for travel, shopping, festivals, or any time you want to keep your essentials close without carrying a larger bag. Available in versatile black, this bag coordinates with any outfit and occasion. The lightweight construction ensures comfortable wear throughout the day, while the quality materials ensure durability through regular use. This bag is perfect for busy lifestyles where convenience and security are priorities. The modern design appeals to all ages and makes this an excellent gift for students, professionals, or anyone who values hands-free convenience.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1584917865442-de89df76afd3?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 267
+      },
+      "trending": false
+    },
+    {
+      "id": 85,
+      "title": "Infinity Scarf Necklace",
+      "price": 49.99,
+      "description": "Create endless styling possibilities with this versatile infinity scarf necklace that functions as both a fashion accessory and a practical scarf. Made from luxuriously soft modal fabric that feels silky against the skin, this piece features a beautiful abstract print in soft blues and grays that coordinates with a wide range of outfits. The infinity design means there are no ends to worry about, creating a seamless loop that can be worn in multiple ways. Wear it as a traditional infinity scarf around your neck, loop it multiple times for a layered necklace effect, or wear it long as a statement piece. The generous length provides versatility in styling while the lightweight fabric ensures comfort throughout the day. The print is applied using advanced digital printing techniques that ensure the colors remain vibrant wash after wash. This piece is perfect for adding color and interest to simple outfits, while the soft fabric makes it comfortable for all-day wear. The versatile design makes this appropriate for both casual and professional settings. This makes an excellent gift for anyone who loves versatile accessories or appreciates pieces that can be styled multiple ways. The quality fabric and construction ensure this piece will remain a wardrobe favorite for years to come.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 86,
+      "title": "High-Top Sneakers - Leather",
+      "price": 98.99,
+      "description": "Step up your sneaker game with these stylish high-top sneakers crafted from premium leather that combines classic basketball shoe aesthetics with contemporary fashion. Made from genuine leather with a smooth finish that develops character over time, these sneakers feature the iconic high-top silhouette that provides ankle support and timeless style. The classic lace-up closure with metal eyelets ensures a secure fit, while the padded collar and tongue provide comfort around the ankle. The interior features a cushioned insole and soft fabric lining that ensures all-day comfort. The durable rubber sole with classic tread pattern provides excellent traction and flexibility for both casual wear and light activities. The clean white colorway is incredibly versatile and pairs well with everything from jeans and t-shirts to dresses and skirts. The quality leather construction means these sneakers will only get better with age, developing a unique patina that reflects your personal style. These sneakers bridge the gap between athletic and fashion footwear, making them perfect for casual outings, weekend activities, or adding a sporty element to dressed-up looks. The timeless design ensures these sneakers will remain stylish for years to come, while the quality construction guarantees durability through regular wear. These sneakers are perfect for anyone who appreciates classic style with modern comfort.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500",
+        "https://images.unsplash.com/photo-1562183241-b937e95585b6?w=500",
+        "https://images.unsplash.com/photo-1515347619252-60a4bf4fff4f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 87,
+      "title": "Velvet Slippers - Embroidered",
+      "price": 58.99,
+      "description": "Indulge in luxury with these exquisite velvet slippers featuring beautiful embroidered details that bring elegance to your relaxation time. Crafted from sumptuous velvet fabric that feels incredibly soft and looks richly sophisticated, these slippers feature intricate floral embroidery in gold thread that adds a touch of opulence. The traditional slipper silhouette with pointed toe creates an elegant profile, while the low-profile design ensures comfortable wear. The interior is lined with soft fabric and features a lightly cushioned insole that provides gentle support. The flexible sole allows for natural movement while providing just enough structure for indoor wear. The deep burgundy velvet with gold embroidery creates a regal appearance that makes these slippers feel special and luxurious. These slippers are perfect for special occasions, holiday entertaining, or anyone who appreciates beautiful, unique footwear. The embroidered details are applied by skilled artisans, making each pair slightly unique and special. The quality materials and construction ensure these slippers will maintain their beauty and comfort through regular use. These slippers make an excellent gift for anyone who loves luxury accessories or appreciates handcrafted details. The sophisticated design and rich materials make these slippers appropriate for both private relaxation and elegant entertaining at home.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500",
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 145
+      },
+      "trending": true
+    },
+    {
+      "id": 88,
+      "title": "Shag Wig - Retro Style",
+      "price": 89.99,
+      "description": "Embrace retro-chic style with this fabulous shag wig that perfectly captures the iconic layered look of the 1970s with a modern twist. The expertly cut layers create incredible volume and movement, while the feathered styling adds texture and dimension that flatters all face shapes. Crafted from high-quality synthetic fibers that have been specially treated to mimic the texture of natural hair, this wig offers easy maintenance while providing authentic-looking results. The medium length with face-framing layers creates a youthful, energetic appearance that's both nostalgic and contemporary. The rich honey blonde color features subtle highlights throughout that add depth and dimension, creating a sun-kissed effect that complements all skin tones. The wig features a comfortable cap construction with adjustable straps that ensure a secure fit for head sizes ranging from 21-23 inches. The natural-looking hairline creates seamless blending, while the lightweight construction ensures all-day comfort. The pre-styled shag cut requires minimal maintenance while providing maximum impact and style. This wig is perfect for anyone looking to experiment with retro styling, costume events, or those who want to try a bold new look without committing to cutting their natural hair. The timeless shag style has made a major comeback in contemporary fashion, making this wig both trendy and classic.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 178
+      },
+      "trending": false
+    },
+    {
+      "id": 89,
+      "title": "Palazzo Pants - Wide Leg",
+      "price": 71.99,
+      "description": "Embrace effortless elegance with these flowing palazzo pants that combine comfort with sophisticated style. Crafted from lightweight crepe fabric that drapes beautifully and moves gracefully with your body, these pants create an elegant silhouette that's both comfortable and chic. The ultra-wide leg design creates dramatic movement and visual interest, while the high-waisted fit defines your waist and elongates your legs. The pants feature a comfortable elastic waistband that's concealed within a fitted waistband for a polished appearance. The flowing design makes these pants incredibly comfortable for all-day wear while maintaining an elevated, put-together look. The versatile navy color coordinates beautifully with a wide range of tops and accessories, making these pants incredibly wearable for various occasions. These pants are perfect for warm weather when you want coverage without weight, and they transition beautifully from day to evening with simple styling changes. Pair them with fitted tops to balance the wide leg silhouette, or with flowing blouses for a completely relaxed, bohemian look. The quality fabric maintains its drape and color wash after wash, ensuring these pants will remain a wardrobe favorite. The timeless palazzo style ensures these pants will never go out of fashion, making them a smart investment for any wardrobe.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1566479179817-c0e9c19b0aca?w=500",
+        "https://images.unsplash.com/photo-1567401893414-76b7b1e5a7a5?w=500",
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 90,
+      "title": "Woven Straw Hand Fan",
+      "price": 31.99,
+      "description": "Stay cool naturally with this beautifully crafted woven straw hand fan that combines traditional artisanal techniques with sustainable materials. Made from natural palm leaves that have been carefully selected, dried, and woven by skilled craftspeople, this fan represents authentic traditional craftsmanship. The intricate weaving pattern creates both strength and flexibility, while the natural materials provide effective air circulation with a gentle, pleasant breeze. The fan features a comfortable bamboo handle that's been smoothed and finished for comfortable grip, while the woven design creates beautiful texture and visual interest. The natural color variations in the palm leaves make each fan unique, celebrating the beauty of natural materials. This fan is completely eco-friendly and biodegradable, making it perfect for environmentally conscious consumers. The traditional construction methods ensure durability while the lightweight design makes it easy to carry and use. This fan is perfect for outdoor markets, beach trips, cultural events, or anyone who appreciates handcrafted, sustainable accessories. The authentic craftsmanship and natural materials make this fan a meaningful purchase that supports traditional artisans. The timeless design and natural beauty make this fan both functional and decorative, perfect for use or display. This represents a connection to traditional cooling methods that have been used for centuries across many cultures.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 167
+      },
+      "trending": false
+    },
+    {
+      "id": 91,
+      "title": "Structured Blazer Dress",
+      "price": 134.99,
+      "description": "Make a powerful statement with this sophisticated structured blazer dress that combines professional authority with feminine elegance. This innovative piece features the tailored construction of a classic blazer extended into a dress silhouette that's both commanding and chic. Crafted from premium wool-blend fabric that maintains its structure while providing comfortable movement, this dress creates a polished, professional appearance that's perfect for important meetings, presentations, or special events. The dress features classic blazer details including notched lapels, functional buttons, and structured shoulders that create a confident silhouette. The fitted bodice transitions into a slightly flared skirt that hits just above the knee, creating a flattering and appropriate length for professional settings. The dress includes functional pockets and a fully lined interior for comfort and practicality. The versatile charcoal gray color is both sophisticated and versatile, coordinating beautifully with a variety of accessories and shoes. This dress eliminates the guesswork of coordinating separates while ensuring a polished, put-together appearance. The quality construction and premium materials make this an investment piece that will serve you well for important occasions. This dress seamlessly transitions from boardroom to evening events with simple styling changes, making it perfect for busy professional women who value both style and efficiency.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1594633312681-425c7b97ccd1?w=500",
+        "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?w=500",
+        "https://images.unsplash.com/photo-1551488831-00ddcb6c6bd3?w=500"
+      ],
+      "ratings": {
+        "rate": 4.9,
+        "count": 156
+      },
+      "trending": true
+    },
+    {
+      "id": 92,
+      "title": "Vintage-Style Handbag",
+      "price": 87.99,
+      "description": "Step back in time with this beautifully crafted vintage-style handbag that captures the elegance and sophistication of classic 1950s design. Featuring a structured silhouette with clean lines and thoughtful proportions, this bag embodies the timeless appeal of mid-century fashion. Crafted from high-quality vegan leather with a subtle grain texture, this bag offers durability and style while being cruelty-free. The bag features a classic top-handle design with a detachable shoulder strap that provides versatility in carrying options. The interior is spacious enough for daily essentials and includes multiple pockets for organization, while the magnetic snap closure provides security with easy access. The exterior features vintage-inspired hardware in antique brass finish that adds authenticity and character. The sophisticated burgundy color is both rich and versatile, coordinating beautifully with both neutral and jewel-toned outfits. This bag is perfect for anyone who appreciates vintage fashion, classic style, or unique accessories that stand out from contemporary designs. The quality construction ensures this bag will maintain its structure and appearance through regular use. This bag makes an excellent statement piece that adds character and sophistication to any outfit, while the practical size and organization features make it perfect for daily use. The timeless design ensures this bag will remain stylish and relevant for years to come.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 203
+      },
+      "trending": false
+    },
+    {
+      "id": 93,
+      "title": "Geometric Statement Ring",
+      "price": 52.99,
+      "description": "Make a bold fashion statement with this striking geometric statement ring that combines contemporary design with architectural inspiration. This eye-catching piece features an intricate geometric pattern with multiple levels and angles that create visual interest and dimension. Crafted from high-quality sterling silver with a brushed finish that gives it a modern, sophisticated appearance, this ring is both durable and stylish. The geometric design includes both smooth and textured surfaces that catch light beautifully and create interesting shadows. The ring is designed to be worn on the index or middle finger for maximum impact, while the comfortable band ensures all-day wearability. The contemporary design makes this ring perfect for anyone who appreciates modern art, architecture, or cutting-edge fashion. This piece works beautifully as a standalone statement or can be paired with simpler rings for a curated, layered look. The quality construction ensures this ring will maintain its finish and structure through regular wear. This ring is perfect for creative professionals, art enthusiasts, or anyone who wants to add a contemporary edge to their jewelry collection. The bold design makes this ring a conversation starter and a unique addition to any jewelry wardrobe. The versatile silver finish coordinates with both warm and cool-toned outfits, making it surprisingly wearable despite its dramatic appearance.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1515562141207-7a88fb7ce338?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 134
+      },
+      "trending": true
+    },
+    {
+      "id": 94,
+      "title": "Mule Heels - Block Style",
+      "price": 89.99,
+      "description": "Step into effortless sophistication with these chic mule heels featuring a comfortable block heel that provides both style and stability. The sleek mule design with open back creates a modern, minimalist aesthetic that's both contemporary and timeless. Crafted from premium faux leather with a smooth finish, these heels offer durability and easy care while maintaining an elegant appearance. The 2.5-inch block heel provides the perfect amount of height while ensuring comfortable walking and all-day wearability. The pointed toe design elongates the leg and adds sophistication, while the slip-on style offers convenience without sacrificing security. The interior features a cushioned footbed and arch support that provides comfort during extended wear. The heel construction uses reinforced materials for stability and durability. The versatile nude color is incredibly flattering and coordinates with virtually any outfit, making these heels a wardrobe essential. These mules are perfect for transitioning from day to evening wear, and they pair beautifully with everything from tailored trousers to flowing dresses. The contemporary design makes these heels appropriate for both professional and social occasions. The quality construction ensures these heels will maintain their appearance and comfort through regular wear. These mules represent the perfect balance of style, comfort, and versatility that modern women demand from their footwear.",
+      "category": "shoes",
+      "image": "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1549298916-b41d501d3772?w=500",
+        "https://images.unsplash.com/photo-1543163521-1bf539c55dd2?w=500",
+        "https://images.unsplash.com/photo-1551107696-a4b0c5a0d9a2?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 245
+      },
+      "trending": true
+    },
+    {
+      "id": 95,
+      "title": "Knit House Slippers",
+      "price": 35.99,
+      "description": "Enjoy cozy comfort with these charming knit house slippers that combine handcrafted aesthetics with modern comfort features. Made from soft, breathable cotton yarn that's been expertly knitted to create a flexible, comfortable fit, these slippers feel like a warm hug for your feet. The classic slipper silhouette features a low-profile design that's perfect for wearing around the house, while the knit construction provides gentle stretch that accommodates different foot shapes. The interior includes a soft fabric lining and lightly cushioned insole that provides comfort without bulk. The flexible rubber sole with subtle grip texture provides traction on various indoor surfaces while maintaining the slipper's lightweight feel. The charming cable knit pattern adds visual interest and texture, while the neutral cream color coordinates with any loungewear or home decor. These slippers feature a comfortable elastic opening that makes them easy to slip on and off, while the secure fit ensures they stay in place during wear. The breathable knit construction prevents overheating while providing gentle warmth. These slippers are perfect for anyone who appreciates handcrafted aesthetics and comfortable, casual footwear. The quality construction ensures these slippers will maintain their shape and comfort through regular use and washing. These make an excellent gift for anyone who values comfort and appreciates thoughtful, cozy accessories.",
+      "category": "slippers",
+      "image": "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1571297600408-9bb6ae6c4a46?w=500",
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1544966503-7cc5ac882d5a?w=500"
+      ],
+      "ratings": {
+        "rate": 4.5,
+        "count": 189
+      },
+      "trending": false
+    },
+    {
+      "id": 96,
+      "title": "Updo Wig - Elegant Chignon",
+      "price": 76.99,
+      "description": "Achieve instant elegance with this sophisticated updo wig featuring a classic chignon style that's perfect for special occasions and formal events. This expertly styled wig eliminates the time and skill required to create complex updos while providing a polished, professional appearance. Crafted from high-quality synthetic fibers that mimic the texture and appearance of natural hair, this wig offers incredible realism and convenience. The chignon is positioned at the nape of the neck in the most flattering and traditional placement, while loose tendrils frame the face for a romantic, softening effect. The rich auburn color features subtle highlights that add depth and dimension, creating a natural-looking color that complements all skin tones. The wig features a comfortable cap construction with adjustable straps that ensure a secure fit for head sizes ranging from 21-23 inches. The pre-styled updo maintains its shape beautifully and requires no styling or maintenance, making it perfect for busy schedules or special events. This wig is ideal for weddings, formal dinners, theater events, or any occasion where you want to achieve an elegant, sophisticated look without the time and expense of professional styling. The classic chignon style is timeless and appropriate for all ages, making this wig a versatile addition to any special occasion wardrobe.",
+      "category": "wigs",
+      "image": "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1560472354-b33ff0c44a43?w=500",
+        "https://images.unsplash.com/photo-1487412720507-e7ab37603c6f?w=500",
+        "https://images.unsplash.com/photo-1583711656034-b54b7b6b7b52?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 123
+      },
+      "trending": false
+    },
+    {
+      "id": 97,
+      "title": "Turtleneck Sweater - Ribbed",
+      "price": 68.99,
+      "description": "Embrace classic sophistication with this beautifully crafted ribbed turtleneck sweater that combines timeless style with modern comfort. Made from a premium cotton-cashmere blend that offers exceptional softness and warmth while maintaining breathability, this sweater provides luxury at an accessible price point. The classic turtleneck design creates an elegant neckline that's both sophisticated and cozy, while the fitted silhouette flatters your figure without being too tight. The ribbed texture adds visual interest and dimension while providing gentle stretch that ensures comfortable movement. The long sleeves with ribbed cuffs provide coverage and warmth, while the slightly longer length creates a flattering silhouette that pairs beautifully with both high-waisted and low-rise bottoms. The versatile camel color is both sophisticated and warm, coordinating beautifully with autumn and winter wardrobes while remaining appropriate for year-round wear in air-conditioned environments. This sweater is perfect for layering under blazers and coats, or wearing on its own for a polished, put-together look. The quality yarn blend ensures this sweater will maintain its shape and softness through multiple wears and washes. The timeless turtleneck design ensures this sweater will never go out of style, making it a smart investment for any wardrobe. This versatile piece seamlessly transitions from casual to professional settings with simple styling changes.",
+      "category": "clothes",
+      "image": "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1576871337622-98d48d1cf531?w=500",
+        "https://images.unsplash.com/photo-1580651214011-b5d71ba0e50e?w=500",
+        "https://images.unsplash.com/photo-1591047139829-d91aecb6caea?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 234
+      },
+      "trending": false
+    },
+    {
+      "id": 98,
+      "title": "Sequined Hand Fan - Party",
+      "price": 44.99,
+      "description": "Add sparkle and glamour to your special occasions with this dazzling sequined hand fan that's perfect for parties, celebrations, and festive events. This eye-catching fan features hundreds of carefully applied sequins in multiple colors that create a rainbow effect as they catch and reflect light from different angles. The sequins are securely attached to high-quality fabric that's been mounted on a sturdy plastic frame designed for durability and smooth operation. The fan opens to 9 inches wide, creating a beautiful display of shimmering color that's perfect for photography and making a statement. The comfortable handle is designed for extended use and features a wrist strap for security during dancing or active use. This fan is perfect for music festivals, New Year's Eve parties, Pride celebrations, or any event where you want to add extra sparkle and fun to your look. The multi-colored sequins create a disco ball effect that's both playful and glamorous, making this fan a conversation starter and photo prop. The quality construction ensures the sequins stay securely attached even with enthusiastic use. This fan represents the perfect combination of functionality and fun, providing cooling relief while serving as a dazzling accessory. The festive design makes this fan perfect for anyone who loves to celebrate in style and isn't afraid to shine bright.",
+      "category": "hand fans",
+      "image": "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1605289982774-9a6fef564df8?w=500",
+        "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=500",
+        "https://images.unsplash.com/photo-1582142306909-195724d33c9c?w=500"
+      ],
+      "ratings": {
+        "rate": 4.7,
+        "count": 178
+      },
+      "trending": true
+    },
+    {
+      "id": 99,
+      "title": "Bucket Bag - Drawstring",
+      "price": 73.99,
+      "description": "Embrace contemporary style with this chic bucket bag featuring a modern drawstring closure that combines fashion-forward design with practical functionality. Crafted from soft, supple vegan leather that feels luxurious while being cruelty-free, this bag offers both style and ethical appeal. The classic bucket silhouette creates a relaxed, casual aesthetic that's perfect for everyday use, while the drawstring closure adds security and visual interest. The spacious interior easily accommodates daily essentials plus larger items, while the unstructured design allows the bag to expand or contract based on your needs. The interior features a zippered pocket for valuables and slip pockets for organization. The comfortable shoulder straps are designed for extended wear and can be adjusted to your preferred length. The exterior features subtle stitching details that add quality and refinement to the overall design. Available in sophisticated taupe, this bag coordinates beautifully with both casual and dressy outfits. The bucket bag style is both trendy and timeless, making this a smart investment for your handbag collection. The quality construction ensures this bag will maintain its shape and appearance through regular use. This bag seamlessly transitions from day to evening and from season to season, making it perfect for busy lifestyles that demand versatility and style. The contemporary design appeals to modern women who value both fashion and function.",
+      "category": "bags",
+      "image": "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1590874103328-eac38a683ce7?w=500",
+        "https://images.unsplash.com/photo-1553062407-98eeb64c6a62?w=500",
+        "https://images.unsplash.com/photo-1548036328-df9e8d2b4e3f?w=500"
+      ],
+      "ratings": {
+        "rate": 4.6,
+        "count": 198
+      },
+      "trending": false
+    },
+    {
+      "id": 100,
+      "title": "Cuff Bracelet - Hammered Metal",
+      "price": 59.99,
+      "description": "Make a bold statement with this striking hammered metal cuff bracelet that combines artisanal craftsmanship with contemporary design. This eye-catching piece features a hand-hammered texture that creates beautiful light reflection and visual interest, while the substantial width makes it a true statement piece. Crafted from high-quality brass with a warm gold-tone finish, this cuff has been treated to resist tarnishing and maintain its lustrous appearance. The hammered texture is created by skilled artisans using traditional metalworking techniques, making each bracelet slightly unique with its own character and charm. The cuff design allows for easy wearing while the slight flexibility ensures a comfortable fit on most wrist sizes. The substantial weight and quality construction give this bracelet a luxurious feel that rivals much more expensive pieces. This versatile piece can be worn alone as a statement or paired with other bracelets for a layered, curated look. The warm gold tone coordinates beautifully with both casual and formal attire, making this bracelet appropriate for various occasions. The artisanal quality and handcrafted details make this bracelet perfect for anyone who appreciates unique, artistic jewelry. The timeless design ensures this bracelet will remain stylish and relevant for years to come, while the quality construction guarantees durability through regular wear. This bracelet represents the perfect fusion of traditional craftsmanship with contemporary style.",
+      "category": "jewelry",
+      "image": "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+      "images": [
+        "https://images.unsplash.com/photo-1611955167811-4711904bb9f8?w=500",
+        "https://images.unsplash.com/photo-1635767582909-345ba8b8a7c7?w=500",
+        "https://images.unsplash.com/photo-1544441892-2c81b67b93e7?w=500"
+      ],
+      "ratings": {
+        "rate": 4.8,
+        "count": 167
+      },
+      "trending": true
+    }
+  ]
+}

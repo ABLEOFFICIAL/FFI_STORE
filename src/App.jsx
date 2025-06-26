@@ -14,7 +14,8 @@ import FeaturedBlogPost from "./pages/featureBlog/FeaturedBlogPost";
 import { PreloaderContext } from "./context/PreLoaderContext.jsx";
 import Preloader from "./components/atoms/PreLoader.jsx";
 import BlogDetails from "./pages/blog-details/BlogDetails.jsx";
-import CheckOutPage from "./pages/checkout/CheckOutPage.jsx";
+import ShippingPage from "./pages/checkout/ShippingPage.jsx";
+import PaymentPage from "./pages/checkout/PaymentPage.jsx";
 
 // Define routes for the application
 
@@ -47,7 +48,8 @@ const App = () => {
         <Route path="/style-with-us" element={<Blog />} />
         <Route path="/featureBlog/:id" element={<FeaturedBlogPost />} />
         <Route path="/blog-details/:id" element={<BlogDetails />} />
-        <Route path="/check-out" element={<CheckOutPage />} />
+        <Route path="/check-out" element={<ShippingPage />} />
+        <Route path="/payment" element={<PaymentPage />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

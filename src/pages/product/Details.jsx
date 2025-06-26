@@ -46,9 +46,8 @@ const ProductDetail = () => {
   const imgRef = useRef(null);
   const { id } = useParams();
   const { toggle, handleToggle } = useToggle();
-  const { data, loading, error } = useFetch(
-    "https://fakestoreapi.com/products"
-  );
+  const storeAPI = "http://localhost:3000/products";
+  const { data, loading, error } = useFetch(storeAPI);
   const navigate = useNavigate();
   const [selectedSize, setSelectedSize] = useState("sm");
   const [user, setUser] = useState(null);
@@ -143,7 +142,7 @@ const ProductDetail = () => {
   const handleImageView = () => {
     setZoom((prev) => !prev);
   };
-  const views = [product.image, bag1, bag2];
+  const views = product.images;
   const showClickedImage = (e) => {
     console.log(imgRef.current.src);
     console.log(e.target.src);

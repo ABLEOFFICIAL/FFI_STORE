@@ -18,9 +18,8 @@ export const Liked = ({ className, onClick }) => (
 );
 
 const DisplayProducts = () => {
-  const { data, loading, error } = useFetch(
-    "https://fakestoreapi.com/products"
-  );
+  const storeAPI = "http://localhost:3000/products";
+  const { data, loading, error } = useFetch(storeAPI);
   // const [likedProducts, setLikedProducts] = useState([]);
 
   const { likedProducts, like, dislike, userId } = useLikedProducts();
