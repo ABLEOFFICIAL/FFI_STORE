@@ -30,7 +30,7 @@ const ConfirmDetails = () => {
       <PageHeaders title="Check Out" />
       <CheckoutHeader smallh="Step 4" header="Card Details" />
 
-      <div className=" rounded-lg h-[30vh] px-7 py-5 flex flex-col justify-between bg-blue-500 text-white mt-5">
+      <div className=" rounded-lg h-[28vh] px-7 py-5 flex flex-col justify-between bg-blue-500 text-white mt-5">
         <div className="flex justify-between items-center ">
           <img src={sim} className="w-8" />
           <img src={logo} className="w-8" />
