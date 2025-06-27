@@ -15,11 +15,11 @@ export const CheckMark = ({ onClick }) => {
   );
 };
 
-export const CheckOutBtn = ({ value }) => {
+export const CheckOutBtn = ({ value, to }) => {
   return (
     <div className="mt-10 mb-2">
       <MyBtn
-        to={"/payment"}
+        to={to}
         classname="w-full py-3 rounded-full bg-[#4a4741] text-[#f7f1e8] block text-center"
       >
         {value}
@@ -88,10 +88,10 @@ const ShippingPage = () => {
             ></span>
           )}
 
-          <span className="text-[#4a4741]">Save data for next shipping</span>
+          <span className="text-[#4a4741]">Save as default address</span>
         </div>
       </div>
-      <CheckOutBtn value="Continue To Payment" />
+      <CheckOutBtn to={"/payment"} value="Continue To Payment" />
     </section>
   );
 };

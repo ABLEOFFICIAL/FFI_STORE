@@ -16,6 +16,8 @@ import Preloader from "./components/atoms/PreLoader.jsx";
 import BlogDetails from "./pages/blog-details/BlogDetails.jsx";
 import ShippingPage from "./pages/checkout/ShippingPage.jsx";
 import PaymentPage from "./pages/checkout/PaymentPage.jsx";
+import CardDetails from "./pages/checkout/CardDetails.jsx";
+import ConfirmDetails from "./pages/checkout/ConfirmDetails.jsx";
 
 // Define routes for the application
 
@@ -50,6 +52,8 @@ const App = () => {
         <Route path="/blog-details/:id" element={<BlogDetails />} />
         <Route path="/check-out" element={<ShippingPage />} />
         <Route path="/payment" element={<PaymentPage />} />
+        <Route path="/card-details" element={<CardDetails />} />
+        <Route path="/confirm" element={<ConfirmDetails />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

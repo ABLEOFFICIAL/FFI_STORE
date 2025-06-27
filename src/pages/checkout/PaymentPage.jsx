@@ -18,11 +18,14 @@ const PaymentPage = () => {
         : setSelectedCard("visa");
     }
   };
-  const handlePayment = () => {
-    {
-      paymentMethod === "credit"
-        ? setPaymentMethod("transfer")
-        : setPaymentMethod("credit");
+  const handleTransfer = () => {
+    if (paymentMethod === "credit") {
+      setPaymentMethod("transfer");
+    }
+  };
+  const handleCredit = () => {
+    if (paymentMethod === "transfer") {
+      setPaymentMethod("credit");
     }
   };
   return (
@@ -31,8 +34,10 @@ const PaymentPage = () => {
       <CheckoutHeader smallh="Step2" header="Payment" />
       <div className="flex gap-5 mt-10">
         <div
-          onClick={handlePayment}
-          className="bg-[#4a4741] text-[#f7f1e8] w-[120px] flex flex-col justify-center items-center shadow-md rounded-lg p-2"
+          onClick={handleTransfer}
+          className={`bg-[#4a4741] text-[#f7f1e8] w-[120px] flex flex-col justify-center items-center shadow-md rounded-lg p-2 ${
+            paymentMethod === "transfer" && "border-[2px] border-white"
+          }`}
         >
           <img
             src={img2}
@@ -41,8 +46,10 @@ const PaymentPage = () => {
           <span>Transfer</span>
         </div>
         <div
-          onClick={handlePayment}
-          className="bg-[#4a4741] text-[#f7f1e8] w-[120px] flex flex-col justify-center items-center shadow-md rounded-lg p-2"
+          onClick={handleCredit}
+          className={`bg-[#4a4741] text-[#f7f1e8] w-[120px] flex flex-col justify-center items-center shadow-md rounded-lg p-2 ${
+            paymentMethod === "credit" && "border-[2px] border-white"
+          }`}
         >
           <img
             src={img1}
@@ -88,7 +95,7 @@ const PaymentPage = () => {
           <h2>accountnumber</h2>
         </section>
       )}
-      <CheckOutBtn value="Continue To Payment" />
+      <CheckOutBtn to={"/card-details"} value="Continue To Payment" />
     </section>
   );
 };
