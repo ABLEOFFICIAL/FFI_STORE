@@ -8,6 +8,10 @@ import "swiper/css/navigation";
 import "swiper/css/pagination";
 import ArrowLeft from "../atoms/ArrowLeft";
 import ArrowRight from "../atoms/ArrowRight";
+import { Like, Liked, storeAPI } from "../../pages/discovery/DisplayProducts";
+import useFetch from "../../hooks/useFetch";
+import { NavLink } from "react-router-dom";
+import useLikedProducts from "../../hooks/useLikedProducts";
 
 const tips = [
   {
@@ -44,6 +48,11 @@ const tips = [
 
 const StyleGuide = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const { data, loading, error } = useFetch(storeAPI);
+
+  const FeaturedProducts = data?.filter((item) => item.trending === true);
+  const { likedProducts, like, dislike, userId } = useLikedProducts();
+  // console.log(FeaturedProducts);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setCurrentIndex((prev) => {
@@ -86,45 +95,7 @@ const StyleGuide = () => {
       >
         Explore the Use Guide
       </MyBtn>
-
-      {/* <div className="mt-16">
-        <Swiper
-          modules={[EffectCoverflow, Navigation, Pagination]}
-          effect="coverflow"
-          grabCursor={true}
-          centeredSlides={true}
-          slidesPerView={"auto"}
-          loop={true}
-          navigation={true} // Adds navigation arrows
-          pagination={{ clickable: true }} // Adds clickable pagination dots
-          coverflowEffect={{
-            rotate: 0, // Minimal rotation for flat appearance
-            stretch: -20, // Negative stretch to bring slides closer, creating overlap
-            depth: 200, // Increased depth for more pronounced layering
-            modifier: 3, // Higher modifier for stronger effect
-            slideShadows: true, // Shadows for visual depth
-          }}
-          className="w-full max-w-5xl mx-auto"
-        >
-          {tips.map((tip, index) => (
-            <SwiperSlide
-              key={index}
-              className="bg-white rounded-xl shadow-lg overflow-hidden w-80 swiper-slide-custom"
-            >
-              <img
-                src={tip.image}
-                className="w-full h-56 object-cover"
-                alt={tip.title}
-              />
-              <div className="p-4">
-                <h4 className="font-semibold text-lg">{tip.title}</h4>
-                <p className="text-sm text-gray-500">{tip.desc}</p>
-              </div>
-            </SwiperSlide>
-          ))}
-        </Swiper>
-      </div> */}
-      <section className="my-10">
+      {/* <section className="my-10">
         <div className="relative">
           {tips.map((tip, idx) => {
             return (
@@ -150,6 +121,55 @@ const StyleGuide = () => {
               "absolute top-1/2 right-3 bg-black/20 rounded-full p-2 size-12"
             }
           />
+        </div>
+      </section> */}
+      <section className="md:max-w-[80vw] md:mx-auto">
+        <div className="grid lg:grid-cols-4 md:grid-cols-3 grid-cols-2 gap-4 z-10  sm:grid-cols-2">
+          {FeaturedProducts &&
+            FeaturedProducts.slice(0, 8).map((product) => {
+              const isLiked = likedProducts.includes(product.id);
+
+              return (
+                <NavLink to={`/discover/${product.id}`} key={product.id}>
+                  <div className="relative">
+                    <img
+                      src={product.image}
+                      alt={product.title}
+                      className="w-full md:h-96 h-48 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+                    />
+                    {isLiked ? (
+                      <Liked
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          dislike(product.id);
+                        }}
+                        className="absolute top-2 right-2 bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
+                      />
+                    ) : (
+                      <Like
+                        onClick={(e) => {
+                          e.preventDefault();
+                          e.stopPropagation();
+                          like(product.id);
+                        }}
+                        className="absolute top-2 right-2 bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
+                      />
+                    )}
+                  </div>
+                  <div>
+                    <h2 className="text-sm font-light mb-2">
+                      {product.title.slice(0, 20)}...
+                    </h2>
+                    <div className="flex justify-between">
+                      <p className="text-gray-700 font-semibold mb-2">
+                        ${product.price}
+                      </p>
+                    </div>
+                  </div>
+                </NavLink>
+              );
+            })}
         </div>
       </section>
     </section>

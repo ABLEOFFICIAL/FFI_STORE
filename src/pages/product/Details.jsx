@@ -45,9 +45,13 @@ const ProductDetail = () => {
 
   const imgRef = useRef(null);
   const { id } = useParams();
+  console.log(id);
+
   const { toggle, handleToggle } = useToggle();
   const storeAPI = "http://localhost:3000/products";
   const { data, loading, error } = useFetch(storeAPI);
+  console.log(data);
+
   const navigate = useNavigate();
   const [selectedSize, setSelectedSize] = useState("sm");
   const [user, setUser] = useState(null);
@@ -93,8 +97,12 @@ const ProductDetail = () => {
       <p className="text-center p-10 text-red-500">Something went wrong!</p>
     );
 
-  const product = data?.find((item) => item.id === parseInt(id));
-  const isLiked = likedProducts.includes(product.id);
+  const product = data?.find((item) => item.id.toString() === id.toString());
+  console.log(product);
+
+  {
+    const isLiked = product && likedProducts.includes(product.id);
+  }
 
   const productCategory = data?.filter(
     (item) => item.category === product?.category
@@ -161,6 +169,7 @@ const ProductDetail = () => {
       return updated;
     });
   };
+  const isLiked = likedProducts.includes(product.id);
 
   return (
     <main className="min-h-max p-5 bg-linear-to-b from-0% to-[#4a4741]/ text-[#4a4741] pb-20">

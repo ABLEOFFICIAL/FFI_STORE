@@ -54,10 +54,10 @@ const Testimonial = () => {
   return (
     <section className="text-[#4a4741] py-20 px-5">
       <div>
-        <h1 className="py-8 text-3xl">Testimonials</h1>
+        <h1 className="py-8 text-3xl md:text-center">Testimonials</h1>
       </div>
       <div className="overflow-auto flex justify-center">
-        <div className="flex flex-col justify-center items-center gap-5 w-max">
+        <div className="flex flex-col justify-center items-center gap-5 w-max md:hidden">
           {details.map((card, idx) => {
             return (
               selectedIndex === idx && (
@@ -71,10 +71,22 @@ const Testimonial = () => {
             );
           })}
         </div>
+        <div className=" grid-cols-3 gap-7 hidden md:grid">
+          {details.map((card, idx) => {
+            return (
+              <Card
+                name={card.name}
+                testimony={card.testimony}
+                img={card.img}
+                key={idx}
+              />
+            );
+          })}
+        </div>
       </div>
 
       {/* try looping balls */}
-      <div className="w-12 m-auto my-8 flex justify-between items-center">
+      <div className="w-12 m-auto my-8 flex justify-between items-center md:hidden">
         {details.map((_, idx) => (
           <div
             key={idx}

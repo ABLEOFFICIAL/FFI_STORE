@@ -5,6 +5,7 @@ import { div } from "framer-motion/client";
 
 const StyleMoments = () => {
   const [currentIndex, setCurrentIndex] = useState(0);
+  const [border, setBorder] = useState(0);
   const [moments, setMoments] = useState([
     {
       id: 1,
@@ -49,6 +50,7 @@ const StyleMoments = () => {
   const { screenWidth } = useContext(WidthContext);
   const handleclick = (index) => {
     setCurrentIndex(index);
+    setBorder(index);
   };
   return (
     <div className="text-[#4a4741] md:px-28">
@@ -97,13 +99,15 @@ const StyleMoments = () => {
           );
         })}
       </div>
-      <div className=" justify-between border-b-[1px] border-neutral-300 py-5 hidden md:flex">
+      <div className=" justify-between border-b-[1px] mb-20 border-neutral-300 pt-5 hidden md:flex">
         {moments.map((item, idx) => {
           return (
             <div
               onClick={() => handleclick(idx)}
               key={item.id}
-              className="text-lg font-medium cursor-pointer"
+              className={`text-lg font-medium cursor-pointer ${
+                border === idx && "border-b-2 border-[#4a4741] pb-3 px-3"
+              }`}
             >
               {item.title}
             </div>
@@ -114,7 +118,7 @@ const StyleMoments = () => {
         {moments.map((item, idx) => {
           return (
             idx === currentIndex && (
-              <div key={item.id}>
+              <div key={item.id} className="">
                 <img
                   src={item.img}
                   className="absolute h-[90%] top-0 left-56 rounded-lg"

@@ -41,7 +41,7 @@ const Newsletter = () => {
     setEmail(e.target.value);
   };
   return (
-    <section className="bg-white relative pb-10">
+    <section className="bg-white relative pb-10 md:hidden">
       <div className="absolute -left-1/4  top-20 rotate-45 h-48 w-48 backdrop-blur-md bg-[#4a4741]/20 rounded-2xl"></div>
       <div className="absolute -right-1/4  top-56 rotate-45 h-48 w-48 backdrop-blur-md bg-[#4a4741]/20 rounded-2xl"></div>
       <h1 className="font-extralight text-3xl text-center py-10 text-[#4a4741]">

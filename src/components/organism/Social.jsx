@@ -18,7 +18,7 @@ import React from "react";
 
 const Social = () => {
   return (
-    <section className="py-10 px-5 text-center text-[#4a4741]">
+    <section className="py-10 px-5 text-center text-[#4a4741] md:hidden">
       <h2 className="text-3xl text-extralight mb-5">Styled By You</h2>
       <p className="mb-6">Tag us with #UrbnStyle for a chance to be featured</p>
       <div className="relative flex justify-center items-center">

@@ -24,7 +24,7 @@ const CardDetails = () => {
   };
 
   return (
-    <div className="p-4 sm:p-6 lg:p-10 max-w-[1170px] mx-auto flex flex-col justify-between h-screen">
+    <div className="p-4 sm:p-6 lg:p-10 max-w-[1170px] mx-auto flex flex-col justify-between">
       <div>
         <PageHeaders title="Check Out" />
         <CheckoutHeader smallh="Step 3" header="Add Card Details" />

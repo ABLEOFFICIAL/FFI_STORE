@@ -9,7 +9,7 @@ import { NavLink, useNavigate } from "react-router-dom";
 const Header = () => {
   const navigate = useNavigate();
   return (
-    <div className="px-5">
+    <div className="px-5 max-w-[1150px] mx-auto">
       <header className={"flex flex-col gap-3 py-4"}>
         <div className="flex justify-between items-center">
           <ArrowLeft onclick={() => navigate(-1)} classname={"size-8"} />

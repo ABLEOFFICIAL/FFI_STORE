@@ -42,7 +42,7 @@ const AdBlock = () => {
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
   return (
-    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto">
+    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto max-w-[1150px] md:mx-auto ">
       <div className="flex w-max">
         {Ads.map((ad, idx) => {
           if (selectedIndex === idx) {

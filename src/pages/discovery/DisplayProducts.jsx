@@ -16,9 +16,9 @@ export const Like = ({ className, onClick }) => (
 export const Liked = ({ className, onClick }) => (
   <FaHeart onClick={onClick} className={className} />
 );
+export const storeAPI = "http://localhost:3000/products";
 
 const DisplayProducts = () => {
-  const storeAPI = "http://localhost:3000/products";
   const { data, loading, error } = useFetch(storeAPI);
   // const [likedProducts, setLikedProducts] = useState([]);
 
@@ -41,7 +41,7 @@ const DisplayProducts = () => {
   if (error) return <div>Error fetching products: {error.message}</div>;
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10">
+    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10 max-w-[1150px] mx-auto mb-10">
       {data?.map((product) => {
         const isLiked = likedProducts.includes(product.id);
 
@@ -51,7 +51,7 @@ const DisplayProducts = () => {
               <img
                 src={product.image}
                 alt={product.title}
-                className="w-full h-48 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
+                className="w-full h-48 md:h-72 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
               />
               {isLiked ? (
                 <Liked

@@ -355,89 +355,91 @@ const Blog = () => {
     <div className="">
       <DarkNav />
       <Sidebar />
-      {/* features */}
-      {features && (
-        <>
-          <section className="w-screen m-auto h-[50vh] overflow-auto">
-            <div className="flex w-max">
-              {features.map((ft, idx) => {
-                return selectedIndex === idx ? (
-                  <NavLink
-                    to={`/featureBlog/${ft.id}`}
-                    key={ft.id}
-                    style={{ backgroundImage: `url('${ft.img1}')` }}
-                    className="h-[49vh] w-screen bg-center bg-cover text-[#f7f1e8] relative"
-                  >
-                    <div className="bg-linear-to-b from-neutral-900/0 via-neutral-900/50  to-neutral-900/50 absolute left-0 top-0 w-full h-full flex justify-between items-end  px-4 py-3">
-                      <div className="w-[80%] flex flex-col gap-4">
-                        <h2 className="font-semibold text-2xl">{ft.title}</h2>
-                        <p className="text-base font-medium">
-                          {ft.summary.slice(0, 100)}...
-                        </p>
+      <div className="max-w-[1150px] mx-auto">
+        {/* features */}
+        {features && (
+          <>
+            <section className="w-screen m-auto h-[50vh] overflow-auto">
+              <div className="flex w-max">
+                {features.map((ft, idx) => {
+                  return selectedIndex === idx ? (
+                    <NavLink
+                      to={`/featureBlog/${ft.id}`}
+                      key={ft.id}
+                      style={{ backgroundImage: `url('${ft.img1}')` }}
+                      className="h-[49vh] w-screen md:w-[1150px] md:rounded-lg  bg-center bg-cover text-[#f7f1e8] relative"
+                    >
+                      <div className="bg-linear-to-b from-neutral-900/0 via-neutral-900/50  to-neutral-900/50 absolute left-0 top-0 w-full h-full flex justify-between items-end  px-4 py-3 md:rounded-lg ">
+                        <div className="w-[80%] flex flex-col gap-4">
+                          <h2 className="font-semibold text-2xl">{ft.title}</h2>
+                          <p className="text-base font-medium">
+                            {ft.summary.slice(0, 100)}...
+                          </p>
+                        </div>
                       </div>
+                    </NavLink>
+                  ) : null;
+                })}
+              </div>
+            </section>
+            <div className="flex justify-around w-[90%] mx-auto items-center">
+              <div className="w-6 h-4"></div>
+              {/* try looping balls */}
+              <div className="w-18 m-auto mt-3 flex justify-between items-center">
+                {features.map((_, idx) => (
+                  <div
+                    key={idx}
+                    className="flex justify-center items-center w-2 h-2 bg-[#4a4741] rounded-full"
+                  >
+                    {selectedIndex === idx ? (
+                      <div className="w-1 h-1 bg-white rounded-full"></div>
+                    ) : null}
+                  </div>
+                ))}
+              </div>
+              <span>
+                <ArrowRight
+                  onclick={handleCLick}
+                  classname={
+                    "size-10 p-2 bg-[#4a4741] text-[#f7f1e8] rounded-full"
+                  }
+                />
+              </span>
+            </div>
+          </>
+        )}
+        {/* blog news */}
+        <section className="px-5 pb-10">
+          <h1 className="text-3xl font-extralight pt-20">Recent Blog Posts</h1>
+          <div className="grid grid-cols-1 md:grid-cols-3 md:gap-10">
+            {visibleBlog &&
+              visibleBlog.map((blog) => {
+                return (
+                  <NavLink
+                    to={`/blog-details/${blog.id}`}
+                    key={blog.id}
+                    className="flex flex-col gap-8 py-10"
+                  >
+                    <img
+                      src={blog.img}
+                      className="rounded-2xl w-full h-[40vh] object-cover object-center shadow-lg hover:shadow-xl transition-shadow duration-300"
+                    />
+                    <div className="flex flex-col gap-3 w-[94%]">
+                      <h2 className="text-2xl">{blog.title}</h2>
+                      <p>{blog.summary.slice(0, 50)}...</p>
                     </div>
                   </NavLink>
-                ) : null;
+                );
               })}
-            </div>
-          </section>
-          <div className="flex justify-around w-[90%] mx-auto items-center">
-            <div className="w-6 h-4"></div>
-            {/* try looping balls */}
-            <div className="w-18 m-auto mt-3 flex justify-between items-center">
-              {features.map((_, idx) => (
-                <div
-                  key={idx}
-                  className="flex justify-center items-center w-2 h-2 bg-[#4a4741] rounded-full"
-                >
-                  {selectedIndex === idx ? (
-                    <div className="w-1 h-1 bg-white rounded-full"></div>
-                  ) : null}
-                </div>
-              ))}
-            </div>
-            <span>
-              <ArrowRight
-                onclick={handleCLick}
-                classname={
-                  "size-10 p-2 bg-[#4a4741] text-[#f7f1e8] rounded-full"
-                }
-              />
-            </span>
           </div>
-        </>
-      )}
-      {/* blog news */}
-      <section className="px-5 pb-10">
-        <h1 className="text-3xl font-extralight pt-20">Recent Blog Posts</h1>
-        <div className="grid grid-cols-1">
-          {visibleBlog &&
-            visibleBlog.map((blog) => {
-              return (
-                <NavLink
-                  to={`/blog-details/${blog.id}`}
-                  key={blog.id}
-                  className="flex flex-col gap-8 py-10"
-                >
-                  <img
-                    src={blog.img}
-                    className="rounded-2xl w-full max-h-[40vh] object-cover object-center shadow-lg hover:shadow-xl transition-shadow duration-300"
-                  />
-                  <div className="flex flex-col gap-3 w-[94%]">
-                    <h2 className="text-2xl">{blog.title}</h2>
-                    <p>{blog.summary.slice(0, 50)}...</p>
-                  </div>
-                </NavLink>
-              );
-            })}
-        </div>
-        <button
-          onClick={handleSeeMore}
-          className="bg-[#4a4741] text-[#f7f1e8] text-sm rounded-3xl px-5 py-3 block ml-auto"
-        >
-          {showBlogs ? "see Less" : "see more"}
-        </button>
-      </section>
+          <button
+            onClick={handleSeeMore}
+            className="bg-[#4a4741] text-[#f7f1e8] text-sm rounded-3xl px-5 py-3 block ml-auto"
+          >
+            {showBlogs ? "see Less" : "see more"}
+          </button>
+        </section>
+      </div>
       <Footer />
     </div>
   );

@@ -4,6 +4,7 @@ import AdBlock from "./AdBlock";
 import FilterBlock from "./FilterBlock";
 import Sidebar from "../../components/molecules/Sidebar";
 import DisplayProducts from "./DisplayProducts";
+import Footer from "../../components/organism/Footer";
 // import { PreloaderContext } from "../../context/PreLoaderContext";
 
 const DiscoveryPage = () => {
@@ -16,6 +17,7 @@ const DiscoveryPage = () => {
         <AdBlock />
         <FilterBlock />
         <DisplayProducts />
+        <Footer />
       </div>
     </>
   );

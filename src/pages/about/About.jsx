@@ -10,7 +10,7 @@ import { LuPyramid } from "react-icons/lu";
 import { PreloaderContext } from "../../context/PreLoaderContext";
 
 const About = () => {
-  const { loading } = useContext(PreloaderContext);
+  // const { loading } = useContext(PreloaderContext);
 
   const images = ["/sit.jpg", "/mood.avif", "/elegant-wig.webp"];
 
@@ -21,26 +21,33 @@ const About = () => {
   };
   return (
     <>
-      {!loading && (
-        <div>
+      {/* {!loading && ( */}
+      <div>
+        <div className="max-w-[1150px] mx-auto">
           <DarkNav />
           <Sidebar />
           <section>
             <div className="bg-[url('/feel.avif')] h-[60vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
               Our <span className="slant">Mission</span>
             </div>
-            <p className="text-sm w-[80%] ml-auto leading-6 py-10">
-              Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
-              molestiae, impedit asperiores earum exercitationem maxime odio
-              libero illum, voluptatem ratione consequatur. Iusto minima unde
-              atque quam voluptatum omnis quisquam mollitia maxime deserunt
-              commodi blanditiis eligendi tenetur, ea dicta esse quos, facere a
-              eius fugiat rerum fugit debitis reprehenderit eveniet! Velit.
-            </p>
+            <h3 className="text-center my-5 font-light text-2xl">Who We Are</h3>
+            <div className="flex flex-col md:flex-row justify-between items-center ">
+              <div className="w-1/2 flex justify-center items-center ">
+                <img className="w-24 md:w-52 " src="/logoImg.png" alt="" />
+              </div>
+              <p className="text-sm w-[80%] ml-auto md:w-1/2 md:ml-0 leading-6 py-10">
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ipsa
+                molestiae, impedit asperiores earum exercitationem maxime odio
+                libero illum, voluptatem ratione consequatur. Iusto minima unde
+                atque quam voluptatum omnis quisquam mollitia maxime deserunt
+                commodi blanditiis eligendi tenetur, ea dicta esse quos, facere
+                a eius fugiat rerum fugit debitis reprehenderit eveniet! Velit.
+              </p>
+            </div>
           </section>
 
           <section className="py-20">
-            <div className="bg-[url('/hero1.jpg')] h-[25vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
+            <div className="bg-[url('/hero1.jpg')] h-[25vh] md:h-[40vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
               <span className="slant">Stylish</span>
             </div>
             <p className="text-sm w-[80%] m-auto text-center leading-6 py-10 italic">
@@ -54,12 +61,12 @@ const About = () => {
           </section>
 
           <div className="px-5">
-            <h1 className="text-2xl w-[60%]">
+            <h1 className="text-2xl w-[60%] md:w-[30%]">
               The Iconic{" "}
               <span className="slant block text-right">Difference</span>
             </h1>
             <section className="overflow-auto ">
-              <div className="flex gap-5 w-max">
+              <div className="grid grid-cols-1 gap-10 md:grid-cols-3">
                 {images.map((img) => {
                   return (
                     <div
@@ -68,7 +75,7 @@ const About = () => {
                         backgroundImage: `url(${img})`,
                         scrollbarWidth: "none",
                       }}
-                      className={`bg-no-repeat bg-center bg-cover h-72 w-72 `}
+                      className={`bg-no-repeat bg-center mx-auto bg-cover h-72 w-72 rounded shadow-md`}
                     ></div>
                   );
                 })}
@@ -77,20 +84,20 @@ const About = () => {
           </div>
 
           <section className="py-14 px-5">
-            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7">
-              <span className="text-3xl font-light block">
+            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7 md:text-xl md:flex md:justify-between md:items-center md:py-14">
+              <span className="text-3xl font-light block md:text-7xl">
                 {ffiData.products}+
               </span>{" "}
               products sold worldwide
             </p>
-            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7">
-              <span className="text-3xl font-light block">
+            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7 md:text-xl md:flex md:justify-between md:items-center md:py-14">
+              <span className="text-3xl font-light block md:text-7xl">
                 {ffiData.employees}+
               </span>{" "}
               Employees
             </p>
-            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7">
-              <span className="text-3xl font-light block">
+            <p className="text-base border-b-[1px] pt-4 pb-6 leading-7 md:text-xl md:flex md:justify-between md:items-center md:py-14">
+              <span className="text-3xl font-light block md:text-7xl">
                 {ffiData.years}+
               </span>{" "}
               PHD working across an in-house inter disciplinary science team
@@ -98,11 +105,11 @@ const About = () => {
           </section>
 
           <section className="py-20 px-5">
-            <div className="bg-[url('/elegant-jewellry.avif')] h-[25vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
-              ...
-            </div>
-            <h3 className="font-light text-2xl pt-10">Stylish icons</h3>
-            <p className="text-sm leading-6 py-4">
+            <div className="bg-[url('/elegant-jewellry.avif')] h-[25vh] md:h-[40vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl"></div>
+            <h3 className="font-light text-2xl pt-10 md:text-3xl md:text-center">
+              Stylish icons
+            </h3>
+            <p className="text-sm leading-6 py-4 md:w-[600px] md:mx-auto md:text-center">
               Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptate
               molestiae totam nihil voluptatem aliquid, fugiat nobis laborum
               assumenda quo molestias provident in nam omnis illum, perspiciatis
@@ -110,8 +117,8 @@ const About = () => {
             </p>
           </section>
 
-          <section className="px-5 bg-white py-16">
-            <h2 className="text-2xl font-light pb-6">Our values</h2>
+          <section className="px-5 bg-white py-16 md:grid md:grid-cols-3 md:gap-16">
+            <h2 className="text-2xl font-light pb-6 md:text-5xl">Our values</h2>
             <div className="flex flex-col gap-10">
               <div className="flex flex-col gap-5">
                 <FaUsers className="size-10 border-[1px] border-neutral-500 rounded p-2" />
@@ -147,6 +154,8 @@ const About = () => {
                   information, and perspective.
                 </p>
               </div>
+            </div>
+            <div className="pt-10 md:pt-0 flex flex-col gap-10">
               <div className="flex flex-col gap-5">
                 <LuPyramid className="size-10 border-[1px] border-neutral-500 rounded p-2" />
                 <h4 className="text-lg font-medium">We Aim Higher</h4>
@@ -168,9 +177,10 @@ const About = () => {
               </div>
             </div>
           </section>
-          <Footer />
         </div>
-      )}
+        <Footer />
+      </div>
+      {/* )} */}
     </>
   );
 };

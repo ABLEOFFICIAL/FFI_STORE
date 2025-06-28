@@ -10,7 +10,7 @@ const FilterBlock = () => {
   return (
     <div className="p-5 ">
       <div
-        className=" flex gap-4 items-center overflow-x-auto"
+        className=" flex gap-4 items-center overflow-x-auto max-w-[1150px] mx-auto"
         style={{ scrollbarWidth: "none" }}
       >
         <div className="relative inline-block">
