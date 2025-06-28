@@ -5,6 +5,7 @@ import FilterBlock from "./FilterBlock";
 import Sidebar from "../../components/molecules/Sidebar";
 import DisplayProducts from "./DisplayProducts";
 import Footer from "../../components/organism/Footer";
+import NavBarMd from "../../components/molecules/NavBarMd";
 // import { PreloaderContext } from "../../context/PreLoaderContext";
 
 const DiscoveryPage = () => {
@@ -12,6 +13,7 @@ const DiscoveryPage = () => {
   return (
     <>
       <div>
+        <NavBarMd />
         <Header />
         <Sidebar />
         <AdBlock />

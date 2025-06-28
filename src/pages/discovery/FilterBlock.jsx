@@ -24,25 +24,6 @@ const FilterBlock = () => {
             <RiArrowDropDownLine />
           </span>
         </div>
-
-        {/* <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          CLothes
-        </span>
-        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          Shoes
-        </span>
-        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          bags
-        </span>
-        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          jewellry
-        </span>
-        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          fans
-        </span>
-        <span className="category border-[1px] border-[#4a4741] px-4 py-2 rounded-full text-sm font-semibold">
-          wigs
-        </span> */}
         {["All", "Clothes", "Shoes", "Bags", "jewellry", "fans", "wigs"].map(
           (item) => (
             <span

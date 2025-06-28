@@ -18,7 +18,7 @@ const NavBar = ({ initialTop = "top-2", finaltop = "top-2" }) => {
 
   return (
     <nav
-      className={`fixed left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-white/30 backdrop-blur-md ${
+      className={`fixed left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-white/30 backdrop-blur-md md:hidden ${
         isScrolled ? finaltop : initialTop
       } rounded-lg px-5 py-2 md:py-3 `}
     >

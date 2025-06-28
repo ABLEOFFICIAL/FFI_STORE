@@ -8,6 +8,7 @@ import { IoCheckmark } from "react-icons/io5";
 import { FaRegEye } from "react-icons/fa";
 import { LuPyramid } from "react-icons/lu";
 import { PreloaderContext } from "../../context/PreLoaderContext";
+import NavBarMd from "../../components/molecules/NavBarMd";
 
 const About = () => {
   // const { loading } = useContext(PreloaderContext);
@@ -25,8 +26,9 @@ const About = () => {
       <div>
         <div className="max-w-[1150px] mx-auto">
           <DarkNav />
+          <NavBarMd />
           <Sidebar />
-          <section>
+          <section className="">
             <div className="bg-[url('/feel.avif')] h-[60vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
               Our <span className="slant">Mission</span>
             </div>

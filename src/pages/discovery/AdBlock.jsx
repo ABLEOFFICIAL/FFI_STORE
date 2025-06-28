@@ -42,14 +42,14 @@ const AdBlock = () => {
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
   return (
-    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto max-w-[1150px] md:mx-auto ">
-      <div className="flex w-max">
+    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto max-w-[1150px] md:mx-auto flex-col">
+      <div className="flex w-max  mx-auto">
         {Ads.map((ad, idx) => {
           if (selectedIndex === idx) {
             return (
               <div
                 key={ad.id}
-                className="h-56 w-[90vw] relative text-[#f7f1e8] rounded-2xl"
+                className="h-56 w-[90vw] md:w-[650px] md:h-[400px] relative text-[#f7f1e8] rounded-2xl mx-auto"
                 style={{
                   backgroundImage: `url(${ad.image})`,
                   backgroundSize: "cover",

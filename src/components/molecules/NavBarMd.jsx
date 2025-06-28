@@ -2,9 +2,15 @@ import React, { useEffect, useState } from "react";
 import { NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import Bar from "../atoms/Bar";
-import DarkLogo from "../atoms/DarkLogo";
+import Logo from "../atoms/Logo";
+import { FaRegUser } from "react-icons/fa";
+import Cart from "../atoms/Cart";
 
-const NavBar = ({ initialTop = "top-2", finaltop = "top-2" }) => {
+export const User = () => {
+  return <FaRegUser className="size-6" />;
+};
+
+const NavBarMd = ({ initialTop = "top-2", finaltop = "top-2" }) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -15,28 +21,31 @@ const NavBar = ({ initialTop = "top-2", finaltop = "top-2" }) => {
     window.addEventListener("scroll", handleScroll);
     return () => window.removeEventListener("scroll", handleScroll);
   }, []);
-
   return (
-    <nav
-      className={`fixed left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-white/30 backdrop-blur-md md:hidden ${
+    <div
+      className={`fixed left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-[#4a4741]/50 backdrop-blur-md py-1 mt-2 rounded hidden mb-4 md:block ${
         isScrolled ? finaltop : initialTop
-      } rounded-lg px-5 py-2 md:py-3 `}
+      } rounded-lg`}
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto">
         <NavLink to="/">
-          <DarkLogo />
+          <Logo />
         </NavLink>
         <div className="flex items-center gap-6 lg:gap-8">
           <NavLinks />
+          <div className="w-16  justify-between items-center hidden md:flex text-[#f7f1e8]">
+            <User />
+            <Cart classname="size-6" />
+          </div>
           <Bar
             classname={
-              "border-[#4a4741] rounded-full border-[1px] size-10 p-2 cursor-pointer text-[#4a4741]"
+              "border-white rounded-full border-[1px] size-10 p-2 cursor-pointer text-[#f7f1e8]"
             }
           />
         </div>
       </div>
-    </nav>
+    </div>
   );
 };
 
-export default NavBar;
+export default NavBarMd;

@@ -13,6 +13,7 @@ import Newsletter from "../components/organism/Newsletter";
 import Social from "../components/organism/Social";
 import Footer from "../components/organism/Footer";
 import { PreloaderContext } from "../context/PreLoaderContext";
+import NavBarMd from "../components/molecules/NavBarMd";
 
 const HomePage = () => {
   // const { loading } = useContext(PreloaderContext);
@@ -22,6 +23,7 @@ const HomePage = () => {
       {/* {!loading && ( */}
       <div className="relative text-white overflow-hidden">
         <TopBar />
+        <NavBarMd initialTop="top-14 md:top-8" finaltop="top-2" />
         <NavBar initialTop="top-14 md:top-8" finaltop="top-2" />
         <Sidebar />
         <Hero />
