@@ -8,7 +8,7 @@ const FilterBlock = () => {
     setSelectedItem(item);
   };
   return (
-    <div className="p-5 ">
+    <div className="p-5 block md:hidden">
       <div
         className=" flex gap-4 items-center overflow-x-auto max-w-[1150px] mx-auto"
         style={{ scrollbarWidth: "none" }}

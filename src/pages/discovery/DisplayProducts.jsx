@@ -41,51 +41,56 @@ const DisplayProducts = () => {
   if (error) return <div>Error fetching products: {error.message}</div>;
 
   return (
-    <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10 max-w-[1150px] mx-auto mb-10">
-      {data?.map((product) => {
-        const isLiked = likedProducts.includes(product.id);
+    <div className="py-10">
+      <span className="font-bold text-sm text-[#4a4741] max-w-[1150px] pl-6 mx-auto block">
+        Home / <span className="font-light">All</span>
+      </span>
+      <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4 p-4 z-10 max-w-[1150px] mx-auto mb-10">
+        {data?.map((product) => {
+          const isLiked = likedProducts.includes(product.id);
 
-        return (
-          <NavLink to={`/discover/${product.id}`} key={product.id}>
-            <div className="relative">
-              <img
-                src={product.image}
-                alt={product.title}
-                className="w-full h-48 md:h-72 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
-              />
-              {isLiked ? (
-                <Liked
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    dislike(product.id);
-                  }}
-                  className="absolute top-2 right-2 bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
+          return (
+            <NavLink to={`/discover/${product.id}`} key={product.id}>
+              <div className="relative">
+                <img
+                  src={product.image}
+                  alt={product.title}
+                  className="w-full h-48 md:h-72 object-cover mb-4 bg-white shadow-md hover:shadow-lg transition-shadow duration-300 rounded-lg p-4"
                 />
-              ) : (
-                <Like
-                  onClick={(e) => {
-                    e.preventDefault();
-                    e.stopPropagation();
-                    like(product.id);
-                  }}
-                  className="absolute top-2 right-2 bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
-                />
-              )}
-            </div>
-            <div>
-              <h2 className="text-sm font-light mb-2">
-                {product.title.slice(0, 20)}...
-              </h2>
-              <div className="flex justify-between">
-                <p className="text-gray-700 font-semibold mb-2">
-                  ${product.price}
-                </p>
+                {isLiked ? (
+                  <Liked
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      dislike(product.id);
+                    }}
+                    className="absolute top-2 right-2 bg-[#4a4741] p-1.5 text-[#f7f1e8] rounded-full size-7"
+                  />
+                ) : (
+                  <Like
+                    onClick={(e) => {
+                      e.preventDefault();
+                      e.stopPropagation();
+                      like(product.id);
+                    }}
+                    className="absolute top-2 md:top-4 md:right-3 right-2 bg-[#4a4741] p-1 text-[#f7f1e8] rounded-full size-8"
+                  />
+                )}
               </div>
-            </div>
-          </NavLink>
-        );
-      })}
+              <div>
+                <h2 className="text-sm font-light mb-2">
+                  {product.title.slice(0, 20)}...
+                </h2>
+                <div className="flex justify-between">
+                  <p className="text-gray-700 font-semibold mb-2">
+                    ${product.price}
+                  </p>
+                </div>
+              </div>
+            </NavLink>
+          );
+        })}
+      </div>
     </div>
   );
 };

@@ -8,6 +8,7 @@ import { MdOutlineLocationOn } from "react-icons/md";
 import MyInput from "../../components/atoms/MyInput";
 import { GrStatusGood } from "react-icons/gr";
 import emailjs from "@emailjs/browser";
+import NavBarMd from "../../components/molecules/NavBarMd";
 
 const Contact = () => {
   const [formStatus, setFormStatus] = useState("");
@@ -62,8 +63,9 @@ const Contact = () => {
 
   return (
     <div className="relative">
+      <DarkNav />
+      <NavBarMd />
       <div className="max-w-[1150px] mx-auto">
-        <DarkNav />
         <Sidebar />
         <div className="bg-[url('/contact-hero.jpeg')] bg-cover bg-center h-[40vh] md:h-[600px] flex justify-center items-center">
           <h1 className=" text-[#f7f1e8] slant">Let's Get In Touch</h1>

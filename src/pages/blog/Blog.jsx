@@ -5,6 +5,7 @@ import { img, summary } from "framer-motion/client";
 import DarkNav from "../../components/molecules/DarkNav";
 import Footer from "../../components/organism/Footer";
 import Sidebar from "../../components/molecules/Sidebar";
+import NavBarMd from "../../components/molecules/NavBarMd";
 
 export const features = [
   {
@@ -354,6 +355,7 @@ const Blog = () => {
   return (
     <div className="">
       <DarkNav />
+      <NavBarMd />
       <Sidebar />
       <div className="max-w-[1150px] mx-auto">
         {/* features */}
@@ -422,7 +424,7 @@ const Blog = () => {
                   >
                     <img
                       src={blog.img}
-                      className="rounded-2xl w-full h-[40vh] object-cover object-center shadow-lg hover:shadow-xl transition-shadow duration-300"
+                      className="rounded-2xl w-full h-[40vh] md:h-[35vh] object-cover object-center shadow-lg hover:shadow-xl transition-shadow duration-300"
                     />
                     <div className="flex flex-col gap-3 w-[94%]">
                       <h2 className="text-2xl">{blog.title}</h2>

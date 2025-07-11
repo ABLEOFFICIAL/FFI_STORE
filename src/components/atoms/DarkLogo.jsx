@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 
-const DarkLogo = ({ classname }) => {
+const DarkLogo = ({ className }) => {
   return (
-    <div>
-      <img src="/logoImg.png" className={"w-10"} />
-    </div>
+    <Link to={"/"}>
+      <img src="/logoImg.png" className={className} />
+    </Link>
   );
 };
 

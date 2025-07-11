@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from "react";
-import { NavLink } from "react-router-dom";
+import { Link, NavLink } from "react-router-dom";
 import NavLinks from "./NavLinks";
 import Bar from "../atoms/Bar";
 import Logo from "../atoms/Logo";
@@ -7,10 +7,18 @@ import { FaRegUser } from "react-icons/fa";
 import Cart from "../atoms/Cart";
 
 export const User = () => {
-  return <FaRegUser className="size-6" />;
+  return (
+    <Link to="/profile">
+      <FaRegUser className="size-6" />
+    </Link>
+  );
 };
 
-const NavBarMd = ({ initialTop = "top-2", finaltop = "top-2" }) => {
+const NavBarMd = ({
+  initialTop = "top-2",
+  finaltop = "top-2",
+  position = "relative",
+}) => {
   const [isScrolled, setIsScrolled] = useState(false);
 
   useEffect(() => {
@@ -23,7 +31,7 @@ const NavBarMd = ({ initialTop = "top-2", finaltop = "top-2" }) => {
   }, []);
   return (
     <div
-      className={`fixed left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-[#4a4741]/50 backdrop-blur-md py-1 mt-2 rounded hidden mb-4 md:block ${
+      className={`${position} left-0 right-0 z-20 mx-4 md:mx-auto max-w-7xl transition-all duration-300 bg-[#4a4741]/50 backdrop-blur-md py-1 mt-2 rounded hidden mb-4 md:block ${
         isScrolled ? finaltop : initialTop
       } rounded-lg`}
     >
@@ -35,7 +43,9 @@ const NavBarMd = ({ initialTop = "top-2", finaltop = "top-2" }) => {
           <NavLinks />
           <div className="w-16  justify-between items-center hidden md:flex text-[#f7f1e8]">
             <User />
-            <Cart classname="size-6" />
+            <Link to={"/cart"}>
+              <Cart classname="size-6" />
+            </Link>
           </div>
           <Bar
             classname={

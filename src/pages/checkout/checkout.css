@@ -1,6 +1,8 @@
 .input-form {
   position: relative;
-  width: 80vw;
+  width: 100%;
+  max-width: 1140px;
+  margin: 0 auto;
 }
 
 .input-card {
@@ -16,7 +18,8 @@
 
 .input-label {
   position: absolute;
-  left: 0;
+  left: 1rem;
+  top: 0;
   padding: 1rem;
   pointer-events: none;
   font-size: 1em;
@@ -33,5 +36,11 @@
   background: #f7f1e8;
 }
 
-/* f7f1e8 */
-/* 4a4741 */
+/* Responsive Enhancements */
+@media (min-width: 768px) {
+  .input-form {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 1.5rem;
+  }
+}

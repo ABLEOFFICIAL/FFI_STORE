@@ -24,7 +24,7 @@ const NavBar = ({ initialTop = "top-2", finaltop = "top-2" }) => {
     >
       <div className="flex items-center justify-between max-w-6xl mx-auto">
         <NavLink to="/">
-          <DarkLogo />
+          <DarkLogo className={"w-10"} />
         </NavLink>
         <div className="flex items-center gap-6 lg:gap-8">
           <NavLinks />

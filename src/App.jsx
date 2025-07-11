@@ -18,6 +18,8 @@ import ShippingPage from "./pages/checkout/ShippingPage.jsx";
 import PaymentPage from "./pages/checkout/PaymentPage.jsx";
 import CardDetails from "./pages/checkout/CardDetails.jsx";
 import ConfirmDetails from "./pages/checkout/ConfirmDetails.jsx";
+import Profile from "./pages/profile/Profile.jsx";
+import Wishlist from "./pages/wishlist/Wishlist.jsx";
 
 // Define routes for the application
 
@@ -54,6 +56,8 @@ const App = () => {
         <Route path="/payment" element={<PaymentPage />} />
         <Route path="/card-details" element={<CardDetails />} />
         <Route path="/confirm" element={<ConfirmDetails />} />
+        <Route path="/profile" element={<Profile />} />
+        <Route path="/wishlist" element={<Wishlist />} />
         <Route path="*" element={<NotFound />} />
       </Routes>
     </div>

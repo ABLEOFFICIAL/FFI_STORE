@@ -24,12 +24,12 @@ const About = () => {
     <>
       {/* {!loading && ( */}
       <div>
+        <DarkNav />
+        <NavBarMd />
         <div className="max-w-[1150px] mx-auto">
-          <DarkNav />
-          <NavBarMd />
           <Sidebar />
           <section className="">
-            <div className="bg-[url('/feel.avif')] h-[60vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
+            <div className="bg-[url('/feel.avif')] h-[35vh] md:h-[60vh] bg-center bg-cover bg-no-repeat text-[#f7f1e8] flex justify-center items-center text-2xl">
               Our <span className="slant">Mission</span>
             </div>
             <h3 className="text-center my-5 font-light text-2xl">Who We Are</h3>

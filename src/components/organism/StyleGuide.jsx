@@ -52,7 +52,7 @@ const StyleGuide = () => {
 
   const FeaturedProducts = data?.filter((item) => item.trending === true);
   const { likedProducts, like, dislike, userId } = useLikedProducts();
-  // console.log(FeaturedProducts);
+  // console.log(likedProducts);
   useEffect(() => {
     const timeout = setTimeout(() => {
       setCurrentIndex((prev) => {

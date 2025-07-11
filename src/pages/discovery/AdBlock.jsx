@@ -42,21 +42,21 @@ const AdBlock = () => {
     return () => clearInterval(interval); // Cleanup on unmount
   }, []);
   return (
-    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto max-w-[1150px] md:mx-auto flex-col">
+    <div className="mx-5 h-auto w-[90vw] m-auto overflow-auto max-w-[1150px] md:mx-auto block md:hidden">
       <div className="flex w-max  mx-auto">
         {Ads.map((ad, idx) => {
           if (selectedIndex === idx) {
             return (
               <div
                 key={ad.id}
-                className="h-56 w-[90vw] md:w-[650px] md:h-[400px] relative text-[#f7f1e8] rounded-2xl mx-auto"
+                className="h-56 w-[90vw] md:w-[650px] md:h-[400px] relative text-[#f7f1e8] rounded-2xl md:rounded-none mx-auto"
                 style={{
                   backgroundImage: `url(${ad.image})`,
                   backgroundSize: "cover",
                   backgroundPosition: "center",
                 }}
               >
-                <div className="absolute top-0 left-0 bg-linear-to-l from-neutral-950/0 to-neutral-950/60 h-full w-full inline-flex flex-col justify-center gap-2 px-3 rounded-2xl">
+                <div className="absolute top-0 left-0 bg-linear-to-l from-neutral-950/0 md:rounded-none to-neutral-950/60 h-full w-full inline-flex flex-col justify-center gap-2 px-3 rounded-2xl">
                   <h3 className="text-3xl italic font-semibold">{ad.title}</h3>
                   <p>{ad.description}</p>
                   <MyBtn
